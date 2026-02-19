@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/variants/variant_01.json</file>
+        <file>data/variants/variant_02.json</file>
+        <file>data/variants/variant_03.json</file>
+        <file>data/variants/variant_04.json</file>
+        <file>data/variants/variant_05.json</file>
+        <file>data/variants/variant_06.json</file>
+        <file>data/variants/variant_07.json</file>
+        <file>data/variants/variant_08.json</file>
+        <file>data/variants/variant_09.json</file>
+        <file>data/variants/variant_10.json</file>
+        <file>data/variants/variant_11.json</file>
+        <file>data/variants/variant_12.json</file>
+        <file>data/variants/variant_13.json</file>
+        <file>data/variants/variant_14.json</file>
+        <file>data/variants/variant_15.json</file>
+        <file>data/variants/variant_16.json</file>
+        <file>data/variants/variant_17.json</file>
+        <file>data/variants/variant_18.json</file>
+        <file>data/variants/variant_19.json</file>
+        <file>data/variants/variant_20.json</file>
+        <file>data/variants/variant_21.json</file>
+        <file>data/variants/variant_22.json</file>
+        <file>data/variants/variant_23.json</file>
+        <file>data/variants/variant_24.json</file>
+        <file>data/variants/variant_25.json</file>
+        <file>data/variants/variant_26.json</file>
+        <file>data/variants/variant_27.json</file>
+        <file>data/variants/variant_28.json</file>
+        <file>data/variants/variant_29.json</file>
+        <file>data/variants/variant_30.json</file>
+        <file>data/variants/variant_31.json</file>
+        <file>data/variants/variant_32.json</file>
+        <file>data/variants/variant_33.json</file>
+        <file>data/variants/variant_34.json</file>
+        <file>data/variants/variant_35.json</file>
+        <file>data/variants/variant_36.json</file>
+        <file>build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/debug/data/progress.json</file>
+    </qresource>
+</RCC>
