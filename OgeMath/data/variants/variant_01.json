@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "title": "Вариант 1",
+    "tasks": [
+        {
+            "ogeNumber": 1,
+            "subvariant": "арифметика_проценты",
+            "imageUrl": "https://..."
+        },
+        {
+            "ogeNumber": 2,
+            "subvariant": "уравнение_линейное",
+            "imageUrl": "https://..."
+        }
+    ]
+}

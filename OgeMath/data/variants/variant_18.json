@@ -1,0 +1,8 @@
+{
+  "id": 18,
+  "title": "Вариант 18",
+  "tasks": [
+    { "ogeNumber": 1, "subvariant": "арифметика_проценты", "imageUrl": "https://..." },
+    { "ogeNumber": 2, "subvariant": "уравнение_линейное", "imageUrl": "https://..." }
+  ]
+}
