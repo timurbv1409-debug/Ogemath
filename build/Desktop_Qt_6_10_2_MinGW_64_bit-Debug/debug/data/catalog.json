@@ -1,0 +1,3331 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-03-03T11:22:46",
+  "tasks": {
+    "1": {
+      "title": "Сараи, шины, печки",
+      "variations": {
+        "v1": {
+          "displayName": "Путешествия",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Квартиры и садовые участки",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Связь, шины, печки",
+          "items": []
+        }
+      }
+    },
+    "2": {
+      "title": "Простейшие текстовые задачи",
+      "variations": {
+        "v1": {
+          "displayName": "Путешествия",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Квартиры и садовые участки",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Шины, теплицы, бумага, печки",
+          "items": []
+        }
+      }
+    },
+    "3": {
+      "title": "Прикладная геометрия: площадь",
+      "variations": {
+        "v1": {
+          "displayName": "Путешествия",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Квартиры и садовые участки",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Шины, теплицы, бумага, печки",
+          "items": []
+        }
+      }
+    },
+    "4": {
+      "title": "Прикладная геометрия: расстояния",
+      "variations": {
+        "v1": {
+          "displayName": "Путешествия",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Квартиры и садовые участки",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Шины, теплицы, бумага, печки",
+          "items": []
+        }
+      }
+    },
+    "5": {
+      "title": "Выбор оптимального варианта",
+      "variations": {
+        "v1": {
+          "displayName": "Путешествия",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Квартиры и садовые участки",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Шины, теплицы, бумага, печки",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Выбор варианта из двух/трёх возможных",
+          "items": []
+        }
+      }
+    },
+    "6": {
+      "title": "Числа и вычисления",
+      "variations": {
+        "v1": {
+          "displayName": "Действия с обыкновенными дробями",
+          "items": [
+            {
+              "id": 1,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_1.png",
+              "answer": "-2",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_2.png",
+              "answer": "3,91",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_3.png",
+              "answer": "-0,3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_4.png",
+              "answer": "31,6",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_5.png",
+              "answer": "0,2",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_6.png",
+              "answer": "2,18",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_7.png",
+              "answer": "79,2",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_8.png",
+              "answer": "0,44",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_9.png",
+              "answer": "1,2",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_10.png",
+              "answer": "5",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_11.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_12.png",
+              "answer": "1,8",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_13.png",
+              "answer": "22",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "действиясобыкновеннымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымидробями_14.png",
+              "answer": "17,5",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Действия с десятичными дробями",
+          "items": [
+            {
+              "id": 1,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_1.png",
+              "answer": "2,25",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_2.png",
+              "answer": "-550",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_3.png",
+              "answer": "1,6",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_4.png",
+              "answer": "35",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_5.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_6.png",
+              "answer": "55",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_7.png",
+              "answer": "3,2",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_8.png",
+              "answer": "12,5",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_9.png",
+              "answer": "-50",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_10.png",
+              "answer": "4,4",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_11.png",
+              "answer": "270",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_12.png",
+              "answer": "34,3",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_13.png",
+              "answer": "6",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_14.png",
+              "answer": "20,16",
+              "placeholder": false
+            },
+            {
+              "id": 15,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_15.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_15.png",
+              "answer": "-1,9",
+              "placeholder": false
+            },
+            {
+              "id": 16,
+              "token": "действиясдесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_16.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясдесятичнымидробями_16.png",
+              "answer": "19,84",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Действия с обыкновенными и десятичными дробями",
+          "items": [
+            {
+              "id": 1,
+              "token": "действиясобыкновеннымиидесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымиидесятичнымидробями_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымиидесятичнымидробями_1.png",
+              "answer": "0,8",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "действиясобыкновеннымиидесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымиидесятичнымидробями_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымиидесятичнымидробями_2.png",
+              "answer": "3,75",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "действиясобыкновеннымиидесятичнымидробями",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымиидесятичнымидробями_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_действиясобыкновеннымиидесятичнымидробями_3.png",
+              "answer": "0,95",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Степени",
+          "items": [
+            {
+              "id": 1,
+              "token": "степени",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_1.png",
+              "answer": "0,3105",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "степени",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_2.png",
+              "answer": "81",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "степени",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_3.png",
+              "answer": "0,5604",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "степени",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 6/6_степени_4.png",
+              "answer": "0,000196",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "7": {
+      "title": "Числовые неравенства, координатная прямая",
+      "variations": {
+        "v1": {
+          "displayName": "Неравенства",
+          "items": [
+            {
+              "id": 1,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_1.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_2.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_3.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_4.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_5.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_6.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_7.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_8.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_9.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_10.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "неравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_неравенства_11.png",
+              "answer": "4",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Сравнение чисел",
+          "items": [
+            {
+              "id": 1,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_1.png",
+              "answer": "0.0066",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_2.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_3.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_4.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_5.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_6.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_7.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_8.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_9.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_10.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_11.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "сравнениечисел",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_сравнениечисел_12.png",
+              "answer": "3",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Числа на прямой",
+          "items": [
+            {
+              "id": 1,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_1.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_2.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_3.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_4.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_5.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_6.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_7.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_8.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "числанапрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_числанапрямой_9.png",
+              "answer": "1",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Выбор верного или неверного утверждения",
+          "items": [
+            {
+              "id": 1,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_1.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_2.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_3.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_4.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_5.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_6.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_7.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_8.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_9.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "выборверногоилиневерногоутверждения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 7/7_выборверногоилиневерногоутверждения_10.png",
+              "answer": "3",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "8": {
+      "title": "Числа, вычисления и алгебраические выражения",
+      "variations": {
+        "v1": {
+          "displayName": "Целые алгебраические выражения",
+          "items": [
+            {
+              "id": 1,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_1.png",
+              "answer": "0",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_2.png",
+              "answer": "1.5",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_3.png",
+              "answer": "27",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_4.png",
+              "answer": "-10.5",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_5.png",
+              "answer": "-230.4",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_6.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_7.png",
+              "answer": "82",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "целыеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_целыеалгебраическиевыражения_8.png",
+              "answer": "452",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Рациональные алгебраические выражения",
+          "items": [
+            {
+              "id": 1,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_1.png",
+              "answer": "-1",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_2.png",
+              "answer": "0.4",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_3.png",
+              "answer": "0.25",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_4.png",
+              "answer": "-5",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_5.png",
+              "answer": "1.7",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_6.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_7.png",
+              "answer": "0.8",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_8.png",
+              "answer": "5.6",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_9.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_10.png",
+              "answer": "1.5",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_11.png",
+              "answer": "0.5",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_12.png",
+              "answer": "84",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_13.png",
+              "answer": "-2",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_14.png",
+              "answer": "-2",
+              "placeholder": false
+            },
+            {
+              "id": 15,
+              "token": "рациональныеалгебраическиевыражения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_15.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_рациональныеалгебраическиевыражения_15.png",
+              "answer": "0.25",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Степени и корни",
+          "items": [
+            {
+              "id": 1,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_1.png",
+              "answer": "220",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_2.png",
+              "answer": "16",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_3.png",
+              "answer": "16",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_4.png",
+              "answer": "18",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_5.png",
+              "answer": "198",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_6.png",
+              "answer": "90",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_7.png",
+              "answer": "12",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_8.png",
+              "answer": "8",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_9.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_10.png",
+              "answer": "16",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_11.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_12.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_13.png",
+              "answer": "8",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_14.png",
+              "answer": "72",
+              "placeholder": false
+            },
+            {
+              "id": 15,
+              "token": "степениикорни",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_15.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 8/8_степениикорни_15.png",
+              "answer": "20",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "9": {
+      "title": "Уравнения, системы уравнений",
+      "variations": {
+        "v1": {
+          "displayName": "Линейные уравнения",
+          "items": [
+            {
+              "id": 1,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_1.png",
+              "answer": "-4.5",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_2.png",
+              "answer": "-20",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_3.png",
+              "answer": "6.3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_4.png",
+              "answer": "36",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_5.png",
+              "answer": "-1",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_6.png",
+              "answer": "-3",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_7.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_8.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_9.png",
+              "answer": "9.7",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_10.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_11.png",
+              "answer": "7",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_12.png",
+              "answer": "1.5",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_13.png",
+              "answer": "16",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_14.png",
+              "answer": "-2.5",
+              "placeholder": false
+            },
+            {
+              "id": 15,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_15.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_15.png",
+              "answer": "-1.75",
+              "placeholder": false
+            },
+            {
+              "id": 16,
+              "token": "линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_16.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_линейныеуравнения_16.png",
+              "answer": "-4",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Квадратные уравнения",
+          "items": [
+            {
+              "id": 1,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_1.png",
+              "answer": "05",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_2.png",
+              "answer": "-23",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_3.png",
+              "answer": "-41",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_4.png",
+              "answer": "-24",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_5.png",
+              "answer": "-92",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_6.png",
+              "answer": "14",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_7.png",
+              "answer": "45",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_8.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_9.png",
+              "answer": "-9.7",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_10.png",
+              "answer": "2.25",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_11.png",
+              "answer": "-2.5",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_12.png",
+              "answer": "06",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_13.png",
+              "answer": "-0.51",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_14.png",
+              "answer": "-35",
+              "placeholder": false
+            },
+            {
+              "id": 15,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_15.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_15.png",
+              "answer": "-3.6-2",
+              "placeholder": false
+            },
+            {
+              "id": 16,
+              "token": "квадратныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_16.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_квадратныеуравнения_16.png",
+              "answer": "0.6",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Рациональные уравнения",
+          "items": [
+            {
+              "id": 1,
+              "token": "рациональныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_1.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "рациональныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_2.png",
+              "answer": "8",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "рациональныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_3.png",
+              "answer": "22",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "рациональныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_рациональныеуравнения_4.png",
+              "answer": "-32",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Системы уравнений",
+          "items": []
+        },
+        "v5": {
+          "displayName": "cистемыуравнений",
+          "items": [
+            {
+              "id": 1,
+              "token": "cистемыуравнений",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_1.png",
+              "answer": "3.5",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "cистемыуравнений",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_2.png",
+              "answer": "5",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "cистемыуравнений",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_3.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "cистемыуравнений",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_4.png",
+              "answer": "-1",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "cистемыуравнений",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_5.png",
+              "answer": "5",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "cистемыуравнений",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 9/9_cистемыуравнений_6.png",
+              "answer": "1",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "10": {
+      "title": "Статистика, вероятности",
+      "variations": {
+        "v1": {
+          "displayName": "Классические вероятности",
+          "items": [
+            {
+              "id": 1,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_1.png",
+              "answer": "0,88",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_2.png",
+              "answer": "0,2",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_3.png",
+              "answer": "0,85",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_4.png",
+              "answer": "0,25",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_5.png",
+              "answer": "0,2",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_6.png",
+              "answer": "0,9",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_7.png",
+              "answer": "0,5",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_8.png",
+              "answer": "0,75",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_9.png",
+              "answer": "0,6",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_10.png",
+              "answer": "0,96",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_11.png",
+              "answer": "0,05",
+              "placeholder": false
+            },
+            {
+              "id": 12,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_12.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_12.png",
+              "answer": "0,1",
+              "placeholder": false
+            },
+            {
+              "id": 13,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_13.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_13.png",
+              "answer": "0,18",
+              "placeholder": false
+            },
+            {
+              "id": 14,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_14.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_14.png",
+              "answer": "0,9",
+              "placeholder": false
+            },
+            {
+              "id": 15,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_15.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_15.png",
+              "answer": "0,013",
+              "placeholder": false
+            },
+            {
+              "id": 16,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_16.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_16.png",
+              "answer": "0,2",
+              "placeholder": false
+            },
+            {
+              "id": 17,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_17.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_17.png",
+              "answer": "0,94",
+              "placeholder": false
+            },
+            {
+              "id": 18,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_18.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_18.png",
+              "answer": "0,75",
+              "placeholder": false
+            },
+            {
+              "id": 19,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_19.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_19.png",
+              "answer": "0,25",
+              "placeholder": false
+            },
+            {
+              "id": 20,
+              "token": "классическиевероятности",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_20.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_классическиевероятности_20.png",
+              "answer": "0,3",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Статистика, теоремы о вероятностях событий",
+          "items": [
+            {
+              "id": 1,
+              "token": "статистикатеоремыовероятностяхсобытий",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_1.png",
+              "answer": "0,9604",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "статистикатеоремыовероятностяхсобытий",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_2.png",
+              "answer": "0,011",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "статистикатеоремыовероятностяхсобытий",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_3.png",
+              "answer": "0,81",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "статистикатеоремыовероятностяхсобытий",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_4.png",
+              "answer": "0,0625",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "статистикатеоремыовероятностяхсобытий",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 10/10_статистикатеоремыовероятностяхсобытий_5.png",
+              "answer": "0,7",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "11": {
+      "title": "Графики функций",
+      "variations": {
+        "v1": {
+          "displayName": "Чтение графиков функций",
+          "items": [
+            {
+              "id": 1,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_1.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_2.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_3.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_4.png",
+              "answer": "-2",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_5.png",
+              "answer": "12",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_6.png",
+              "answer": "23",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_7.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_8.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_9.png",
+              "answer": "31",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_10.png",
+              "answer": "23",
+              "placeholder": false
+            },
+            {
+              "id": 11,
+              "token": "чтениеграфиковфункций",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_11.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_чтениеграфиковфункций_11.png",
+              "answer": "1243",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Растяжения и сдвиги",
+          "items": [
+            {
+              "id": 1,
+              "token": "Растяженияисдвиги",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_1.png",
+              "answer": "142",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Растяженияисдвиги",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_2.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Растяженияисдвиги",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_3.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Растяженияисдвиги",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_4.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Растяженияисдвиги",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 11/11_Растяженияисдвиги_5.png",
+              "answer": "3",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "12": {
+      "title": "Расчёты по формулам",
+      "variations": {
+        "v1": {
+          "displayName": "Вычисление по формуле",
+          "items": [
+            {
+              "id": 1,
+              "token": "Вычислениепоформуле",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_1.png",
+              "answer": "260",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Вычислениепоформуле",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_2.png",
+              "answer": "26500",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Вычислениепоформуле",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_3.png",
+              "answer": "60",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Вычислениепоформуле",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_4.png",
+              "answer": "1,28",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Вычислениепоформуле",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Вычислениепоформуле_5.png",
+              "answer": "3",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Линейные уравнения",
+          "items": [
+            {
+              "id": 1,
+              "token": "Линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_1.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_2.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_3.png",
+              "answer": "3,2",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_4.png",
+              "answer": "0,4",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Линейныеуравнения",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_Линейныеуравнения_5.png",
+              "answer": "8",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Разные задачи",
+          "items": [
+            {
+              "id": 1,
+              "token": "разныезадачи",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_разныезадачи_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_разныезадачи_1.png",
+              "answer": "2,25",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "разныезадачи",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_разныезадачи_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_разныезадачи_2.png",
+              "answer": "0,4",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "разныезадачи",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_разныезадачи_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 12/12_разныезадачи_3.png",
+              "answer": "0,8",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "13": {
+      "title": "Неравенства, системы неравенств",
+      "variations": {
+        "v1": {
+          "displayName": "Линейные неравенства",
+          "items": []
+        },
+        "v2": {
+          "displayName": "Квадратные неравенства",
+          "items": [
+            {
+              "id": 1,
+              "token": "Квадратныенеравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_1.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Квадратныенеравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_2.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Квадратныенеравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_3.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Квадратныенеравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_4.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Квадратныенеравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Квадратныенеравенства_5.png",
+              "answer": "2",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Рациональные неравенства",
+          "items": [
+            {
+              "id": 1,
+              "token": "Рациональныенеравенства",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Рациональныенеравенства_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Рациональныенеравенства_1.png",
+              "answer": "3",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Системы неравенств",
+          "items": [
+            {
+              "id": 1,
+              "token": "Системынеравенств",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_1.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Системынеравенств",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_2.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Системынеравенств",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_3.png",
+              "answer": "-3",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Системынеравенств",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 13/13_Системынеравенств_4.png",
+              "answer": "-3",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "14": {
+      "title": "Задачи на прогрессии",
+      "variations": {
+        "v1": {
+          "displayName": "Арифметическая прогрессия",
+          "items": [
+            {
+              "id": 1,
+              "token": "Арифметическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_1.png",
+              "answer": "46",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Арифметическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_2.png",
+              "answer": "47",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Арифметическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_3.png",
+              "answer": "14520",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Арифметическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_4.png",
+              "answer": "34",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Арифметическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Арифметическаяпрогрессия_5.png",
+              "answer": "-31",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Геометрическая прогрессия",
+          "items": [
+            {
+              "id": 1,
+              "token": "Геометрическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_1.png",
+              "answer": "10",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Геометрическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_2.png",
+              "answer": "351",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Геометрическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_3.png",
+              "answer": "155",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Геометрическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_4.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Геометрическаяпрогрессия",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 14/14_Геометрическаяпрогрессия_5.png",
+              "answer": "375",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "15": {
+      "title": "Треугольники, четырёхугольники, многоугольники и их элементы",
+      "variations": {
+        "v1": {
+          "displayName": "Углы",
+          "items": [
+            {
+              "id": 1,
+              "token": "углы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_1.png",
+              "answer": "117",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "углы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_2.png",
+              "answer": "40",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "углы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_3.png",
+              "answer": "40",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "углы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_углы_4.png",
+              "answer": "125",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Треугольники общего вида",
+          "items": [
+            {
+              "id": 1,
+              "token": "треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_1.png",
+              "answer": "8",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_2.png",
+              "answer": "62",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_3.png",
+              "answer": "63",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_треугольникиобщеговида_4.png",
+              "answer": "0,5",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Равнобедренные треугольники",
+          "items": [
+            {
+              "id": 1,
+              "token": "равнобедренныетреугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_1.png",
+              "answer": "120",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "равнобедренныетреугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_2.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "равнобедренныетреугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_3.png",
+              "answer": "60",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "равнобедренныетреугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_равнобедренныетреугольники_4.png",
+              "answer": "66",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Прямоугольный треугольник",
+          "items": [
+            {
+              "id": 1,
+              "token": "прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_1.png",
+              "answer": "20",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_2.png",
+              "answer": "50",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_3.png",
+              "answer": "21",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_прямоугольныйтреугольник_4.png",
+              "answer": "33",
+              "placeholder": false
+            }
+          ]
+        },
+        "v5": {
+          "displayName": "Параллелограмм",
+          "items": [
+            {
+              "id": 1,
+              "token": "параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_1.png",
+              "answer": "65",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_2.png",
+              "answer": "70",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_3.png",
+              "answer": "60",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_параллелограмм_4.png",
+              "answer": "122",
+              "placeholder": false
+            }
+          ]
+        },
+        "v6": {
+          "displayName": "Ромб",
+          "items": [
+            {
+              "id": 1,
+              "token": "ромб",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_1.png",
+              "answer": "1717",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "ромб",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_2.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "ромб",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_3.png",
+              "answer": "60",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "ромб",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_ромб_4.png",
+              "answer": "120",
+              "placeholder": false
+            }
+          ]
+        },
+        "v7": {
+          "displayName": "Трапеция",
+          "items": [
+            {
+              "id": 1,
+              "token": "трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_1.png",
+              "answer": "80",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_2.png",
+              "answer": "110",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_3.png",
+              "answer": "60",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_трапеция_4.png",
+              "answer": "5",
+              "placeholder": false
+            }
+          ]
+        },
+        "v8": {
+          "displayName": "Многоугольники",
+          "items": [
+            {
+              "id": 1,
+              "token": "многоугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_1.png",
+              "answer": "60",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "многоугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_2.png",
+              "answer": "95",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "многоугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_3.png",
+              "answer": "36",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "многоугольники",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 15/15_многоугольники_4.png",
+              "answer": "122",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "16": {
+      "title": "Окружность, круг и их элементы",
+      "variations": {
+        "v1": {
+          "displayName": "Центральные и вписанные углы",
+          "items": [
+            {
+              "id": 1,
+              "token": "Центральныеивписанныеуглы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_1.png",
+              "answer": "6",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Центральныеивписанныеуглы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_2.png",
+              "answer": "70",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Центральныеивписанныеуглы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_3.png",
+              "answer": "30",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Центральныеивписанныеуглы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_4.png",
+              "answer": "144",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Центральныеивписанныеуглы",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Центральныеивписанныеуглы_5.png",
+              "answer": "71",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Касательная, хорда, секущая, радиус",
+          "items": [
+            {
+              "id": 1,
+              "token": "Касательнаяхордасекущаярадиус",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_1.png",
+              "answer": "5",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Касательнаяхордасекущаярадиус",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_2.png",
+              "answer": "6",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Касательнаяхордасекущаярадиус",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_3.png",
+              "answer": "30",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Касательнаяхордасекущаярадиус",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_4.png",
+              "answer": "90",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Касательнаяхордасекущаярадиус",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Касательнаяхордасекущаярадиус_5.png",
+              "answer": "7",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Окружность, описанная вокруг многоугольника",
+          "items": [
+            {
+              "id": 1,
+              "token": "Окружностьописаннаявокругмногоугольника",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_1.png",
+              "answer": "22,5",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Окружностьописаннаявокругмногоугольника",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_2.png",
+              "answer": "90",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Окружностьописаннаявокругмногоугольника",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_3.png",
+              "answer": "54",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Окружностьописаннаявокругмногоугольника",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_4.png",
+              "answer": "8",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Окружностьописаннаявокругмногоугольника",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 16/16_Окружностьописаннаявокругмногоугольника_5.png",
+              "answer": "3",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "17": {
+      "title": "Площади фигур",
+      "variations": {
+        "v1": {
+          "displayName": "Квадрат",
+          "items": [
+            {
+              "id": 1,
+              "token": "Квадрат",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Квадрат_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Квадрат_1.png",
+              "answer": "100",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Квадрат",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Квадрат_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Квадрат_2.png",
+              "answer": "28",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Квадрат",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Квадрат_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Квадрат_3.png",
+              "answer": "1600",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Прямоугольник",
+          "items": [
+            {
+              "id": 1,
+              "token": "Прямоугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольник_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольник_1.png",
+              "answer": "120",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Прямоугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольник_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольник_2.png",
+              "answer": "25",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Прямоугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольник_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольник_3.png",
+              "answer": "120",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Параллелограмм",
+          "items": [
+            {
+              "id": 1,
+              "token": "Параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Параллелограмм_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Параллелограмм_1.png",
+              "answer": "40",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Параллелограмм_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Параллелограмм_2.png",
+              "answer": "24",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Параллелограмм",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Параллелограмм_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Параллелограмм_3.png",
+              "answer": "50",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Треугольники общего вида",
+          "items": [
+            {
+              "id": 1,
+              "token": "Треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Треугольникиобщеговида_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Треугольникиобщеговида_1.png",
+              "answer": "25",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Треугольникиобщеговида_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Треугольникиобщеговида_2.png",
+              "answer": "75",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Треугольникиобщеговида",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Треугольникиобщеговида_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Треугольникиобщеговида_3.png",
+              "answer": "504",
+              "placeholder": false
+            }
+          ]
+        },
+        "v5": {
+          "displayName": "Прямоугольный треугольник",
+          "items": [
+            {
+              "id": 1,
+              "token": "Прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольныйтреугольник_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольныйтреугольник_1.png",
+              "answer": "50",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольныйтреугольник_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольныйтреугольник_2.png",
+              "answer": "1344",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Прямоугольныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольныйтреугольник_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Прямоугольныйтреугольник_3.png",
+              "answer": "1225",
+              "placeholder": false
+            }
+          ]
+        },
+        "v6": {
+          "displayName": "Равнобедренный треугольник",
+          "items": [
+            {
+              "id": 1,
+              "token": "Равнобедренныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Равнобедренныйтреугольник_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Равнобедренныйтреугольник_1.png",
+              "answer": "25",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Равнобедренныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Равнобедренныйтреугольник_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Равнобедренныйтреугольник_2.png",
+              "answer": "25",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Равнобедренныйтреугольник",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Равнобедренныйтреугольник_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Равнобедренныйтреугольник_3.png",
+              "answer": "100",
+              "placeholder": false
+            }
+          ]
+        },
+        "v7": {
+          "displayName": "Трапеция",
+          "items": [
+            {
+              "id": 1,
+              "token": "Трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Трапеция_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Трапеция_1.png",
+              "answer": "168",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Трапеция_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Трапеция_2.png",
+              "answer": "28",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Трапеция",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Трапеция_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Трапеция_3.png",
+              "answer": "30",
+              "placeholder": false
+            }
+          ]
+        },
+        "v8": {
+          "displayName": "Площадь круга и его частей",
+          "items": [
+            {
+              "id": 1,
+              "token": "Площадькругаиегочастей",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Площадькругаиегочастей_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Площадькругаиегочастей_1.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Площадькругаиегочастей",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Площадькругаиегочастей_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Площадькругаиегочастей_2.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Площадькругаиегочастей",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Площадькругаиегочастей_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 17/17_Площадькругаиегочастей_3.png",
+              "answer": "27",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "18": {
+      "title": "Фигуры на квадратной решётке",
+      "variations": {
+        "v1": {
+          "displayName": "Расстояние между точками и от точки до прямой",
+          "items": [
+            {
+              "id": 1,
+              "token": "Расстояниемеждуточкамииотточкидопрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_1.png",
+              "answer": "5",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Расстояниемеждуточкамииотточкидопрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_2.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Расстояниемеждуточкамииотточкидопрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_3.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Расстояниемеждуточкамииотточкидопрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_4.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Расстояниемеждуточкамииотточкидопрямой",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Расстояниемеждуточкамииотточкидопрямой_5.png",
+              "answer": "5",
+              "placeholder": false
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Средняя линия",
+          "items": [
+            {
+              "id": 1,
+              "token": "Средняялиния",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_1.png",
+              "answer": "4",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Средняялиния",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_2.png",
+              "answer": "6",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Средняялиния",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_3.png",
+              "answer": "2",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Средняялиния",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_4.png",
+              "answer": "3",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Средняялиния",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Средняялиния_5.png",
+              "answer": "7",
+              "placeholder": false
+            }
+          ]
+        },
+        "v3": {
+          "displayName": "Теорема Пифагора",
+          "items": [
+            {
+              "id": 1,
+              "token": "ТеоремаПифагора",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_ТеоремаПифагора_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_ТеоремаПифагора_1.png",
+              "answer": "2,5",
+              "placeholder": false
+            }
+          ]
+        },
+        "v4": {
+          "displayName": "Площади",
+          "items": [
+            {
+              "id": 1,
+              "token": "Площади",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_1.png",
+              "answer": "10",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Площади",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_2.png",
+              "answer": "20,5",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Площади",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_3.png",
+              "answer": "8",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Площади",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_4.png",
+              "answer": "11",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Площади",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Площади_5.png",
+              "answer": "14",
+              "placeholder": false
+            }
+          ]
+        },
+        "v5": {
+          "displayName": "Длины сторон",
+          "items": [
+            {
+              "id": 1,
+              "token": "Длинысторон",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_1.png",
+              "answer": "10",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "Длинысторон",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_2.png",
+              "answer": "7",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "Длинысторон",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_3.png",
+              "answer": "6",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "Длинысторон",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_4.png",
+              "answer": "12",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "Длинысторон",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 18/18_Длинысторон_5.png",
+              "answer": "7",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "19": {
+      "title": "Анализ геометрических высказываний",
+      "variations": {
+        "v1": {
+          "displayName": "Анализ геометрических высказываний",
+          "items": [
+            {
+              "id": 1,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_1.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_1.png",
+              "answer": "12",
+              "placeholder": false
+            },
+            {
+              "id": 2,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_2.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_2.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 3,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_3.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_3.png",
+              "answer": "23",
+              "placeholder": false
+            },
+            {
+              "id": 4,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_4.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_4.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 5,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_5.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_5.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 6,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_6.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_6.png",
+              "answer": "23",
+              "placeholder": false
+            },
+            {
+              "id": 7,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_7.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_7.png",
+              "answer": "12",
+              "placeholder": false
+            },
+            {
+              "id": 8,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_8.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_8.png",
+              "answer": "1",
+              "placeholder": false
+            },
+            {
+              "id": 9,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_9.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_9.png",
+              "answer": "13",
+              "placeholder": false
+            },
+            {
+              "id": 10,
+              "token": "анализгеометрическихвысказываний",
+              "txt_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_10.txt",
+              "png_url": "https://raw.githubusercontent.com/timurbv1409-debug/fileOgemath/main/Задание 19/19_анализгеометрическихвысказываний_10.png",
+              "answer": "234",
+              "placeholder": false
+            }
+          ]
+        }
+      }
+    },
+    "20": {
+      "title": "Уравнения, неравенства и их системы",
+      "variations": {
+        "v1": {
+          "displayName": "Уравнения",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Неравенства",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Системы уравнений",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Системы неравенств",
+          "items": []
+        }
+      }
+    },
+    "21": {
+      "title": "Текстовые задачи",
+      "variations": {
+        "v1": {
+          "displayName": "Задачи на проценты, сплавы и смеси",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Движение по прямой",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Задачи на движение по воде",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Задачи на совместную работу",
+          "items": []
+        },
+        "v5": {
+          "displayName": "Разные задачи",
+          "items": []
+        }
+      }
+    },
+    "22": {
+      "title": "Функции и их свойства. Графики функций",
+      "variations": {
+        "v1": {
+          "displayName": "Параболы",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Гиперболы",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Кусочно-непрерывные функции",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Разные задачи",
+          "items": []
+        }
+      }
+    },
+    "23": {
+      "title": "Геометрические задачи на вычисление",
+      "variations": {
+        "v1": {
+          "displayName": "Углы",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Треугольники",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Четырёхугольники",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Окружности",
+          "items": []
+        }
+      }
+    },
+    "24": {
+      "title": "Геометрические задачи на доказательство",
+      "variations": {
+        "v1": {
+          "displayName": "Правильные многоугольники",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Треугольники и их элементы",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Четырёхугольники и их элементы",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Окружности и их элементы",
+          "items": []
+        }
+      }
+    },
+    "25": {
+      "title": "Геометрические задачи повышенной сложности",
+      "variations": {
+        "v1": {
+          "displayName": "Треугольники",
+          "items": [
+            {
+              "id": 1,
+              "txt_url": "",
+              "png_url": "",
+              "answer": "",
+              "placeholder": true
+            }
+          ]
+        },
+        "v2": {
+          "displayName": "Четырёхугольники",
+          "items": []
+        },
+        "v3": {
+          "displayName": "Окружности",
+          "items": []
+        },
+        "v4": {
+          "displayName": "Комбинация многоугольников и окружностей",
+          "items": []
+        }
+      }
+    }
+  }
+}

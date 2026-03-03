@@ -1,0 +1,2512 @@
+{
+    "days": [
+        {
+            "date": "2026-03-04",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-06",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-09",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-11",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-13",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-16",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-18",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-20",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-23",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-25",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-27",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-03-30",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-04-01",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-04-03",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-04-06",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Комбинация многоугольников и окружностей",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 25,
+                    "taskTitle": "Геометрические задачи повышенной сложности",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "cистемыуравнений",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 9,
+                    "taskTitle": "Уравнения, системы уравнений",
+                    "variation": "v5"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Неравенства, системы неравенств",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Системы неравенств",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 20,
+                    "taskTitle": "Уравнения, неравенства и их системы",
+                    "variation": "v4"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Задачи на совместную работу",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "v4"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№25 Комбинация многоугольников и окружностей ×4",
+                "№9 cистемыуравнений ×4",
+                "№13 Системы неравенств ×4",
+                "№20 Системы неравенств ×4",
+                "№21 Задачи на совместную работу ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        }
+    ],
+    "generatedAt": "2026-03-03T22:05:39",
+    "horizonDays": 35,
+    "version": 1
+}

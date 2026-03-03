@@ -1,0 +1,6505 @@
+{
+  "schemaVersion": 1,
+  "submissions": [
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2025-11-08T13:01:00",
+      "createdAt": "2025-11-08T10:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 17
+      },
+      "reviewedAt": "2025-10-24T17:36:00",
+      "createdAt": "2025-10-24T16:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 73
+      },
+      "reviewedAt": "2025-12-03T13:43:00",
+      "createdAt": "2025-12-03T13:22:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2025-12-10T17:18:00",
+      "createdAt": "2025-12-10T14:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 13
+      },
+      "review": {
+        "score": 84
+      },
+      "reviewedAt": "2025-11-29T14:40:00",
+      "createdAt": "2025-11-29T14:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v2",
+        "taskId": 11
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2025-09-24T10:21:00",
+      "createdAt": "2025-09-24T09:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2026-02-05T18:25:00",
+      "createdAt": "2026-02-05T16:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v1",
+        "taskId": 6
+      },
+      "review": {
+        "score": 85
+      },
+      "reviewedAt": "2026-02-01T16:28:00",
+      "createdAt": "2026-02-01T15:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 8
+      },
+      "reviewedAt": "2025-11-03T18:16:00",
+      "createdAt": "2025-11-03T17:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 5
+      },
+      "reviewedAt": "2025-12-14T09:06:00",
+      "createdAt": "2025-12-14T07:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 15
+      },
+      "reviewedAt": "2026-01-16T20:05:00",
+      "createdAt": "2026-01-16T17:17:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2025-12-12T12:14:00",
+      "createdAt": "2025-12-12T11:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v1",
+        "taskId": 2
+      },
+      "review": {
+        "score": 66
+      },
+      "reviewedAt": "2025-10-07T16:53:00",
+      "createdAt": "2025-10-07T15:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2026-01-03T15:55:00",
+      "createdAt": "2026-01-03T12:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 21
+      },
+      "review": {
+        "score": 74
+      },
+      "reviewedAt": "2026-01-20T10:37:00",
+      "createdAt": "2026-01-20T08:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2025-12-24T16:40:00",
+      "createdAt": "2025-12-24T14:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 36
+      },
+      "reviewedAt": "2026-01-20T11:51:00",
+      "createdAt": "2026-01-20T10:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 84
+      },
+      "reviewedAt": "2025-10-13T12:00:00",
+      "createdAt": "2025-10-13T10:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 94
+      },
+      "reviewedAt": "2025-11-16T15:34:00",
+      "createdAt": "2025-11-16T13:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 23
+      },
+      "reviewedAt": "2025-11-19T08:49:00",
+      "createdAt": "2025-11-19T08:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2026-01-22T13:12:00",
+      "createdAt": "2026-01-22T12:30:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2026-02-16T14:53:00",
+      "createdAt": "2026-02-16T12:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-11-04T16:48:00",
+      "createdAt": "2025-11-04T14:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 18
+      },
+      "reviewedAt": "2026-01-18T20:17:00",
+      "createdAt": "2026-01-18T19:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 9
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2025-10-02T18:29:00",
+      "createdAt": "2025-10-02T16:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 18
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2025-10-22T13:01:00",
+      "createdAt": "2025-10-22T12:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2025-11-15T12:08:00",
+      "createdAt": "2025-11-15T11:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 14
+      },
+      "review": {
+        "score": 31
+      },
+      "reviewedAt": "2025-10-12T08:31:00",
+      "createdAt": "2025-10-12T06:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 3
+      },
+      "review": {
+        "score": 84
+      },
+      "reviewedAt": "2025-12-08T15:44:00",
+      "createdAt": "2025-12-08T15:06:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 18
+      },
+      "review": {
+        "score": 47
+      },
+      "reviewedAt": "2025-09-18T12:49:00",
+      "createdAt": "2025-09-18T11:59:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 71
+      },
+      "reviewedAt": "2025-11-07T21:24:00",
+      "createdAt": "2025-11-07T19:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 73
+      },
+      "reviewedAt": "2025-12-26T11:47:00",
+      "createdAt": "2025-12-26T11:22:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 96
+      },
+      "reviewedAt": "2026-01-15T18:13:00",
+      "createdAt": "2026-01-15T16:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 52
+      },
+      "reviewedAt": "2025-10-14T18:46:00",
+      "createdAt": "2025-10-14T17:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 2
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2026-01-05T18:19:00",
+      "createdAt": "2026-01-05T17:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 1
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-10-02T11:40:00",
+      "createdAt": "2025-10-02T10:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v1",
+        "taskId": 2
+      },
+      "review": {
+        "score": 58
+      },
+      "reviewedAt": "2026-01-31T09:25:00",
+      "createdAt": "2026-01-31T06:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 8
+      },
+      "reviewedAt": "2026-01-03T19:38:00",
+      "createdAt": "2026-01-03T18:57:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2026-01-09T09:43:00",
+      "createdAt": "2026-01-09T09:27:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 12
+      },
+      "reviewedAt": "2025-12-04T18:09:00",
+      "createdAt": "2025-12-04T17:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 73
+      },
+      "reviewedAt": "2025-11-24T16:50:00",
+      "createdAt": "2025-11-24T16:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2026-02-27T14:22:00",
+      "createdAt": "2026-02-27T12:17:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 23
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2026-03-03T15:35:00",
+      "createdAt": "2026-03-03T13:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 15
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-10-21T16:22:00",
+      "createdAt": "2025-10-21T13:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 29
+      },
+      "reviewedAt": "2026-01-23T10:04:00",
+      "createdAt": "2026-01-23T08:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 17
+      },
+      "review": {
+        "score": 37
+      },
+      "reviewedAt": "2026-01-20T13:29:00",
+      "createdAt": "2026-01-20T12:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 32
+      },
+      "reviewedAt": "2025-09-08T17:54:00",
+      "createdAt": "2025-09-08T17:37:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 17
+      },
+      "review": {
+        "score": 68
+      },
+      "reviewedAt": "2026-02-19T16:52:00",
+      "createdAt": "2026-02-19T14:30:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 21
+      },
+      "review": {
+        "score": 32
+      },
+      "reviewedAt": "2025-10-13T17:18:00",
+      "createdAt": "2025-10-13T16:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 6
+      },
+      "review": {
+        "score": 87
+      },
+      "reviewedAt": "2026-01-15T18:04:00",
+      "createdAt": "2026-01-15T17:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2025-10-01T15:12:00",
+      "createdAt": "2025-10-01T13:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 25
+      },
+      "reviewedAt": "2026-02-19T15:33:00",
+      "createdAt": "2026-02-19T13:59:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 7
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2025-10-30T17:45:00",
+      "createdAt": "2025-10-30T17:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 74
+      },
+      "reviewedAt": "2026-01-01T20:40:00",
+      "createdAt": "2026-01-01T18:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 9
+      },
+      "review": {
+        "score": 52
+      },
+      "reviewedAt": "2025-12-07T20:45:00",
+      "createdAt": "2025-12-07T20:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 72
+      },
+      "reviewedAt": "2025-11-20T09:13:00",
+      "createdAt": "2025-11-20T06:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 57
+      },
+      "reviewedAt": "2025-12-11T11:12:00",
+      "createdAt": "2025-12-11T10:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2026-01-24T19:35:00",
+      "createdAt": "2026-01-24T17:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 88
+      },
+      "reviewedAt": "2025-12-04T18:29:00",
+      "createdAt": "2025-12-04T17:46:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 15
+      },
+      "reviewedAt": "2025-10-20T16:25:00",
+      "createdAt": "2025-10-20T13:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 11
+      },
+      "review": {
+        "score": 84
+      },
+      "reviewedAt": "2025-12-26T22:22:00",
+      "createdAt": "2025-12-26T20:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2026-02-13T14:52:00",
+      "createdAt": "2026-02-13T12:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 9
+      },
+      "review": {
+        "score": 36
+      },
+      "reviewedAt": "2025-10-28T14:49:00",
+      "createdAt": "2025-10-28T12:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 59
+      },
+      "reviewedAt": "2025-12-27T14:00:00",
+      "createdAt": "2025-12-27T11:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 8
+      },
+      "review": {
+        "score": 21
+      },
+      "reviewedAt": "2025-10-08T22:19:00",
+      "createdAt": "2025-10-08T20:58:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 51
+      },
+      "reviewedAt": "2025-09-09T20:52:00",
+      "createdAt": "2025-09-09T18:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 15
+      },
+      "reviewedAt": "2026-01-28T10:06:00",
+      "createdAt": "2026-01-28T08:58:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 81
+      },
+      "reviewedAt": "2025-12-06T22:37:00",
+      "createdAt": "2025-12-06T22:13:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 3
+      },
+      "review": {
+        "score": 72
+      },
+      "reviewedAt": "2026-01-28T14:36:00",
+      "createdAt": "2026-01-28T12:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 81
+      },
+      "reviewedAt": "2025-10-18T15:52:00",
+      "createdAt": "2025-10-18T15:27:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 38
+      },
+      "reviewedAt": "2026-02-03T18:19:00",
+      "createdAt": "2026-02-03T18:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 4
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2025-11-28T13:56:00",
+      "createdAt": "2025-11-28T12:57:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 63
+      },
+      "reviewedAt": "2026-02-18T21:38:00",
+      "createdAt": "2026-02-18T21:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 14
+      },
+      "reviewedAt": "2025-11-21T16:02:00",
+      "createdAt": "2025-11-21T13:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 99
+      },
+      "reviewedAt": "2026-03-01T11:09:00",
+      "createdAt": "2026-03-01T09:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 14
+      },
+      "review": {
+        "score": 28
+      },
+      "reviewedAt": "2026-02-03T17:32:00",
+      "createdAt": "2026-02-03T15:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v2",
+        "taskId": 19
+      },
+      "review": {
+        "score": 74
+      },
+      "reviewedAt": "2025-10-11T10:21:00",
+      "createdAt": "2025-10-11T08:00:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 77
+      },
+      "reviewedAt": "2025-12-15T12:05:00",
+      "createdAt": "2025-12-15T11:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2025-10-08T15:35:00",
+      "createdAt": "2025-10-08T14:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 8
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2026-01-25T17:47:00",
+      "createdAt": "2026-01-25T15:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 67
+      },
+      "reviewedAt": "2025-11-25T18:59:00",
+      "createdAt": "2025-11-25T17:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2025-12-06T13:12:00",
+      "createdAt": "2025-12-06T11:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2025-10-17T13:39:00",
+      "createdAt": "2025-10-17T12:39:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 3
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-10-25T18:23:00",
+      "createdAt": "2025-10-25T18:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 1
+      },
+      "review": {
+        "score": 34
+      },
+      "reviewedAt": "2025-11-05T17:59:00",
+      "createdAt": "2025-11-05T17:30:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 7
+      },
+      "review": {
+        "score": 74
+      },
+      "reviewedAt": "2025-11-21T15:30:00",
+      "createdAt": "2025-11-21T14:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 48
+      },
+      "reviewedAt": "2025-10-26T16:33:00",
+      "createdAt": "2025-10-26T15:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 19
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2026-02-28T19:42:00",
+      "createdAt": "2026-02-28T17:27:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 7
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-09-15T12:10:00",
+      "createdAt": "2025-09-15T09:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 38
+      },
+      "reviewedAt": "2025-11-12T08:29:00",
+      "createdAt": "2025-11-12T07:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v2",
+        "taskId": 4
+      },
+      "review": {
+        "score": 1
+      },
+      "reviewedAt": "2026-02-20T21:58:00",
+      "createdAt": "2026-02-20T19:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2025-12-11T11:24:00",
+      "createdAt": "2025-12-11T09:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v1",
+        "taskId": 17
+      },
+      "review": {
+        "score": 96
+      },
+      "reviewedAt": "2026-02-03T16:05:00",
+      "createdAt": "2026-02-03T13:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 11
+      },
+      "review": {
+        "score": 48
+      },
+      "reviewedAt": "2025-09-09T08:15:00",
+      "createdAt": "2025-09-09T07:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v2",
+        "taskId": 21
+      },
+      "review": {
+        "score": 30
+      },
+      "reviewedAt": "2025-09-08T13:43:00",
+      "createdAt": "2025-09-08T11:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2025-11-13T20:03:00",
+      "createdAt": "2025-11-13T19:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2026-01-24T12:14:00",
+      "createdAt": "2026-01-24T11:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 22
+      },
+      "reviewedAt": "2025-12-10T16:43:00",
+      "createdAt": "2025-12-10T15:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 11
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2026-01-28T10:27:00",
+      "createdAt": "2026-01-28T09:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 80
+      },
+      "reviewedAt": "2025-10-26T18:08:00",
+      "createdAt": "2025-10-26T17:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 14
+      },
+      "review": {
+        "score": 99
+      },
+      "reviewedAt": "2025-11-22T19:45:00",
+      "createdAt": "2025-11-22T19:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v2",
+        "taskId": 3
+      },
+      "review": {
+        "score": 55
+      },
+      "reviewedAt": "2026-02-18T22:36:00",
+      "createdAt": "2026-02-18T22:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 1
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2025-10-21T13:53:00",
+      "createdAt": "2025-10-21T12:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-12-18T12:28:00",
+      "createdAt": "2025-12-18T11:39:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 26
+      },
+      "reviewedAt": "2025-10-01T10:11:00",
+      "createdAt": "2025-10-01T07:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v1",
+        "taskId": 22
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2026-02-07T11:38:00",
+      "createdAt": "2026-02-07T11:17:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 46
+      },
+      "reviewedAt": "2026-02-27T20:30:00",
+      "createdAt": "2026-02-27T17:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 13
+      },
+      "reviewedAt": "2025-12-08T10:54:00",
+      "createdAt": "2025-12-08T10:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 95
+      },
+      "reviewedAt": "2025-10-31T08:26:00",
+      "createdAt": "2025-10-31T07:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v1",
+        "taskId": 6
+      },
+      "review": {
+        "score": 92
+      },
+      "reviewedAt": "2026-02-22T11:48:00",
+      "createdAt": "2026-02-22T09:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 8
+      },
+      "review": {
+        "score": 42
+      },
+      "reviewedAt": "2026-02-08T15:44:00",
+      "createdAt": "2026-02-08T15:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v3",
+        "taskId": 11
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2026-02-06T19:52:00",
+      "createdAt": "2026-02-06T17:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 52
+      },
+      "reviewedAt": "2026-02-03T16:33:00",
+      "createdAt": "2026-02-03T14:37:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 17
+      },
+      "review": {
+        "score": 53
+      },
+      "reviewedAt": "2025-12-29T21:56:00",
+      "createdAt": "2025-12-29T21:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 18
+      },
+      "reviewedAt": "2026-01-24T14:33:00",
+      "createdAt": "2026-01-24T12:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-12-14T22:19:00",
+      "createdAt": "2025-12-14T21:03:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 46
+      },
+      "reviewedAt": "2026-02-07T22:03:00",
+      "createdAt": "2026-02-07T19:17:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 6
+      },
+      "review": {
+        "score": 77
+      },
+      "reviewedAt": "2025-12-28T09:46:00",
+      "createdAt": "2025-12-28T06:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2026-01-21T10:25:00",
+      "createdAt": "2026-01-21T08:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 3
+      },
+      "review": {
+        "score": 25
+      },
+      "reviewedAt": "2026-02-02T22:45:00",
+      "createdAt": "2026-02-02T19:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 12
+      },
+      "reviewedAt": "2026-02-17T22:45:00",
+      "createdAt": "2026-02-17T22:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 17
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2026-03-03T15:40:00",
+      "createdAt": "2026-03-03T13:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 2
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2026-02-07T10:24:00",
+      "createdAt": "2026-02-07T08:58:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 17
+      },
+      "reviewedAt": "2026-01-26T21:42:00",
+      "createdAt": "2026-01-26T21:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2025-12-20T12:19:00",
+      "createdAt": "2025-12-20T11:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 1
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2025-10-07T11:00:00",
+      "createdAt": "2025-10-07T08:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 8
+      },
+      "review": {
+        "score": 21
+      },
+      "reviewedAt": "2026-01-21T20:00:00",
+      "createdAt": "2026-01-21T17:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v1",
+        "taskId": 20
+      },
+      "review": {
+        "score": 60
+      },
+      "reviewedAt": "2026-01-03T15:26:00",
+      "createdAt": "2026-01-03T14:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 7
+      },
+      "review": {
+        "score": 4
+      },
+      "reviewedAt": "2026-01-22T12:39:00",
+      "createdAt": "2026-01-22T12:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 2
+      },
+      "review": {
+        "score": 66
+      },
+      "reviewedAt": "2025-09-18T18:22:00",
+      "createdAt": "2025-09-18T15:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 41
+      },
+      "reviewedAt": "2025-11-19T13:58:00",
+      "createdAt": "2025-11-19T13:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 23
+      },
+      "review": {
+        "score": 69
+      },
+      "reviewedAt": "2025-10-15T18:18:00",
+      "createdAt": "2025-10-15T15:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 93
+      },
+      "reviewedAt": "2026-01-25T10:29:00",
+      "createdAt": "2026-01-25T10:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 42
+      },
+      "reviewedAt": "2025-11-19T13:23:00",
+      "createdAt": "2025-11-19T11:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 85
+      },
+      "reviewedAt": "2025-09-20T12:30:00",
+      "createdAt": "2025-09-20T11:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 7
+      },
+      "review": {
+        "score": 61
+      },
+      "reviewedAt": "2026-01-16T14:33:00",
+      "createdAt": "2026-01-16T14:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 16
+      },
+      "review": {
+        "score": 72
+      },
+      "reviewedAt": "2026-01-28T19:40:00",
+      "createdAt": "2026-01-28T17:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 9
+      },
+      "review": {
+        "score": 52
+      },
+      "reviewedAt": "2026-03-03T12:27:00",
+      "createdAt": "2026-03-03T09:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 51
+      },
+      "reviewedAt": "2025-12-03T22:08:00",
+      "createdAt": "2025-12-03T19:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2026-01-09T15:51:00",
+      "createdAt": "2026-01-09T15:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 73
+      },
+      "reviewedAt": "2025-09-04T09:01:00",
+      "createdAt": "2025-09-04T08:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 56
+      },
+      "reviewedAt": "2026-02-08T14:26:00",
+      "createdAt": "2026-02-08T11:42:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 25
+      },
+      "reviewedAt": "2025-10-28T08:40:00",
+      "createdAt": "2025-10-28T08:22:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2025-11-21T12:32:00",
+      "createdAt": "2025-11-21T09:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 96
+      },
+      "reviewedAt": "2025-11-28T13:25:00",
+      "createdAt": "2025-11-28T12:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 91
+      },
+      "reviewedAt": "2025-10-23T13:53:00",
+      "createdAt": "2025-10-23T13:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 15
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2026-02-16T10:30:00",
+      "createdAt": "2026-02-16T08:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 83
+      },
+      "reviewedAt": "2025-11-28T15:50:00",
+      "createdAt": "2025-11-28T14:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 1
+      },
+      "reviewedAt": "2026-01-26T19:43:00",
+      "createdAt": "2026-01-26T17:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 28
+      },
+      "reviewedAt": "2026-02-26T13:51:00",
+      "createdAt": "2026-02-26T13:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 60
+      },
+      "reviewedAt": "2025-11-29T14:40:00",
+      "createdAt": "2025-11-29T13:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 85
+      },
+      "reviewedAt": "2026-02-03T09:55:00",
+      "createdAt": "2026-02-03T09:46:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2025-11-12T14:05:00",
+      "createdAt": "2025-11-12T12:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-10-29T16:19:00",
+      "createdAt": "2025-10-29T15:27:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 17
+      },
+      "review": {
+        "score": 15
+      },
+      "reviewedAt": "2025-09-27T15:32:00",
+      "createdAt": "2025-09-27T14:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 32
+      },
+      "reviewedAt": "2026-01-05T19:55:00",
+      "createdAt": "2026-01-05T19:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2026-01-14T18:08:00",
+      "createdAt": "2026-01-14T15:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 87
+      },
+      "reviewedAt": "2025-10-03T08:19:00",
+      "createdAt": "2025-10-03T06:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2026-01-01T22:02:00",
+      "createdAt": "2026-01-01T20:42:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 7
+      },
+      "review": {
+        "score": 32
+      },
+      "reviewedAt": "2025-09-09T17:48:00",
+      "createdAt": "2025-09-09T16:58:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-11-16T12:34:00",
+      "createdAt": "2025-11-16T11:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 51
+      },
+      "reviewedAt": "2025-10-14T12:07:00",
+      "createdAt": "2025-10-14T11:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 5
+      },
+      "review": {
+        "score": 94
+      },
+      "reviewedAt": "2026-01-20T13:35:00",
+      "createdAt": "2026-01-20T12:22:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2026-01-28T11:10:00",
+      "createdAt": "2026-01-28T08:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 5
+      },
+      "reviewedAt": "2025-12-26T08:08:00",
+      "createdAt": "2025-12-26T06:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 59
+      },
+      "reviewedAt": "2025-09-17T09:27:00",
+      "createdAt": "2025-09-17T06:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 35
+      },
+      "reviewedAt": "2026-02-12T21:44:00",
+      "createdAt": "2026-02-12T20:18:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v3",
+        "taskId": 3
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2025-10-24T19:48:00",
+      "createdAt": "2025-10-24T17:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v2",
+        "taskId": 4
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2026-01-27T10:05:00",
+      "createdAt": "2026-01-27T07:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v2",
+        "taskId": 8
+      },
+      "review": {
+        "score": 94
+      },
+      "reviewedAt": "2026-02-15T19:49:00",
+      "createdAt": "2026-02-15T19:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 69
+      },
+      "reviewedAt": "2026-02-08T12:58:00",
+      "createdAt": "2026-02-08T10:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 3
+      },
+      "reviewedAt": "2025-11-27T20:55:00",
+      "createdAt": "2025-11-27T18:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2025-10-02T13:30:00",
+      "createdAt": "2025-10-02T10:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 79
+      },
+      "reviewedAt": "2026-01-29T10:32:00",
+      "createdAt": "2026-01-29T09:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 15
+      },
+      "review": {
+        "score": 40
+      },
+      "reviewedAt": "2026-01-24T18:04:00",
+      "createdAt": "2026-01-24T16:18:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 16
+      },
+      "review": {
+        "score": 38
+      },
+      "reviewedAt": "2025-11-04T17:15:00",
+      "createdAt": "2025-11-04T15:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v2",
+        "taskId": 14
+      },
+      "review": {
+        "score": 56
+      },
+      "reviewedAt": "2025-10-27T21:44:00",
+      "createdAt": "2025-10-27T20:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2026-01-21T19:15:00",
+      "createdAt": "2026-01-21T16:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 11
+      },
+      "review": {
+        "score": 55
+      },
+      "reviewedAt": "2026-01-06T09:37:00",
+      "createdAt": "2026-01-06T07:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 68
+      },
+      "reviewedAt": "2025-10-19T12:25:00",
+      "createdAt": "2025-10-19T09:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 9
+      },
+      "reviewedAt": "2025-12-10T13:31:00",
+      "createdAt": "2025-12-10T12:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 14
+      },
+      "reviewedAt": "2026-01-30T22:48:00",
+      "createdAt": "2026-01-30T22:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2025-12-28T16:18:00",
+      "createdAt": "2025-12-28T15:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 30
+      },
+      "reviewedAt": "2026-02-25T22:20:00",
+      "createdAt": "2026-02-25T20:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v3",
+        "taskId": 17
+      },
+      "review": {
+        "score": 40
+      },
+      "reviewedAt": "2025-12-01T09:37:00",
+      "createdAt": "2025-12-01T09:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 1
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2025-11-18T08:23:00",
+      "createdAt": "2025-11-18T06:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v1",
+        "taskId": 14
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2025-10-02T21:18:00",
+      "createdAt": "2025-10-02T19:37:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 43
+      },
+      "reviewedAt": "2026-02-11T13:45:00",
+      "createdAt": "2026-02-11T12:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 18
+      },
+      "review": {
+        "score": 38
+      },
+      "reviewedAt": "2026-02-20T10:30:00",
+      "createdAt": "2026-02-20T08:57:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 1
+      },
+      "reviewedAt": "2025-12-19T10:18:00",
+      "createdAt": "2025-12-19T07:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2025-09-08T10:46:00",
+      "createdAt": "2025-09-08T10:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 60
+      },
+      "reviewedAt": "2025-09-25T10:41:00",
+      "createdAt": "2025-09-25T08:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 82
+      },
+      "reviewedAt": "2026-02-10T10:29:00",
+      "createdAt": "2026-02-10T08:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 1
+      },
+      "review": {
+        "score": 57
+      },
+      "reviewedAt": "2025-12-03T11:11:00",
+      "createdAt": "2025-12-03T10:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 3
+      },
+      "reviewedAt": "2026-01-10T12:26:00",
+      "createdAt": "2026-01-10T12:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 48
+      },
+      "reviewedAt": "2026-01-27T15:45:00",
+      "createdAt": "2026-01-27T12:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 77
+      },
+      "reviewedAt": "2025-09-24T10:46:00",
+      "createdAt": "2025-09-24T08:46:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v1",
+        "taskId": 8
+      },
+      "review": {
+        "score": 47
+      },
+      "reviewedAt": "2026-01-14T09:33:00",
+      "createdAt": "2026-01-14T06:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 31
+      },
+      "reviewedAt": "2026-02-22T09:43:00",
+      "createdAt": "2026-02-22T09:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 51
+      },
+      "reviewedAt": "2025-11-30T16:49:00",
+      "createdAt": "2025-11-30T14:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 28
+      },
+      "reviewedAt": "2026-01-28T19:21:00",
+      "createdAt": "2026-01-28T19:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2026-02-28T22:38:00",
+      "createdAt": "2026-02-28T21:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 5
+      },
+      "reviewedAt": "2025-09-19T18:30:00",
+      "createdAt": "2025-09-19T17:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 50
+      },
+      "reviewedAt": "2026-02-10T08:18:00",
+      "createdAt": "2026-02-10T07:06:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v2",
+        "taskId": 9
+      },
+      "review": {
+        "score": 1
+      },
+      "reviewedAt": "2025-11-07T10:39:00",
+      "createdAt": "2025-11-07T10:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2026-02-05T10:58:00",
+      "createdAt": "2026-02-05T09:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v1",
+        "taskId": 16
+      },
+      "review": {
+        "score": 18
+      },
+      "reviewedAt": "2025-10-18T12:50:00",
+      "createdAt": "2025-10-18T10:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 83
+      },
+      "reviewedAt": "2025-09-12T13:05:00",
+      "createdAt": "2025-09-12T11:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-12-11T11:42:00",
+      "createdAt": "2025-12-11T09:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 2
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-12-01T08:41:00",
+      "createdAt": "2025-12-01T06:58:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 37
+      },
+      "reviewedAt": "2026-01-03T12:30:00",
+      "createdAt": "2026-01-03T10:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 1
+      },
+      "review": {
+        "score": 28
+      },
+      "reviewedAt": "2026-01-03T12:09:00",
+      "createdAt": "2026-01-03T10:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 9
+      },
+      "reviewedAt": "2025-12-10T18:20:00",
+      "createdAt": "2025-12-10T16:03:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 85
+      },
+      "reviewedAt": "2026-02-14T13:54:00",
+      "createdAt": "2026-02-14T12:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v2",
+        "taskId": 21
+      },
+      "review": {
+        "score": 58
+      },
+      "reviewedAt": "2025-11-12T12:51:00",
+      "createdAt": "2025-11-12T10:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 77
+      },
+      "reviewedAt": "2026-02-23T19:15:00",
+      "createdAt": "2026-02-23T17:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 1
+      },
+      "reviewedAt": "2025-11-29T18:44:00",
+      "createdAt": "2025-11-29T18:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 68
+      },
+      "reviewedAt": "2025-09-21T08:26:00",
+      "createdAt": "2025-09-21T06:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 2
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2025-10-30T19:18:00",
+      "createdAt": "2025-10-30T18:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 12
+      },
+      "reviewedAt": "2025-09-18T17:42:00",
+      "createdAt": "2025-09-18T17:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2025-09-26T21:38:00",
+      "createdAt": "2025-09-26T18:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v3",
+        "taskId": 6
+      },
+      "review": {
+        "score": 25
+      },
+      "reviewedAt": "2026-01-26T20:11:00",
+      "createdAt": "2026-01-26T18:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 9
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2026-02-20T22:04:00",
+      "createdAt": "2026-02-20T19:06:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2026-02-21T20:49:00",
+      "createdAt": "2026-02-21T19:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 95
+      },
+      "reviewedAt": "2025-09-19T14:24:00",
+      "createdAt": "2025-09-19T13:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v1",
+        "taskId": 20
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2025-10-19T15:04:00",
+      "createdAt": "2025-10-19T12:18:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 7
+      },
+      "review": {
+        "score": 61
+      },
+      "reviewedAt": "2026-01-07T09:09:00",
+      "createdAt": "2026-01-07T08:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2025-12-26T19:16:00",
+      "createdAt": "2025-12-26T18:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v1",
+        "taskId": 21
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2025-12-27T08:57:00",
+      "createdAt": "2025-12-27T08:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 11
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2026-02-21T14:17:00",
+      "createdAt": "2026-02-21T11:49:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 43
+      },
+      "reviewedAt": "2025-09-04T16:45:00",
+      "createdAt": "2025-09-04T16:27:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 48
+      },
+      "reviewedAt": "2026-01-20T11:00:00",
+      "createdAt": "2026-01-20T08:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 40
+      },
+      "reviewedAt": "2026-01-19T22:22:00",
+      "createdAt": "2026-01-19T19:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 3
+      },
+      "review": {
+        "score": 84
+      },
+      "reviewedAt": "2026-02-16T09:23:00",
+      "createdAt": "2026-02-16T08:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 13
+      },
+      "review": {
+        "score": 66
+      },
+      "reviewedAt": "2026-02-16T11:11:00",
+      "createdAt": "2026-02-16T09:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v3",
+        "taskId": 23
+      },
+      "review": {
+        "score": 35
+      },
+      "reviewedAt": "2026-03-01T14:57:00",
+      "createdAt": "2026-03-01T14:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v1",
+        "taskId": 2
+      },
+      "review": {
+        "score": 19
+      },
+      "reviewedAt": "2026-02-12T15:47:00",
+      "createdAt": "2026-02-12T13:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 30
+      },
+      "reviewedAt": "2025-11-04T15:24:00",
+      "createdAt": "2025-11-04T13:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 11
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-12-28T08:02:00",
+      "createdAt": "2025-12-28T07:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 17
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2025-12-16T09:13:00",
+      "createdAt": "2025-12-16T06:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 3
+      },
+      "reviewedAt": "2026-01-19T10:47:00",
+      "createdAt": "2026-01-19T10:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2026-01-07T18:01:00",
+      "createdAt": "2026-01-07T15:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 82
+      },
+      "reviewedAt": "2025-10-07T08:11:00",
+      "createdAt": "2025-10-07T07:46:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-12-29T17:10:00",
+      "createdAt": "2025-12-29T14:37:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 11
+      },
+      "review": {
+        "score": 81
+      },
+      "reviewedAt": "2026-02-08T11:04:00",
+      "createdAt": "2026-02-08T08:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 13
+      },
+      "reviewedAt": "2025-12-15T13:07:00",
+      "createdAt": "2025-12-15T12:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-09-15T17:11:00",
+      "createdAt": "2025-09-15T15:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2025-10-17T19:23:00",
+      "createdAt": "2025-10-17T16:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 13
+      },
+      "review": {
+        "score": 77
+      },
+      "reviewedAt": "2025-09-14T10:06:00",
+      "createdAt": "2025-09-14T10:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2026-01-06T09:00:00",
+      "createdAt": "2026-01-06T06:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 12
+      },
+      "reviewedAt": "2025-11-15T14:44:00",
+      "createdAt": "2025-11-15T14:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v2",
+        "taskId": 8
+      },
+      "review": {
+        "score": 93
+      },
+      "reviewedAt": "2026-02-14T12:33:00",
+      "createdAt": "2026-02-14T09:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 61
+      },
+      "reviewedAt": "2026-02-28T08:38:00",
+      "createdAt": "2026-02-28T08:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v2",
+        "taskId": 14
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2026-02-11T21:50:00",
+      "createdAt": "2026-02-11T20:49:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2025-10-23T09:33:00",
+      "createdAt": "2025-10-23T07:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 20
+      },
+      "reviewedAt": "2026-01-11T11:29:00",
+      "createdAt": "2026-01-11T11:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2025-10-23T09:50:00",
+      "createdAt": "2025-10-23T09:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 28
+      },
+      "reviewedAt": "2026-02-22T22:02:00",
+      "createdAt": "2026-02-22T20:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 2
+      },
+      "review": {
+        "score": 10
+      },
+      "reviewedAt": "2025-11-07T13:39:00",
+      "createdAt": "2025-11-07T13:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 17
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2026-01-19T10:10:00",
+      "createdAt": "2026-01-19T09:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 7
+      },
+      "review": {
+        "score": 74
+      },
+      "reviewedAt": "2025-12-26T17:37:00",
+      "createdAt": "2025-12-26T16:13:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 23
+      },
+      "reviewedAt": "2025-11-01T20:07:00",
+      "createdAt": "2025-11-01T18:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v1",
+        "taskId": 16
+      },
+      "review": {
+        "score": 58
+      },
+      "reviewedAt": "2025-10-25T14:57:00",
+      "createdAt": "2025-10-25T14:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 38
+      },
+      "reviewedAt": "2025-12-24T10:13:00",
+      "createdAt": "2025-12-24T09:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 9
+      },
+      "review": {
+        "score": 20
+      },
+      "reviewedAt": "2025-12-30T19:12:00",
+      "createdAt": "2025-12-30T18:39:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 5
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-09-12T19:36:00",
+      "createdAt": "2025-09-12T17:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 8
+      },
+      "review": {
+        "score": 88
+      },
+      "reviewedAt": "2025-12-30T14:10:00",
+      "createdAt": "2025-12-30T11:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 6
+      },
+      "review": {
+        "score": 57
+      },
+      "reviewedAt": "2025-10-14T20:50:00",
+      "createdAt": "2025-10-14T18:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 7
+      },
+      "review": {
+        "score": 59
+      },
+      "reviewedAt": "2025-11-01T09:26:00",
+      "createdAt": "2025-11-01T07:27:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2025-11-14T08:46:00",
+      "createdAt": "2025-11-14T06:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2026-01-30T11:57:00",
+      "createdAt": "2026-01-30T10:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 42
+      },
+      "reviewedAt": "2025-09-15T08:30:00",
+      "createdAt": "2025-09-15T06:49:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2026-01-04T20:51:00",
+      "createdAt": "2026-01-04T20:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 94
+      },
+      "reviewedAt": "2026-01-24T20:00:00",
+      "createdAt": "2026-01-24T19:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v1",
+        "taskId": 1
+      },
+      "review": {
+        "score": 47
+      },
+      "reviewedAt": "2025-12-04T12:15:00",
+      "createdAt": "2025-12-04T10:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2025-10-15T19:29:00",
+      "createdAt": "2025-10-15T17:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-12-31T20:08:00",
+      "createdAt": "2025-12-31T18:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v1",
+        "taskId": 21
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2026-02-11T15:45:00",
+      "createdAt": "2026-02-11T12:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 26
+      },
+      "reviewedAt": "2025-11-28T16:02:00",
+      "createdAt": "2025-11-28T13:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 3
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2026-01-20T17:50:00",
+      "createdAt": "2026-01-20T16:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v2",
+        "taskId": 2
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-09-18T16:58:00",
+      "createdAt": "2025-09-18T15:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2026-01-01T17:02:00",
+      "createdAt": "2026-01-01T16:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v1",
+        "taskId": 11
+      },
+      "review": {
+        "score": 23
+      },
+      "reviewedAt": "2026-01-25T19:49:00",
+      "createdAt": "2026-01-25T19:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 23
+      },
+      "review": {
+        "score": 20
+      },
+      "reviewedAt": "2026-02-17T15:47:00",
+      "createdAt": "2026-02-17T14:49:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 42
+      },
+      "reviewedAt": "2025-11-25T13:57:00",
+      "createdAt": "2025-11-25T13:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v2",
+        "taskId": 17
+      },
+      "review": {
+        "score": 52
+      },
+      "reviewedAt": "2025-09-20T13:22:00",
+      "createdAt": "2025-09-20T12:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2026-01-02T19:34:00",
+      "createdAt": "2026-01-02T17:59:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 8
+      },
+      "reviewedAt": "2026-02-23T19:51:00",
+      "createdAt": "2026-02-23T18:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-10-19T12:04:00",
+      "createdAt": "2025-10-19T11:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2026-01-09T10:55:00",
+      "createdAt": "2026-01-09T09:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 42
+      },
+      "reviewedAt": "2026-02-25T16:59:00",
+      "createdAt": "2026-02-25T14:13:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 8
+      },
+      "review": {
+        "score": 83
+      },
+      "reviewedAt": "2025-09-09T12:12:00",
+      "createdAt": "2025-09-09T09:58:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v2",
+        "taskId": 21
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2026-02-16T13:26:00",
+      "createdAt": "2026-02-16T12:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2026-01-06T17:42:00",
+      "createdAt": "2026-01-06T16:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 22
+      },
+      "reviewedAt": "2026-01-27T10:57:00",
+      "createdAt": "2026-01-27T09:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 28
+      },
+      "reviewedAt": "2025-11-16T20:54:00",
+      "createdAt": "2025-11-16T20:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 18
+      },
+      "reviewedAt": "2026-02-09T22:10:00",
+      "createdAt": "2026-02-09T21:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 8
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2026-02-28T22:42:00",
+      "createdAt": "2026-02-28T21:20:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 20
+      },
+      "reviewedAt": "2026-01-29T10:28:00",
+      "createdAt": "2026-01-29T10:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 53
+      },
+      "reviewedAt": "2026-02-21T13:22:00",
+      "createdAt": "2026-02-21T12:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2026-01-18T12:07:00",
+      "createdAt": "2026-01-18T10:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 17
+      },
+      "review": {
+        "score": 33
+      },
+      "reviewedAt": "2025-11-24T10:00:00",
+      "createdAt": "2025-11-24T08:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 22
+      },
+      "review": {
+        "score": 14
+      },
+      "reviewedAt": "2026-01-03T22:18:00",
+      "createdAt": "2026-01-03T19:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2025-12-26T13:44:00",
+      "createdAt": "2025-12-26T13:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v1",
+        "taskId": 13
+      },
+      "review": {
+        "score": 61
+      },
+      "reviewedAt": "2026-02-24T16:07:00",
+      "createdAt": "2026-02-24T15:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 20
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2025-12-27T13:05:00",
+      "createdAt": "2025-12-27T10:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 7
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2026-01-16T11:50:00",
+      "createdAt": "2026-01-16T09:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v3",
+        "taskId": 13
+      },
+      "review": {
+        "score": 19
+      },
+      "reviewedAt": "2025-12-27T18:42:00",
+      "createdAt": "2025-12-27T17:20:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2026-02-05T17:32:00",
+      "createdAt": "2026-02-05T15:42:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 35
+      },
+      "reviewedAt": "2025-12-07T14:23:00",
+      "createdAt": "2025-12-07T12:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 99
+      },
+      "reviewedAt": "2026-01-25T09:13:00",
+      "createdAt": "2026-01-25T07:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2025-11-16T10:51:00",
+      "createdAt": "2025-11-16T10:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 47
+      },
+      "reviewedAt": "2026-02-01T17:05:00",
+      "createdAt": "2026-02-01T14:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v2",
+        "taskId": 3
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2025-11-28T09:59:00",
+      "createdAt": "2025-11-28T07:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 56
+      },
+      "reviewedAt": "2025-11-12T14:11:00",
+      "createdAt": "2025-11-12T13:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2025-10-25T10:53:00",
+      "createdAt": "2025-10-25T09:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 15
+      },
+      "review": {
+        "score": 22
+      },
+      "reviewedAt": "2026-01-31T12:31:00",
+      "createdAt": "2026-01-31T12:30:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 12
+      },
+      "reviewedAt": "2025-10-13T12:19:00",
+      "createdAt": "2025-10-13T09:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2025-11-16T14:11:00",
+      "createdAt": "2025-11-16T13:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 58
+      },
+      "reviewedAt": "2025-11-13T15:04:00",
+      "createdAt": "2025-11-13T12:39:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2025-12-24T21:16:00",
+      "createdAt": "2025-12-24T20:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-12-08T16:46:00",
+      "createdAt": "2025-12-08T16:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-10-11T13:29:00",
+      "createdAt": "2025-10-11T12:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 29
+      },
+      "reviewedAt": "2025-12-05T14:40:00",
+      "createdAt": "2025-12-05T11:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 6
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2025-09-23T16:12:00",
+      "createdAt": "2025-09-23T13:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-10-16T16:20:00",
+      "createdAt": "2025-10-16T13:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 82
+      },
+      "reviewedAt": "2026-02-27T13:06:00",
+      "createdAt": "2026-02-27T13:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v2",
+        "taskId": 14
+      },
+      "review": {
+        "score": 34
+      },
+      "reviewedAt": "2025-10-09T16:18:00",
+      "createdAt": "2025-10-09T15:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 7
+      },
+      "review": {
+        "score": 79
+      },
+      "reviewedAt": "2025-09-30T11:09:00",
+      "createdAt": "2025-09-30T08:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v3",
+        "taskId": 23
+      },
+      "review": {
+        "score": 55
+      },
+      "reviewedAt": "2026-02-08T19:53:00",
+      "createdAt": "2026-02-08T19:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 92
+      },
+      "reviewedAt": "2025-12-19T15:58:00",
+      "createdAt": "2025-12-19T13:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 88
+      },
+      "reviewedAt": "2025-12-02T12:44:00",
+      "createdAt": "2025-12-02T10:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2026-01-15T20:21:00",
+      "createdAt": "2026-01-15T19:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 22
+      },
+      "reviewedAt": "2025-10-30T10:54:00",
+      "createdAt": "2025-10-30T10:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-10-27T10:05:00",
+      "createdAt": "2025-10-27T09:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 2
+      },
+      "review": {
+        "score": 19
+      },
+      "reviewedAt": "2025-09-08T20:30:00",
+      "createdAt": "2025-09-08T20:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 4
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2026-02-19T16:37:00",
+      "createdAt": "2026-02-19T16:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 92
+      },
+      "reviewedAt": "2025-09-20T12:42:00",
+      "createdAt": "2025-09-20T11:49:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2026-02-01T22:12:00",
+      "createdAt": "2026-02-01T21:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 17
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-11-14T17:22:00",
+      "createdAt": "2025-11-14T14:45:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2025-11-04T16:36:00",
+      "createdAt": "2025-11-04T14:20:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 53
+      },
+      "reviewedAt": "2025-10-29T19:12:00",
+      "createdAt": "2025-10-29T18:46:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 69
+      },
+      "reviewedAt": "2025-10-28T22:32:00",
+      "createdAt": "2025-10-28T21:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 42
+      },
+      "reviewedAt": "2025-12-25T18:06:00",
+      "createdAt": "2025-12-25T15:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 4
+      },
+      "review": {
+        "score": 46
+      },
+      "reviewedAt": "2025-11-01T14:07:00",
+      "createdAt": "2025-11-01T11:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 55
+      },
+      "reviewedAt": "2025-10-08T15:48:00",
+      "createdAt": "2025-10-08T15:37:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2025-09-25T13:31:00",
+      "createdAt": "2025-09-25T12:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 29
+      },
+      "reviewedAt": "2026-02-26T21:28:00",
+      "createdAt": "2026-02-26T19:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 17
+      },
+      "reviewedAt": "2025-10-22T21:04:00",
+      "createdAt": "2025-10-22T18:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 17
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2026-01-07T18:06:00",
+      "createdAt": "2026-01-07T17:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2025-10-04T10:25:00",
+      "createdAt": "2025-10-04T09:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 20
+      },
+      "review": {
+        "score": 84
+      },
+      "reviewedAt": "2025-09-20T13:12:00",
+      "createdAt": "2025-09-20T11:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-10-05T11:53:00",
+      "createdAt": "2025-10-05T09:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 47
+      },
+      "reviewedAt": "2026-02-02T12:48:00",
+      "createdAt": "2026-02-02T10:13:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2025-12-16T15:32:00",
+      "createdAt": "2025-12-16T15:00:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2025-11-07T15:31:00",
+      "createdAt": "2025-11-07T15:17:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v1",
+        "taskId": 13
+      },
+      "review": {
+        "score": 60
+      },
+      "reviewedAt": "2025-09-21T15:43:00",
+      "createdAt": "2025-09-21T14:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2025-10-13T12:39:00",
+      "createdAt": "2025-10-13T10:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2026-01-08T20:29:00",
+      "createdAt": "2026-01-08T18:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 1
+      },
+      "review": {
+        "score": 95
+      },
+      "reviewedAt": "2025-11-09T16:21:00",
+      "createdAt": "2025-11-09T16:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 31
+      },
+      "reviewedAt": "2025-12-23T22:58:00",
+      "createdAt": "2025-12-23T21:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 18
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2025-12-26T15:02:00",
+      "createdAt": "2025-12-26T13:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 71
+      },
+      "reviewedAt": "2026-03-03T10:31:00",
+      "createdAt": "2026-03-03T08:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 68
+      },
+      "reviewedAt": "2025-10-02T17:43:00",
+      "createdAt": "2025-10-02T15:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 2
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2026-01-02T15:35:00",
+      "createdAt": "2026-01-02T13:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2026-02-02T14:39:00",
+      "createdAt": "2026-02-02T13:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 34
+      },
+      "reviewedAt": "2025-09-19T08:37:00",
+      "createdAt": "2025-09-19T06:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 9
+      },
+      "reviewedAt": "2025-09-10T20:57:00",
+      "createdAt": "2025-09-10T19:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2025-12-04T14:22:00",
+      "createdAt": "2025-12-04T11:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-11-22T17:05:00",
+      "createdAt": "2025-11-22T16:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2025-09-09T16:20:00",
+      "createdAt": "2025-09-09T13:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 46
+      },
+      "reviewedAt": "2026-01-13T22:26:00",
+      "createdAt": "2026-01-13T22:20:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 19
+      },
+      "review": {
+        "score": 9
+      },
+      "reviewedAt": "2025-11-24T14:36:00",
+      "createdAt": "2025-11-24T12:30:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 50
+      },
+      "reviewedAt": "2025-09-29T19:43:00",
+      "createdAt": "2025-09-29T16:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v2",
+        "taskId": 14
+      },
+      "review": {
+        "score": 20
+      },
+      "reviewedAt": "2025-11-29T10:39:00",
+      "createdAt": "2025-11-29T07:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 26
+      },
+      "reviewedAt": "2025-09-23T21:54:00",
+      "createdAt": "2025-09-23T20:37:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 95
+      },
+      "reviewedAt": "2026-01-28T14:51:00",
+      "createdAt": "2026-01-28T12:22:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 80
+      },
+      "reviewedAt": "2025-09-28T17:21:00",
+      "createdAt": "2025-09-28T15:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 50
+      },
+      "reviewedAt": "2025-12-22T11:22:00",
+      "createdAt": "2025-12-22T10:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 14
+      },
+      "review": {
+        "score": 40
+      },
+      "reviewedAt": "2025-12-23T18:34:00",
+      "createdAt": "2025-12-23T15:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 6
+      },
+      "review": {
+        "score": 88
+      },
+      "reviewedAt": "2026-01-13T15:42:00",
+      "createdAt": "2026-01-13T13:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 21
+      },
+      "reviewedAt": "2026-03-03T16:55:00",
+      "createdAt": "2026-03-03T14:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2025-11-11T22:40:00",
+      "createdAt": "2025-11-11T20:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 14
+      },
+      "reviewedAt": "2026-02-11T08:33:00",
+      "createdAt": "2026-02-11T07:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 11
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2026-02-26T20:19:00",
+      "createdAt": "2026-02-26T20:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2026-02-13T11:54:00",
+      "createdAt": "2026-02-13T10:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 14
+      },
+      "reviewedAt": "2026-02-26T17:15:00",
+      "createdAt": "2026-02-26T17:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 55
+      },
+      "reviewedAt": "2025-11-05T20:52:00",
+      "createdAt": "2025-11-05T19:00:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 6
+      },
+      "review": {
+        "score": 27
+      },
+      "reviewedAt": "2025-12-21T18:57:00",
+      "createdAt": "2025-12-21T18:49:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 17
+      },
+      "reviewedAt": "2025-11-09T20:51:00",
+      "createdAt": "2025-11-09T20:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 11
+      },
+      "review": {
+        "score": 60
+      },
+      "reviewedAt": "2026-01-06T20:01:00",
+      "createdAt": "2026-01-06T19:44:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v3",
+        "taskId": 3
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2025-12-17T22:23:00",
+      "createdAt": "2025-12-17T21:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 52
+      },
+      "reviewedAt": "2025-11-03T09:36:00",
+      "createdAt": "2025-11-03T07:07:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 20
+      },
+      "review": {
+        "score": 12
+      },
+      "reviewedAt": "2026-01-16T12:31:00",
+      "createdAt": "2026-01-16T11:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 74
+      },
+      "reviewedAt": "2025-11-27T21:37:00",
+      "createdAt": "2025-11-27T19:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 43
+      },
+      "reviewedAt": "2025-10-29T10:06:00",
+      "createdAt": "2025-10-29T09:00:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 94
+      },
+      "reviewedAt": "2026-02-01T08:31:00",
+      "createdAt": "2026-02-01T07:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 87
+      },
+      "reviewedAt": "2026-01-21T14:30:00",
+      "createdAt": "2026-01-21T13:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v2",
+        "taskId": 1
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2025-12-05T15:45:00",
+      "createdAt": "2025-12-05T13:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 91
+      },
+      "reviewedAt": "2025-09-12T21:47:00",
+      "createdAt": "2025-09-12T18:55:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 21
+      },
+      "review": {
+        "score": 95
+      },
+      "reviewedAt": "2025-11-04T12:35:00",
+      "createdAt": "2025-11-04T11:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v2",
+        "taskId": 13
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2026-02-26T09:34:00",
+      "createdAt": "2026-02-26T07:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 21
+      },
+      "reviewedAt": "2025-11-08T12:05:00",
+      "createdAt": "2025-11-08T11:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-12-25T18:20:00",
+      "createdAt": "2025-12-25T17:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 41
+      },
+      "reviewedAt": "2025-09-24T21:49:00",
+      "createdAt": "2025-09-24T20:23:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 26
+      },
+      "reviewedAt": "2025-12-21T22:58:00",
+      "createdAt": "2025-12-21T22:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 32
+      },
+      "reviewedAt": "2025-12-03T14:38:00",
+      "createdAt": "2025-12-03T11:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v3",
+        "taskId": 6
+      },
+      "review": {
+        "score": 63
+      },
+      "reviewedAt": "2025-09-11T20:03:00",
+      "createdAt": "2025-09-11T17:18:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 31
+      },
+      "reviewedAt": "2025-10-08T08:25:00",
+      "createdAt": "2025-10-08T08:03:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v3",
+        "taskId": 25
+      },
+      "review": {
+        "score": 83
+      },
+      "reviewedAt": "2025-10-02T10:15:00",
+      "createdAt": "2025-10-02T09:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 87
+      },
+      "reviewedAt": "2026-02-03T18:26:00",
+      "createdAt": "2026-02-03T17:51:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 19
+      },
+      "reviewedAt": "2025-11-09T10:43:00",
+      "createdAt": "2025-11-09T08:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v3",
+        "taskId": 8
+      },
+      "review": {
+        "score": 2
+      },
+      "reviewedAt": "2025-12-07T10:25:00",
+      "createdAt": "2025-12-07T10:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2026-01-24T18:39:00",
+      "createdAt": "2026-01-24T17:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v1",
+        "taskId": 13
+      },
+      "review": {
+        "score": 61
+      },
+      "reviewedAt": "2025-11-10T19:54:00",
+      "createdAt": "2025-11-10T17:20:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 19
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-11-09T10:05:00",
+      "createdAt": "2025-11-09T07:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 11
+      },
+      "reviewedAt": "2025-12-24T20:58:00",
+      "createdAt": "2025-12-24T20:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2025-10-22T21:52:00",
+      "createdAt": "2025-10-22T21:18:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 72
+      },
+      "reviewedAt": "2025-12-23T21:13:00",
+      "createdAt": "2025-12-23T20:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 97
+      },
+      "reviewedAt": "2025-12-20T10:26:00",
+      "createdAt": "2025-12-20T09:25:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v2",
+        "taskId": 19
+      },
+      "review": {
+        "score": 68
+      },
+      "reviewedAt": "2026-02-09T15:58:00",
+      "createdAt": "2026-02-09T14:00:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v2",
+        "taskId": 23
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2025-09-25T08:30:00",
+      "createdAt": "2025-09-25T07:35:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 9
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2025-12-11T19:27:00",
+      "createdAt": "2025-12-11T17:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 99
+      },
+      "reviewedAt": "2025-09-19T08:21:00",
+      "createdAt": "2025-09-19T05:29:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 50
+      },
+      "reviewedAt": "2026-02-04T19:47:00",
+      "createdAt": "2026-02-04T18:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v1",
+        "taskId": 18
+      },
+      "review": {
+        "score": 4
+      },
+      "reviewedAt": "2025-11-20T14:42:00",
+      "createdAt": "2025-11-20T13:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 13
+      },
+      "reviewedAt": "2025-11-09T10:32:00",
+      "createdAt": "2025-11-09T09:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 11
+      },
+      "review": {
+        "score": 4
+      },
+      "reviewedAt": "2026-01-17T14:09:00",
+      "createdAt": "2026-01-17T13:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 92
+      },
+      "reviewedAt": "2026-01-09T21:53:00",
+      "createdAt": "2026-01-09T20:40:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v2",
+        "taskId": 17
+      },
+      "review": {
+        "score": 31
+      },
+      "reviewedAt": "2025-11-10T17:53:00",
+      "createdAt": "2025-11-10T17:10:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v1",
+        "taskId": 18
+      },
+      "review": {
+        "score": 85
+      },
+      "reviewedAt": "2025-11-23T19:31:00",
+      "createdAt": "2025-11-23T16:42:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 5
+      },
+      "reviewedAt": "2026-02-13T20:28:00",
+      "createdAt": "2026-02-13T19:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 15
+      },
+      "review": {
+        "score": 43
+      },
+      "reviewedAt": "2025-09-13T15:16:00",
+      "createdAt": "2025-09-13T13:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 16
+      },
+      "review": {
+        "score": 45
+      },
+      "reviewedAt": "2025-09-14T15:22:00",
+      "createdAt": "2025-09-14T14:53:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 18
+      },
+      "reviewedAt": "2025-10-11T09:22:00",
+      "createdAt": "2025-10-11T08:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 21
+      },
+      "reviewedAt": "2026-01-12T21:17:00",
+      "createdAt": "2026-01-12T21:15:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v2",
+        "taskId": 3
+      },
+      "review": {
+        "score": 24
+      },
+      "reviewedAt": "2026-01-16T20:36:00",
+      "createdAt": "2026-01-16T18:28:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 68
+      },
+      "reviewedAt": "2026-02-24T09:56:00",
+      "createdAt": "2026-02-24T07:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 11
+      },
+      "review": {
+        "score": 15
+      },
+      "reviewedAt": "2025-10-05T14:23:00",
+      "createdAt": "2025-10-05T14:02:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2025-12-30T21:45:00",
+      "createdAt": "2025-12-30T20:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v1",
+        "taskId": 21
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2026-02-03T18:00:00",
+      "createdAt": "2026-02-03T16:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 19,
+        "variation": "v1",
+        "taskId": 7
+      },
+      "review": {
+        "score": 86
+      },
+      "reviewedAt": "2025-11-26T19:46:00",
+      "createdAt": "2025-11-26T17:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 3
+      },
+      "review": {
+        "score": 54
+      },
+      "reviewedAt": "2025-11-15T13:51:00",
+      "createdAt": "2025-11-15T11:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v1",
+        "taskId": 8
+      },
+      "review": {
+        "score": 96
+      },
+      "reviewedAt": "2025-12-10T09:25:00",
+      "createdAt": "2025-12-10T07:42:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 7,
+        "variation": "v1",
+        "taskId": 13
+      },
+      "review": {
+        "score": 77
+      },
+      "reviewedAt": "2025-09-26T08:54:00",
+      "createdAt": "2025-09-26T07:41:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 5,
+        "variation": "v1",
+        "taskId": 10
+      },
+      "review": {
+        "score": 49
+      },
+      "reviewedAt": "2026-02-16T20:41:00",
+      "createdAt": "2026-02-16T18:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v1",
+        "taskId": 12
+      },
+      "review": {
+        "score": 66
+      },
+      "reviewedAt": "2025-11-22T22:43:00",
+      "createdAt": "2025-11-22T21:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v2",
+        "taskId": 16
+      },
+      "review": {
+        "score": 26
+      },
+      "reviewedAt": "2026-01-13T11:31:00",
+      "createdAt": "2026-01-13T08:57:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 18
+      },
+      "reviewedAt": "2025-12-21T09:48:00",
+      "createdAt": "2025-12-21T07:06:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 67
+      },
+      "reviewedAt": "2025-12-22T09:02:00",
+      "createdAt": "2025-12-22T06:16:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 21
+      },
+      "review": {
+        "score": 64
+      },
+      "reviewedAt": "2026-02-26T19:09:00",
+      "createdAt": "2026-02-26T18:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 3,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 14
+      },
+      "reviewedAt": "2025-11-17T15:27:00",
+      "createdAt": "2025-11-17T14:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v3",
+        "taskId": 14
+      },
+      "review": {
+        "score": 29
+      },
+      "reviewedAt": "2026-02-26T22:19:00",
+      "createdAt": "2026-02-26T22:06:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 51
+      },
+      "reviewedAt": "2026-01-23T09:58:00",
+      "createdAt": "2026-01-23T08:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v3",
+        "taskId": 9
+      },
+      "review": {
+        "score": 35
+      },
+      "reviewedAt": "2025-09-28T15:42:00",
+      "createdAt": "2025-09-28T13:12:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 1,
+        "variation": "v1",
+        "taskId": 24
+      },
+      "review": {
+        "score": 66
+      },
+      "reviewedAt": "2025-09-24T20:32:00",
+      "createdAt": "2025-09-24T19:46:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v1",
+        "taskId": 14
+      },
+      "review": {
+        "score": 87
+      },
+      "reviewedAt": "2025-10-20T21:25:00",
+      "createdAt": "2025-10-20T20:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v3",
+        "taskId": 15
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2025-11-23T17:46:00",
+      "createdAt": "2025-11-23T16:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v1",
+        "taskId": 6
+      },
+      "review": {
+        "score": 7
+      },
+      "reviewedAt": "2025-11-30T22:55:00",
+      "createdAt": "2025-11-30T20:20:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v2",
+        "taskId": 18
+      },
+      "review": {
+        "score": 1
+      },
+      "reviewedAt": "2025-11-09T21:43:00",
+      "createdAt": "2025-11-09T20:01:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 15
+      },
+      "review": {
+        "score": 69
+      },
+      "reviewedAt": "2025-10-03T08:10:00",
+      "createdAt": "2025-10-03T05:21:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 36
+      },
+      "reviewedAt": "2026-02-05T19:31:00",
+      "createdAt": "2026-02-05T16:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v1",
+        "taskId": 5
+      },
+      "review": {
+        "score": 13
+      },
+      "reviewedAt": "2026-02-27T18:25:00",
+      "createdAt": "2026-02-27T17:36:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v1",
+        "taskId": 1
+      },
+      "review": {
+        "score": 20
+      },
+      "reviewedAt": "2025-10-02T21:01:00",
+      "createdAt": "2025-10-02T18:14:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v3",
+        "taskId": 18
+      },
+      "review": {
+        "score": 19
+      },
+      "reviewedAt": "2025-10-11T18:15:00",
+      "createdAt": "2025-10-11T16:57:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-12-31T10:30:00",
+      "createdAt": "2025-12-31T09:50:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v1",
+        "taskId": 15
+      },
+      "review": {
+        "score": 58
+      },
+      "reviewedAt": "2026-03-02T15:31:00",
+      "createdAt": "2026-03-02T14:39:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v1",
+        "taskId": 11
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2025-11-18T17:53:00",
+      "createdAt": "2025-11-18T15:11:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v3",
+        "taskId": 19
+      },
+      "review": {
+        "score": 59
+      },
+      "reviewedAt": "2025-12-23T14:54:00",
+      "createdAt": "2025-12-23T12:32:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 13,
+        "variation": "v2",
+        "taskId": 17
+      },
+      "review": {
+        "score": 59
+      },
+      "reviewedAt": "2025-11-17T08:31:00",
+      "createdAt": "2025-11-17T05:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 16,
+        "variation": "v1",
+        "taskId": 23
+      },
+      "review": {
+        "score": 6
+      },
+      "reviewedAt": "2026-02-24T22:52:00",
+      "createdAt": "2026-02-24T22:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v1",
+        "taskId": 9
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2025-12-21T17:20:00",
+      "createdAt": "2025-12-21T15:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "v3",
+        "taskId": 12
+      },
+      "review": {
+        "score": 44
+      },
+      "reviewedAt": "2026-01-03T09:31:00",
+      "createdAt": "2026-01-03T07:39:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "v1",
+        "taskId": 16
+      },
+      "review": {
+        "score": 34
+      },
+      "reviewedAt": "2025-09-09T10:18:00",
+      "createdAt": "2025-09-09T09:18:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v2",
+        "taskId": 20
+      },
+      "review": {
+        "score": 85
+      },
+      "reviewedAt": "2026-01-11T11:37:00",
+      "createdAt": "2026-01-11T08:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 23
+      },
+      "review": {
+        "score": 39
+      },
+      "reviewedAt": "2026-01-01T10:56:00",
+      "createdAt": "2026-01-01T09:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 12,
+        "variation": "v2",
+        "taskId": 6
+      },
+      "review": {
+        "score": 62
+      },
+      "reviewedAt": "2026-02-23T18:47:00",
+      "createdAt": "2026-02-23T17:34:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v2",
+        "taskId": 5
+      },
+      "review": {
+        "score": 17
+      },
+      "reviewedAt": "2026-02-27T19:05:00",
+      "createdAt": "2026-02-27T18:24:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 10
+      },
+      "review": {
+        "score": 23
+      },
+      "reviewedAt": "2026-02-06T15:06:00",
+      "createdAt": "2026-02-06T12:43:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v2",
+        "taskId": 22
+      },
+      "review": {
+        "score": 15
+      },
+      "reviewedAt": "2025-09-16T08:22:00",
+      "createdAt": "2025-09-16T06:13:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 4
+      },
+      "review": {
+        "score": 61
+      },
+      "reviewedAt": "2025-09-12T20:04:00",
+      "createdAt": "2025-09-12T19:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 9,
+        "variation": "v2",
+        "taskId": 12
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2026-01-25T11:31:00",
+      "createdAt": "2026-01-25T09:08:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 66
+      },
+      "reviewedAt": "2025-11-11T22:09:00",
+      "createdAt": "2025-11-11T21:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "v1",
+        "taskId": 4
+      },
+      "review": {
+        "score": 78
+      },
+      "reviewedAt": "2025-12-25T20:29:00",
+      "createdAt": "2025-12-25T17:52:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 2,
+        "variation": "v3",
+        "taskId": 4
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-09-30T21:35:00",
+      "createdAt": "2025-09-30T21:04:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 6,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2025-10-26T22:23:00",
+      "createdAt": "2025-10-26T20:13:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 4,
+        "variation": "v1",
+        "taskId": 21
+      },
+      "review": {
+        "score": 36
+      },
+      "reviewedAt": "2026-01-09T19:55:00",
+      "createdAt": "2026-01-09T19:19:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 76
+      },
+      "reviewedAt": "2025-10-05T21:12:00",
+      "createdAt": "2025-10-05T20:09:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v1",
+        "taskId": 3
+      },
+      "review": {
+        "score": 26
+      },
+      "reviewedAt": "2026-01-03T13:18:00",
+      "createdAt": "2026-01-03T11:31:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 8,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 75
+      },
+      "reviewedAt": "2025-12-05T18:42:00",
+      "createdAt": "2025-12-05T16:54:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 14,
+        "variation": "v2",
+        "taskId": 14
+      },
+      "review": {
+        "score": 89
+      },
+      "reviewedAt": "2025-11-01T10:51:00",
+      "createdAt": "2025-11-01T08:38:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 15,
+        "variation": "v1",
+        "taskId": 25
+      },
+      "review": {
+        "score": 0
+      },
+      "reviewedAt": "2026-02-25T13:01:00",
+      "createdAt": "2026-02-25T10:48:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 16
+      },
+      "reviewedAt": "2025-09-21T09:21:00",
+      "createdAt": "2025-09-21T09:05:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 90
+      },
+      "reviewedAt": "2025-12-13T20:02:00",
+      "createdAt": "2025-12-13T19:47:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "v3",
+        "taskId": 10
+      },
+      "review": {
+        "score": 41
+      },
+      "reviewedAt": "2026-02-12T19:51:00",
+      "createdAt": "2026-02-12T16:56:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 10,
+        "variation": "v3",
+        "taskId": 24
+      },
+      "review": {
+        "score": 31
+      },
+      "reviewedAt": "2026-03-02T16:55:00",
+      "createdAt": "2026-03-02T15:26:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 17,
+        "variation": "v3",
+        "taskId": 5
+      },
+      "review": {
+        "score": 70
+      },
+      "reviewedAt": "2025-09-06T21:17:00",
+      "createdAt": "2025-09-06T19:22:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 18,
+        "variation": "v3",
+        "taskId": 20
+      },
+      "review": {
+        "score": 65
+      },
+      "reviewedAt": "2026-02-15T11:56:00",
+      "createdAt": "2026-02-15T08:57:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "v2",
+        "taskId": 25
+      },
+      "review": {
+        "score": 19
+      },
+      "reviewedAt": "2025-12-01T22:51:00",
+      "createdAt": "2025-12-01T21:33:00"
+    },
+    {
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 11,
+        "variation": "v2",
+        "taskId": 24
+      },
+      "review": {
+        "score": 71
+      },
+      "reviewedAt": "2025-09-25T08:34:00",
+      "createdAt": "2025-09-25T08:01:00"
+    }
+  ]
+}
