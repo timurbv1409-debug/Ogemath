@@ -128,8 +128,10 @@ private:
     // legend
     QLabel* legendPlanned_ = nullptr;
     QLabel* legendDone_ = nullptr;
+    QLabel* legendFree_ = nullptr;
     QLabel* legendMissed_ = nullptr;
     QLabel* legendMock_ = nullptr;
+    QLabel* legendStreak_ = nullptr;
 
     QLabel* details_ = nullptr;
 };

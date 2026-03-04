@@ -139,7 +139,30 @@ void CalendarPage::setData(const QVector<DaySession>& sessions,
                            const QSet<int>& plannedWeekdays)
 {
     sessions_ = sessions;
-    tasks_ = tasks;
+    
+    // Recompute streak based on sessions (ending at last active day)
+    {
+        QSet<QDate> active;
+        QDate lastActive;
+        for (const DaySession& s : sessions_) {
+            if (s.doneCount > 0) {
+                active.insert(s.date);
+                if (!lastActive.isValid() || s.date > lastActive) lastActive = s.date;
+            }
+        }
+        int streak = 0;
+        if (lastActive.isValid()) {
+            QDate d = lastActive;
+            while (active.contains(d)) { streak++; d = d.addDays(-1); }
+        }
+        if (legendStreak_) {
+            if (lastActive.isValid() && lastActive != QDate::currentDate())
+                legendStreak_->setText(QString::fromUtf8("🔥 %1 до %2").arg(streak).arg(lastActive.toString("dd.MM")));
+            else
+                legendStreak_->setText(QString::fromUtf8("🔥 %1").arg(streak));
+        }
+    }
+tasks_ = tasks;
     overview_ = overview;
     plan_ = planJson;
     trainingsPerWeek_ = trainingsPerWeek > 0 ? trainingsPerWeek : 3;
@@ -207,21 +230,38 @@ void CalendarPage::buildUi()
     rv->setContentsMargins(12, 12, 12, 12);
     rv->setSpacing(10);
 
-    auto* legend = new QLabel(this);
-    legend->setObjectName("legendTitle");
-    legend->setText(QString::fromUtf8("Легенда"));
+    // Legend (chips)
+    auto* legendTitle = new QLabel(this);
+    legendTitle->setObjectName("legendTitle");
+    legendTitle->setText(QString::fromUtf8("Легенда"));
 
-    legendPlanned_ = new QLabel(this);
-    legendDone_ = new QLabel(this);
-    legendMissed_ = new QLabel(this);
-    legendMock_ = new QLabel(this);
+    auto* legendRow = new QWidget(this);
+    legendRow->setObjectName("legendRow");
+    auto* legLay = new QHBoxLayout(legendRow);
+    legLay->setContentsMargins(0,0,0,0);
+    legLay->setSpacing(10);
 
-    legendPlanned_->setText(colorDot("#fde68a") + QString::fromUtf8("План"));
-    legendDone_->setText(colorDot("#86efac") + QString::fromUtf8("Занимался"));
-    legendMissed_->setText(colorDot("#fca5a5") + QString::fromUtf8("Пропуск (был план)"));
-    legendMock_->setText(colorDot("#93c5fd") + QString::fromUtf8("Пробник (рамка)"));
+    auto makeChip = [this](const QString& text, const QString& bg, const QString& fg = "#111827") {
+        QLabel* l = new QLabel(text, this);
+        l->setStyleSheet(QString("QLabel{padding:4px 10px;border-radius:10px;background:%1;color:%2;}").arg(bg, fg));
+        return l;
+    };
 
-    legendPlanned_->setTextFormat(Qt::RichText);
+    legendPlanned_ = makeChip(QString::fromUtf8("План"), "#fde68a");
+    legendDone_    = makeChip(QString::fromUtf8("Занимался"), "#86efac");
+    legendMissed_  = makeChip(QString::fromUtf8("Пропуск"), "#fca5a5");
+    legendFree_    = makeChip(QString::fromUtf8("Нет плана"), "#e5e7eb");
+    legendMock_    = makeChip(QString::fromUtf8("Пробник"), "#dbeafe");
+    legendStreak_  = makeChip(QString::fromUtf8("🔥 0"), "#fff7ed");
+
+    legLay->addWidget(legendPlanned_);
+    legLay->addWidget(legendDone_);
+    legLay->addWidget(legendMissed_);
+    legLay->addWidget(legendFree_);
+    legLay->addWidget(legendMock_);
+    legLay->addStretch(1);
+    legLay->addWidget(legendStreak_);
+legendPlanned_->setTextFormat(Qt::RichText);
     legendDone_->setTextFormat(Qt::RichText);
     legendMissed_->setTextFormat(Qt::RichText);
     legendMock_->setTextFormat(Qt::RichText);
@@ -231,12 +271,8 @@ void CalendarPage::buildUi()
     details_->setWordWrap(true);
     details_->setAlignment(Qt::AlignTop | Qt::AlignLeft);
 
-    rv->addWidget(legend);
-    rv->addWidget(legendPlanned_);
-    rv->addWidget(legendDone_);
-    rv->addWidget(legendMissed_);
-    rv->addWidget(legendMock_);
-    rv->addSpacing(10);
+    rv->addWidget(legendTitle);
+    rv->addWidget(legendRow);    rv->addSpacing(10);
     rv->addWidget(details_, 1);
 
     mid->addWidget(cal_, 2);

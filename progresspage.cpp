@@ -147,11 +147,13 @@ void ProgressPage::buildUi()
     tabs_->addTab(chartsTab_, QString::fromUtf8("Графики"));
     calendarTab_ = new CalendarPage(this);
     tabs_->addTab(calendarTab_, QString::fromUtf8("Календарь"));
-tabs_->addTab(buildPlaceholderTab(QString::fromUtf8("Детально"),
-                                      QString::fromUtf8("Здесь будет подробная статистика по попыткам и источникам.")),
-                  QString::fromUtf8("Детально"));
 
-    root->addWidget(tabs_, 1);
+    connect(calendarTab_, &CalendarPage::backRequested, this, [this]{ emit backRequested(); });
+{
+    QWidget* emptyDetail = new QWidget(this);
+    tabs_->addTab(emptyDetail, QString::fromUtf8("Детально"));
+}
+root->addWidget(tabs_, 1);
 }
 
 QWidget* ProgressPage::buildPlaceholderTab(const QString& title, const QString& hint)
@@ -585,6 +587,10 @@ bool ProgressPage::loadSubmissions(QString* err)
         ev.ts = QDateTime::fromString(s.value("reviewedAt").toString(), Qt::ISODate);
         if (!ev.ts.isValid()) ev.ts = QDateTime::fromString(s.value("createdAt").toString(), Qt::ISODate);
 
+        // Guard: ignore future timestamps (can appear in test data / timezone issues),
+        // иначе получаем "0 решено, но последнее в будущем".
+        if (ev.ts.isValid() && ev.ts.date() > QDate::currentDate()) continue;
+
         if (taskNo >= 1 && taskNo <= 25 && !var.isEmpty() && taskId > 0)
             submissionEvents_.push_back(ev);
     }
@@ -619,6 +625,47 @@ QVector<ProgressPage::AttemptEvent> ProgressPage::buildAttemptEvents(int typeFil
 
     if (typeFilter == 0 || typeFilter == 2) {
         for (const AttemptEvent& e : submissionEvents_) events.push_back(e);
+    }
+
+    // ---- sessions.json integration (fact source) ----
+    // sessions.taskSummary is the "ground truth" for daily attempts. Previously it affected Calendar,
+    // but NOT aggregates (mastery/risk), causing inconsistencies:
+    //  - day shows done/correct, but attemptedUnique stays 0
+    //  - lastTs exists even when attemptedUnique is 0
+    // Add synthetic AttemptEvent from sessions to keep ALL tabs consistent.
+    // sessions has no variation/taskId, so:
+    //  - variation is distributed round‑robin across catalog variations (fallback: "v1")
+    //  - taskId is deterministic (YYYYMMDD*100000 + taskNo*1000 + idx)
+    if (typeFilter == 0 || typeFilter == 1) {
+        for (const DaySession& ds : sessionDays_) {
+            if (ds.byTask.isEmpty()) continue;
+            const QDate d = ds.date;
+            const QDateTime ts = QDateTime(d, QTime(19,0));
+
+            for (auto it = ds.byTask.begin(); it != ds.byTask.end(); ++it) {
+                const int taskNo = it.key();
+                const int att = it.value().first;
+                const int cor = it.value().second;
+                if (taskNo < 1 || taskNo > 25 || att <= 0) continue;
+
+                QStringList vars;
+                if (catalog_.contains(taskNo) && !catalog_[taskNo].vars.isEmpty()) vars = catalog_[taskNo].vars.keys();
+                if (vars.isEmpty()) vars << "v1";
+
+                const int dateKey = d.year()*10000 + d.month()*100 + d.day();
+                for (int i = 0; i < att; ++i) {
+                    AttemptEvent ev;
+                    ev.ref.taskNo = taskNo;
+                    ev.ref.variation = vars[i % vars.size()];
+                    ev.ref.taskId = dateKey * 100000 + taskNo * 1000 + i;
+                    ev.ts = ts;
+                    ev.source = "session";
+                    ev.correct = (i < cor);
+                    ev.partial = false;
+                    events.push_back(ev);
+                }
+            }
+        }
     }
 
     QSet<QString> seen;
@@ -967,6 +1014,9 @@ void ProgressPage::addTaskRow(const TaskAgg& t)
 
     int total = 0;
     for (QMap<QString, VarAgg>::const_iterator it = t.vars.begin(); it != t.vars.end(); ++it) total += it.value().itemsTotal;
+    // If catalog has no items (total=0) but attempts exist (from sessions/submissions),
+    // show a sensible total to avoid "Всего 0, решено 20".
+    if (total <= 0 && t.attemptedUnique > 0) total = t.attemptedUnique;
 
     top->setText(1, QString::number(total));
     top->setText(2, QString::number(t.attemptedUnique));
@@ -1864,43 +1914,69 @@ chartVar->addSeries(series);
 
     // Heatmap
     {
-        QSet<QString> varKeys;
-        for (QMap<int, TaskAgg>::const_iterator it = tasks.begin(); it != tasks.end(); ++it) {
-            for (QMap<QString, VarAgg>::const_iterator vit = it.value().vars.begin(); vit != it.value().vars.end(); ++vit)
-                varKeys.insert(vit.key());
+        // Колонки = максимум вариаций среди номеров (по catalog.json).
+        // У каждого номера свой набор вариаций; если у номера вариаций меньше — оставшиеся ячейки = "—".
+        int maxVars = 0;
+        for (int no = 1; no <= 25; ++no) {
+            if (!catalog_.contains(no)) continue;
+            maxVars = qMax(maxVars, catalog_[no].vars.size());
         }
-        QStringList cols = varKeys.values();
-        std::sort(cols.begin(), cols.end());
+        if (maxVars < 1) maxVars = 1;
 
         heatmap_->clear();
         heatmap_->setRowCount(25);
-        heatmap_->setColumnCount(qMax(1, int(cols.size())));
-        heatmap_->setHorizontalHeaderLabels(cols.isEmpty()? QStringList{QString::fromUtf8("—")} : cols);
+        heatmap_->setColumnCount(maxVars);
 
-        for (int r=0;r<25;++r) {
-            int no=r+1;
+        QStringList headers;
+        headers.reserve(maxVars);
+        for (int c = 0; c < maxVars; ++c) headers << QString::fromUtf8("Вариация %1").arg(c + 1);
+        heatmap_->setHorizontalHeaderLabels(headers);
+
+        for (int r = 0; r < 25; ++r) {
+            const int no = r + 1;
             heatmap_->setVerticalHeaderItem(r, new QTableWidgetItem(QString::number(no)));
-            for (int c=0;c<heatmap_->columnCount();++c) {
-                QString var = cols.isEmpty()? QString::fromUtf8("—") : cols[c];
-                int mastery=0;
-                QString tip = QString::fromUtf8("Нет данных");
-                if (!cols.isEmpty() && tasks.contains(no) && tasks.value(no).vars.contains(var)) {
-                    VarAgg v = tasks.value(no).vars.value(var);
-                    mastery=v.mastery;
-                    tip = QString::fromUtf8("№%1 / %2\nМастерство: %3%\nРешено: %4\nВерно: %5\nРиск: %6")
-                        .arg(no).arg(var).arg(mastery).arg(v.attemptedUnique).arg(v.correctUnique).arg(v.risk);
+
+            QStringList vkeys;
+            if (catalog_.contains(no)) vkeys = catalog_[no].vars.keys(); // sorted by QMap
+            while (vkeys.size() < maxVars) vkeys << QString();
+
+            for (int c = 0; c < maxVars; ++c) {
+                const QString varKey = vkeys[c];
+
+                int mastery = 0;
+                QString displayName = QString::fromUtf8("—");
+                QString tip = QString::fromUtf8("—");
+
+                if (!varKey.isEmpty() && catalog_.contains(no) && catalog_[no].vars.contains(varKey)) {
+                    displayName = catalog_[no].vars[varKey].displayName;
                 }
-                QTableWidgetItem* item = new QTableWidgetItem(QString::number(mastery));
+
+                if (!varKey.isEmpty() && tasks.contains(no) && tasks.value(no).vars.contains(varKey)) {
+                    VarAgg v = tasks.value(no).vars.value(varKey);
+                    mastery = v.mastery;
+                    tip = QString::fromUtf8("№%1 / %2\nМастерство: %3%\nРешено: %4\nВерно: %5\nРиск: %6")
+                        .arg(no).arg(displayName).arg(mastery).arg(v.attemptedUnique).arg(v.correctUnique).arg(v.risk);
+                } else if (!varKey.isEmpty()) {
+                    tip = QString::fromUtf8("№%1 / %2\nНет данных").arg(no).arg(displayName);
+                }
+
+                QTableWidgetItem* item = new QTableWidgetItem(varKey.isEmpty()
+                    ? QString::fromUtf8("—")
+                    : QString::number(mastery));
                 item->setTextAlignment(Qt::AlignCenter);
                 item->setToolTip(tip);
-                int g = clampInt(245 - int(mastery*1.4), 90, 245);
-                item->setBackground(QColor(g,g,g));
-                heatmap_->setItem(r,c,item);
+
+                int g = clampInt(245 - int(mastery * 1.4), 90, 245);
+                if (varKey.isEmpty()) g = 245;
+                item->setBackground(QColor(g, g, g));
+
+                heatmap_->setItem(r, c, item);
             }
         }
+
         heatmap_->resizeColumnsToContents();
-        int w = heatmap_->horizontalHeader()->defaultSectionSize();
-        for (int c=0;c<heatmap_->columnCount();++c) heatmap_->setColumnWidth(c, w);
+        int w = qMax(90, heatmap_->horizontalHeader()->defaultSectionSize());
+        for (int c = 0; c < maxVars; ++c) heatmap_->setColumnWidth(c, w);
     }
 }
 
