@@ -550,7 +550,7 @@ void DetailPage::loadAll()
                 DaySession ds;
                 ds.date = d;
                 ds.doneCount = o.value("doneCount").toInt();
-                ds.correctCount = o.value("correctCount").toInt(ds.doneCount);
+                ds.correctCount = o.value("correctCount").toDouble((double)ds.doneCount);
                 ds.durationMin = o.value("durationMin").toInt(0);
                 ds.type = o.value("type").toString("training");
                 ds.mockScore = o.value("mockScore").toInt(-1);
@@ -637,9 +637,17 @@ void DetailPage::loadAll()
                 e.varName = safeVarName(no, varKey);
                 e.taskId = taskId;
                 e.score = score;
-                if (score >= 80) e.result = "ok";
-                else if (score >= 30) e.result = "partial";
-                else e.result = "wrong";
+                int normScore = score;
+// Нормализуем score к 0/50/100 (поддержка legacy 80/30)
+if (normScore != 0 && normScore != 50 && normScore != 100) {
+    if (normScore >= 75) normScore = 100;
+    else if (normScore >= 25) normScore = 50;
+    else normScore = 0;
+}
+e.score = normScore;
+if (normScore == 100) e.result = "ok";
+else if (normScore == 50) e.result = "partial";
+else e.result = "wrong";
 
                 e.ts = QDateTime::fromString(s.value("reviewedAt").toString(), Qt::ISODate);
                 if (!e.ts.isValid()) e.ts = QDateTime::fromString(s.value("createdAt").toString(), Qt::ISODate);
@@ -769,7 +777,7 @@ void DetailPage::rebuildDayView(const QDate& d)
     }
 
     // by variation: from events filtered by this date; if nothing, keep empty but explain
-    QMap<QString, QPair<int,int>> byVar; // "no|varkey" -> (att, ok)
+    QMap<QString, QPair<int,double>> byVar; // "no|varkey" -> (att, ok)
     for (const DetailEvent& e : events_) {
         if (e.sessionDate != d) continue;
         const QString k = QString("%1|%2").arg(e.taskNo).arg(e.varKey);

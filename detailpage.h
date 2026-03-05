@@ -116,12 +116,12 @@ private:
     struct DaySession {
         QDate date;
         int doneCount = 0;
-        int correctCount = 0;
+        double correctCount = 0.0;
         int durationMin = 0;
         QString type;
         int mockScore = -1;
         int mockMax = 32;
-        QMap<int, QPair<int,int>> byTask; // taskNo -> (attempts, correct)
+        QMap<int, QPair<int,double>> byTask; // taskNo -> (attempts, correctWeighted)
     };
     QMap<QDate, DaySession> sessionsByDate_;
     QMap<int, QDate> lastTouchByTask_; // from sessions

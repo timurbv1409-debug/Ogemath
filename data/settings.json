@@ -1,0 +1,8 @@
+{
+  "trainingsPerWeek": 3,
+  "weekdays": [
+    1,
+    3,
+    5
+  ]
+}

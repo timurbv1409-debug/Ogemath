@@ -21,12 +21,12 @@ public:
     struct DaySession {
         QDate date;
         int doneCount = 0;
-        int correctCount = 0;
+        double correctCount = 0.0;
         int durationMin = 0;
         QString type;     // "training" | "mock" | "rest"
         int mockScore = -1;
         int mockMax = 32;
-        QMap<int, QPair<int,int>> byTask; // taskNo -> (attempts, correct)
+        QMap<int, QPair<int,double>> byTask; // taskNo -> (attempts, correctWeighted)
     };
 
     struct VarAggLite {
@@ -114,8 +114,7 @@ private:
     QSet<int> plannedWeekdays_; // 1..7
 
     // ui
-    QPushButton* backBtn_ = nullptr;
-    QLabel* title_ = nullptr;
+QLabel* title_ = nullptr;
     QPushButton* prevBtn_ = nullptr;
     QPushButton* nextBtn_ = nullptr;
     QLabel* monthLabel_ = nullptr;

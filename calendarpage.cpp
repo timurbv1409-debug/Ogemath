@@ -188,11 +188,6 @@ void CalendarPage::buildUi()
     auto* top = new QHBoxLayout();
     top->setSpacing(10);
 
-    backBtn_ = new QPushButton(QString::fromUtf8("← Назад"), this);
-    backBtn_->setObjectName("backBtn");
-    backBtn_->setFixedHeight(34);
-    connect(backBtn_, &QPushButton::clicked, this, &CalendarPage::backRequested);
-
     title_ = new QLabel(QString::fromUtf8("Календарь занятий"), this);
     title_->setObjectName("title");
 
@@ -206,7 +201,6 @@ void CalendarPage::buildUi()
     monthLabel_ = new QLabel(QString::fromUtf8("—"), this);
     monthLabel_->setObjectName("monthLabel");
 
-    top->addWidget(backBtn_);
     top->addWidget(title_, 1);
     top->addWidget(prevBtn_);
     top->addWidget(monthLabel_);
@@ -496,12 +490,20 @@ CalendarPage::QualityParts CalendarPage::computeQualityParts(int done, int corre
 int CalendarPage::computeStreakDays(const QVector<DaySession>& sessions)
 {
     QSet<QDate> active;
+    QDate lastActive;
     for (const auto& s : sessions) {
         const bool isActive = (s.doneCount > 0) || (s.type == "mock" && s.mockScore >= 0);
-        if (isActive) active.insert(s.date);
+        if (!isActive) continue;
+        active.insert(s.date);
+        if (!lastActive.isValid() || s.date > lastActive) lastActive = s.date;
     }
+
+    // Do not bind streak to OS "today". The streak is the length of the last continuous
+    // chain of active days ending at the last active session date.
+    if (!lastActive.isValid()) return 0;
+
     int streak = 0;
-    QDate d = QDate::currentDate();
+    QDate d = lastActive;
     while (active.contains(d)) { ++streak; d = d.addDays(-1); }
     return streak;
 }
@@ -555,11 +557,14 @@ void CalendarPage::rebuildVizMap()
     viz_.clear();
     if (!cal_) return;
 
-    const QDate today = QDate::currentDate();
-
     // index sessions by date
     QMap<QDate, DaySession> byDate;
     for (const auto& s : sessions_) byDate[s.date] = s;
+
+    // "Сегодня" — системная дата: календарь должен «жить» и меняться со временем.
+    const QDate today = QDate::currentDate();
+    const QDate windowStart = today.addDays(-30);
+    const QDate windowEnd   = today.addDays(30);
 
     // index plan by date
     QMap<QDate, QJsonObject> planByDate;
@@ -572,6 +577,24 @@ void CalendarPage::rebuildVizMap()
         }
     }
 
+    // Fallback: если plan.json покрывает только ограниченный горизонт,
+    // всё равно считаем «плановые» дни по settings (weekdays/trainingsPerWeek) для любых дат.
+    auto plannedBySettings = [this](const QDate& d) -> bool {
+        if (!d.isValid()) return false;
+        const int wd = d.dayOfWeek(); // 1..7 (Mon..Sun)
+        if (!plannedWeekdays_.isEmpty()) return plannedWeekdays_.contains(wd);
+        switch (trainingsPerWeek_) {
+        case 0:  return false;
+        case 1:  return (wd == 3);
+        case 2:  return (wd == 2 || wd == 5);
+        case 3:  return (wd == 1 || wd == 3 || wd == 5);
+        case 4:  return (wd == 1 || wd == 2 || wd == 4 || wd == 6);
+        case 5:  return (wd >= 1 && wd <= 6);
+        case 6:  return (wd != 7);
+        default: return true;
+        }
+    };
+
     const int y = cal_->yearShown();
     const int m = cal_->monthShown();
     QDate first(y, m, 1);
@@ -579,20 +602,37 @@ void CalendarPage::rebuildVizMap()
 
     const int targetSolved = 20; // можно вынести в settings/plan meta позже
 
-    // streak: consecutive active days ending today (active = solved OR mock)
-    const int streak = computeStreakDays(sessions_);
-    const QDate streakStart = (streak > 0) ? today.addDays(-(streak - 1)) : QDate();
+    // streak: цепочка активных дней (done>0 или mock) до последнего активного дня.
+    QSet<QDate> activeDays;
+    QDate lastActive;
+    for (const auto& s : sessions_) {
+        const bool isActive = (s.doneCount > 0) || (s.type == "mock" && s.mockScore >= 0);
+        if (!isActive) continue;
+        activeDays.insert(s.date);
+        if (!lastActive.isValid() || s.date > lastActive) lastActive = s.date;
+    }
+    int streak = 0;
+    QDate streakStart;
+    if (lastActive.isValid()) {
+        QDate d0 = lastActive;
+        while (activeDays.contains(d0)) { ++streak; d0 = d0.addDays(-1); }
+        streakStart = lastActive.addDays(-(streak - 1));
+    }
 
     // critical day: tomorrow planned while streak active and today done (so it can break)
     const QDate tomorrow = today.addDays(1);
-    const bool tomorrowPlanned = planByDate.contains(tomorrow) && planByDate[tomorrow].value("planned").toBool(true);
+    const bool tomorrowPlanned = planByDate.contains(tomorrow)
+        ? planByDate[tomorrow].value("planned").toBool(true)
+        : plannedBySettings(tomorrow);
     const bool todayDone = byDate.contains(today) && (byDate[today].doneCount > 0 || (byDate[today].type == "mock" && byDate[today].mockScore >= 0));
 
     for (int i=0;i<42;++i) {
         const QDate d = start.addDays(i);
 
         const bool hasSession = byDate.contains(d) && (byDate[d].doneCount > 0 || (byDate[d].type == "mock" && byDate[d].mockScore >= 0));
-        const bool hasPlan = planByDate.contains(d) && planByDate[d].value("planned").toBool(true);
+        const bool hasPlan = planByDate.contains(d)
+            ? planByDate[d].value("planned").toBool(true)
+            : plannedBySettings(d);
 
         CellViz cv;
         cv.bg = QColor(); // invalid by default
@@ -606,7 +646,10 @@ void CalendarPage::rebuildVizMap()
         } else if (hasSession) {
             cv.bg = QColor("#86efac"); // done green
         } else if (hasPlan && d <= today) {
-            cv.bg = QColor("#fca5a5"); // missed red
+            // Missed day should replace plan only if it's not an explicit rest day.
+            const bool isRest = byDate.contains(d) && byDate[d].type == "rest" && byDate[d].doneCount == 0;
+            cv.bg = isRest ? QColor("#e5e7eb") : QColor("#fca5a5");
+            if (isRest) cv.bg.setAlpha(70);
         } else {
             // free / no plan
             cv.bg = QColor("#e5e7eb"); // light gray
@@ -615,11 +658,11 @@ void CalendarPage::rebuildVizMap()
 
         // mock border
         if (hasSession && byDate[d].type == "mock") cv.mockBorder = true;
-        if (!cv.mockBorder && hasPlan && planByDate[d].value("type").toString() == "mock") cv.mockBorder = true;
+        if (!cv.mockBorder && hasPlan && planByDate.contains(d) && planByDate[d].value("type").toString() == "mock") cv.mockBorder = true;
 
         // streak badge: mark every day in streak (🔥), number on the last day
-        if (streak > 0 && streakStart.isValid() && d >= streakStart && d <= today) {
-            cv.streakBadge = (d == today) ? streak : -1;
+        if (streak > 0 && streakStart.isValid() && lastActive.isValid() && d >= streakStart && d <= lastActive) {
+            cv.streakBadge = (d == lastActive) ? streak : -1;
         }
         if (d == tomorrow && streak > 0 && tomorrowPlanned && todayDone) cv.critical = true;
 
@@ -661,7 +704,7 @@ void CalendarPage::rebuildVizMap()
                 cv.tooltip += QString::fromUtf8("\nПробник: %1/%2").arg(s.mockScore).arg(s.mockMax);
             }
         } else if (hasPlan) {
-            const QJsonObject po = planByDate[d];
+            const QJsonObject po = planByDate.contains(d) ? planByDate[d] : QJsonObject();
             const int total = po.value("totalTasks").toInt(0);
             cv.barFill = qBound(0.0, (double)total / (double)targetSolved, 1.0);
 
@@ -675,7 +718,11 @@ void CalendarPage::rebuildVizMap()
             }
             cv.barHeight = cnt>0 ? qBound(0.0, expAcc/(double)cnt, 1.0) : 0.45;
 
-            cv.tooltip = QString::fromUtf8("%1\nПлан: %2 задач").arg(d.toString("dd.MM.yyyy")).arg(total);
+            if (po.isEmpty()) {
+                cv.tooltip = QString::fromUtf8("%1\nПлан: занятие запланировано").arg(d.toString("dd.MM.yyyy"));
+            } else {
+                cv.tooltip = QString::fromUtf8("%1\nПлан: %2 задач").arg(d.toString("dd.MM.yyyy")).arg(total);
+            }
             int shown = 0;
             for (const auto& iv : items) {
                 const QJsonObject io = iv.toObject();
@@ -687,6 +734,13 @@ void CalendarPage::rebuildVizMap()
                     if (++shown >= 4) break;
                 }
             }
+
+            // If it is a missed day, override tooltip to be explicit.
+            const bool isRest = byDate.contains(d) && byDate[d].type == "rest" && byDate[d].doneCount == 0;
+            if (!hasSession && d <= today && !isRest) {
+                cv.tooltip = QString::fromUtf8("%1\nПропуск: было запланировано занятие")
+                    .arg(d.toString("dd.MM.yyyy"));
+            }
         }
 
         viz_.insert(d, cv);
@@ -696,6 +750,7 @@ void CalendarPage::rebuildVizMap()
 
 void CalendarPage::showDayDetails(const QDate& d)
 {
+    const QDate today = QDate::currentDate();
     if (!details_) return;
 
     // find session for this day
@@ -793,97 +848,114 @@ void CalendarPage::showDayDetails(const QDate& d)
             }
         }
 
-        const bool hasPlan = !po.isEmpty() && po.value("planned").toBool(true);
+        const bool plannedFromJson = !po.isEmpty() && po.value("planned").toBool(true);
+        QSet<int> wds = plannedWeekdays_;
+        if (wds.isEmpty()) {
+            // fallback defaults when settings.json has no weekdays
+            if (trainingsPerWeek_ <= 2) { wds.insert(2); wds.insert(5); }  // Tue+Fri
+            else { wds.insert(1); wds.insert(3); wds.insert(5); }         // Mon+Wed+Fri
+        }
+        const QDate winStart = today.addDays(-30);
+        const QDate winEnd = today.addDays(30);
+        const bool plannedByRule = (d >= winStart && d <= winEnd && wds.contains(d.dayOfWeek()));
+        const bool hasPlan = plannedFromJson || plannedByRule;
+        if (plannedByRule && po.isEmpty()) {
+            po.insert("planned", true);
+            po.insert("type", "training");
+            po.insert("totalTasks", 0);
+        }
 
         if (hasPlan) {
-            const bool isPastOrToday = d <= QDate::currentDate();
-            const QString type = po.value("type").toString("training");
-            const int total = po.value("totalTasks").toInt(0);
+    const bool isPastOrToday = (d <= today);
 
-            if (isPastOrToday) {
-                text += QString::fromUtf8("План был, но занятий нет (пропуск).<br>");
-            } else {
-                text += QString::fromUtf8("План на день:<br>");
+    auto buildSyntheticPlan = [&](const QDate& dd) -> QJsonObject {
+        QJsonObject o;
+        const bool isMock = (dd.dayOfWeek() == 7); // воскресенье — пробник
+        o.insert("planned", true);
+        o.insert("type", isMock ? "mock" : "training");
+
+        QJsonArray items;
+        int total = 0;
+
+        QList<int> order = overview_.weakTaskNos;
+        for (int no = 1; no <= 25; ++no) if (!order.contains(no)) order.push_back(no);
+
+        const int maxTasks = isMock ? 25 : 6;
+        const int per = isMock ? 1 : 3;
+
+        for (int i = 0; i < order.size() && items.size() < maxTasks; ++i) {
+            const int no = order[i];
+            if (!tasks_.contains(no)) continue;
+
+            QString varKey;
+            QString disp;
+            const auto t = tasks_.value(no);
+            if (!t.vars.isEmpty()) {
+                varKey = t.vars.firstKey();
+                disp = t.vars.value(varKey).displayName;
             }
+            if (varKey.isEmpty()) varKey = "v1";
+            if (disp.isEmpty()) disp = varKey;
 
-            text += QString::fromUtf8("Тип: <b>%1</b><br>").arg(type == "mock" ? "Пробник" : "Тренировка");
-            if (total > 0) text += QString::fromUtf8("Всего: <b>%1</b> задач<br><br>").arg(total);
+            QJsonObject it;
+            it.insert("taskNo", no);
+            it.insert("variation", varKey);
+            it.insert("displayName", disp);
+            it.insert("count", per);
+            items.append(it);
+            total += per;
+        }
 
-            const QJsonArray items = po.value("items").toArray();
-            if (!items.isEmpty()) {
-                text += QString::fromUtf8("<b>Темы:</b><br>");
-                for (const auto& iv : items) {
-                    const QJsonObject io = iv.toObject();
-                    const int no = io.value("taskNo").toInt();
-                    const QString name = io.value("displayName").toString();
-                    const int c = io.value("count").toInt();
-                    const int risk = io.value("risk").toInt(-1);
-                    const int mastery = io.value("mastery").toInt(-1);
-                    const int daysSince = io.value("daysSince").toInt(-1);
+        o.insert("items", items);
+        o.insert("totalTasks", isMock ? 32 : total);
+        return o;
+    };
 
-                    QString why;
-                    const QJsonArray rs = io.value("reasons").toArray();
-                    for (const auto& rv : rs) {
-                        const QJsonObject ro = rv.toObject();
-                        const QString t = ro.value("text").toString();
-                        if (!t.isEmpty()) why += (why.isEmpty() ? "" : "; ") + t;
-                    }
+    // Если день попал под правило, но в plan.json нет записи — делаем план на лету,
+    // чтобы на "новых" днях было что показать.
+    if (plannedByRule && po.isEmpty()) {
+        po = buildSyntheticPlan(d);
+    }
 
-                    QString line = QString::fromUtf8("• №%1 %2 — <b>%3</b> задач")
+    if (isPastOrToday && !s) {
+        text += QString::fromUtf8("<h3>Пропуск</h3>");
+        text += QString::fromUtf8("<p>По плану должно было быть занятие.</p>");
+    } else {
+        text += QString::fromUtf8("<h3>План на день</h3>");
+        const QString pType = po.value("type").toString("training");
+        const int pTotal = po.value("totalTasks").toInt(0);
+
+        const QString typeLabel =
+            (pType == "mock") ? QString::fromUtf8("Пробник") :
+            (pType == "rest") ? QString::fromUtf8("Отдых") :
+                                QString::fromUtf8("Тренировка");
+
+        text += QString::fromUtf8("<p><b>Тип:</b> %1 &nbsp;&nbsp; <b>Задач:</b> %2</p>")
+                    .arg(typeLabel)
+                    .arg(pTotal);
+
+        const QJsonArray items = po.value("items").toArray();
+        if (!items.isEmpty()) {
+            text += QString::fromUtf8("<p><b>Состав:</b></p><ul>");
+            for (const QJsonValue& iv : items) {
+                const QJsonObject io = iv.toObject();
+                const int no = io.value("taskNo").toInt();
+                QString dn = io.value("displayName").toString();
+                const QString vk = io.value("variation").toString();
+                const int cnt = io.value("count").toInt(1);
+                if (dn.isEmpty()) dn = vk;
+                text += QString::fromUtf8("<li>№%1 — %2 ×%3</li>")
                             .arg(no)
-                            .arg(name.isEmpty() ? QString::fromUtf8("—") : name)
-                            .arg(c);
-
-                    QStringList extra;
-                    if (risk >= 0) extra << QString::fromUtf8("риск %1").arg(risk);
-                    if (mastery >= 0) extra << QString::fromUtf8("мастерство %1").arg(mastery);
-                    if (daysSince >= 0) extra << QString::fromUtf8("не повторял %1 дн.").arg(daysSince);
-                    if (!extra.isEmpty()) line += QString::fromUtf8(" <span style='color:#6b7280'>(%1)</span>").arg(extra.join(", "));
-
-                    text += line + "<br>";
-                    if (!why.isEmpty()) {
-                        text += QString::fromUtf8("<span style='color:#374151'>— потому что: %1</span><br>").arg(why);
-                    }
-                }
-            } else {
-                text += QString::fromUtf8("Темы будут уточнены автоматически по слабым местам.<br>");
+                            .arg(dn.toHtmlEscaped())
+                            .arg(cnt);
             }
+            text += QString::fromUtf8("</ul>");
+        }
+    }
 
-            // прогноз качества по плану (если поле есть) или считаем на лету
-            int q = po.value("dayQuality").toInt(-1);
-            QString ex = po.value("qualityExplain").toString();
-            if (q < 0) {
-                // estimate: diversity = count of items, expectedAcc = avg expectedAccuracy
-                const QJsonArray items = po.value("items").toArray();
-                int distinct = 0;
-                double expAcc = 0.0;
-                double avgRisk = 0.0;
-                int cnt = 0;
-                for (const auto& iv : items) {
-                    const QJsonObject io = iv.toObject();
-                    if (io.value("count").toInt(0) <= 0) continue;
-                    ++distinct;
-                    expAcc += io.value("expectedAccuracy").toDouble(0.45);
-                    avgRisk += io.value("risk").toInt(60);
-                    ++cnt;
-                }
-                const double focusWeak = cnt>0 ? qBound(0.0, (avgRisk/(double)cnt)/80.0, 1.0) : 0.4;
-                const auto qp = computeQualityParts(total, (int)qRound(total * (cnt>0 ? expAcc/(double)cnt : 0.45)), distinct, focusWeak);
-                q = qp.score;
-                ex = qp.explain;
-                text += QString::fromUtf8("<br>Индекс качества (прогноз): <b>%1/100</b><br>").arg(q);
-                text += QString::fromUtf8("<span style='color:#6b7280'>объём %1% • точность ~%2% • разнообразие %3% • фокус %4%</span><br>")
-                        .arg((int)qRound(qp.volume*100.0))
-                        .arg((int)qRound(qp.accuracy*100.0))
-                        .arg((int)qRound(qp.diversity*100.0))
-                        .arg((int)qRound(qp.focusWeak*100.0));
-                if (!ex.isEmpty()) text += QString::fromUtf8("<span style='color:#374151'>%1</span><br>").arg(ex);
-            } else {
-                text += QString::fromUtf8("<br>Индекс качества (прогноз): <b>%1/100</b><br>").arg(q);
-                if (!ex.isEmpty()) text += QString::fromUtf8("<span style='color:#374151'>%1</span><br>").arg(ex);
-            }
-
-        } else {
+    text += QString::fromUtf8("<hr/>");
+}
+ else {
             text += QString::fromUtf8("Нет данных за этот день.<br>");
         }
     }

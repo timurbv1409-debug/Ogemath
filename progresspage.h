@@ -108,12 +108,12 @@ private:
     struct DaySession {
         QDate date;
         int doneCount = 0;
-        int correctCount = 0;
+        double correctCount = 0.0;
         int durationMin = 0;
         QString type; // training/mock/rest
         int mockScore = -1;
         int mockMax = 32;
-        QMap<int, QPair<int,int>> byTask;
+        QMap<int, QPair<int,double>> byTask; // (attempts, correctWeighted)
     };
 
     QVector<AttemptEvent> buildAttemptEvents(int typeFilter) const; // 0 all, 1 test, 2 written
@@ -161,9 +161,11 @@ private:
 
     QTabWidget* tabs_ = nullptr;
 
-    QWidget* overviewTab_ = nullptr;
-    QPushButton* backBtn_ = nullptr;
-    QFrame* cardExpected_ = nullptr;
+    
+    QWidget* backTab_ = nullptr;
+    int lastContentTabIndex_ = 1;
+QWidget* overviewTab_ = nullptr;
+QFrame* cardExpected_ = nullptr;
     QFrame* cardStreak_ = nullptr;
     QFrame* cardLast_ = nullptr;
     QFrame* cardFocus_ = nullptr;

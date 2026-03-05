@@ -42,6 +42,15 @@
 #include <QtCharts/QBarCategoryAxis>
 #include <QtCharts/QValueAxis>
 
+// Форматирование "экв. верно": correct + 0.5*partial → "3" или "3.5"
+// (дробь только .5, чтобы UI был стабильный)
+static QString fmtCorrectWeighted(int correctUnique, int partialUnique) {
+    const int num = 2 * correctUnique + partialUnique; // в "половинках"
+    const int whole = num / 2;
+    if ((num % 2) == 0) return QString::number(whole);
+    return QString::number(whole) + ".5";
+}
+
 static QString keyVar(int taskNo, const QString& var) { return QString::number(taskNo) + "|" + var; }
 static int clampInt(int v, int lo, int hi) { if (v<lo) return lo; if (v>hi) return hi; return v; }
 
@@ -142,6 +151,14 @@ void ProgressPage::buildUi()
     tabs_ = new QTabWidget(this);
     tabs_->setObjectName("statsTabs");
 
+
+    // Back tab (acts like a tab button)
+    backTab_ = new QWidget(this);
+    tabs_->addTab(backTab_, QString::fromUtf8("← Назад"));
+    tabs_->setTabToolTip(0, QString::fromUtf8("Назад"));
+    lastContentTabIndex_ = 1;
+
+
     overviewTab_ = buildOverviewTab();
     tabs_->addTab(overviewTab_, QString::fromUtf8("Общее"));
 
@@ -154,6 +171,22 @@ void ProgressPage::buildUi()
 {
     detailTab_ = new DetailPage(this);
     tabs_->addTab(detailTab_, QString::fromUtf8("Детально"));
+
+
+    // Intercept selecting the "Back" tab: go back and return to last content tab
+    connect(tabs_, &QTabWidget::currentChanged, this, [this](int idx){
+        if (idx == 0) {
+            emit backRequested();
+            const int target = (lastContentTabIndex_ > 0 ? lastContentTabIndex_ : 1);
+            QSignalBlocker b(tabs_);
+            tabs_->setCurrentIndex(target);
+            return;
+        }
+        lastContentTabIndex_ = idx;
+    });
+
+    // start on "Общее" (index 1 because index 0 is Back)
+    tabs_->setCurrentIndex(1);
 }
 root->addWidget(tabs_, 1);
 }
@@ -529,7 +562,7 @@ bool ProgressPage::loadSessions(QString* err)
         DaySession ds;
         ds.date = d;
         ds.doneCount = o.value("doneCount").toInt();
-        ds.correctCount = o.value("correctCount").toInt(ds.doneCount);
+        ds.correctCount = o.value("correctCount").toDouble((double)ds.doneCount);
         ds.durationMin = o.value("durationMin").toInt(0);
         ds.type = o.value("type").toString(schema >= 2 ? "training" : "training");
         ds.mockScore = o.value("mockScore").toInt(-1);
@@ -541,7 +574,7 @@ bool ProgressPage::loadSessions(QString* err)
             int task = to.value("task").toInt();
             int att  = to.value("attempts").toInt();
             int cor  = to.value("correct").toInt();
-            if (task >= 1 && task <= 25) ds.byTask[task] = QPair<int,int>(att, cor);
+            if (task >= 1 && task <= 25) ds.byTask[task] = QPair<int,double>(att, cor);
         }
         sessionDays_.push_back(ds);
     }
@@ -582,9 +615,17 @@ bool ProgressPage::loadSubmissions(QString* err)
         ev.source = "bot";
         ev.score = score;
 
-        if (score >= 80) { ev.correct = true; ev.partial = false; }
-        else if (score >= 30) { ev.correct = false; ev.partial = true; }
-        else { ev.correct = false; ev.partial = false; }
+        // Нормализуем score к 0/50/100 (поддержка legacy 80/30)
+if (score != 0 && score != 50 && score != 100) {
+    if (score >= 75) score = 100;
+    else if (score >= 25) score = 50;
+    else score = 0;
+    ev.score = score;
+}
+
+if (score == 100) { ev.correct = true;  ev.partial = false; }
+else if (score == 50) { ev.correct = false; ev.partial = true; }
+else { ev.correct = false; ev.partial = false; }
 
         ev.ts = QDateTime::fromString(s.value("reviewedAt").toString(), Qt::ISODate);
         if (!ev.ts.isValid()) ev.ts = QDateTime::fromString(s.value("createdAt").toString(), Qt::ISODate);
@@ -639,7 +680,8 @@ QVector<ProgressPage::AttemptEvent> ProgressPage::buildAttemptEvents(int typeFil
 
 void ProgressPage::computeDerivedMetricsForVar(VarAgg& v) const
 {
-    v.accuracy = (v.attemptedUnique > 0) ? (double)v.correctUnique / (double)v.attemptedUnique : 0.0;
+    double wCorrect = (double)v.correctUnique + 0.5 * (double)v.partialUnique;
+    v.accuracy = (v.attemptedUnique > 0) ? (wCorrect / (double)v.attemptedUnique) : 0.0;
     int target = (v.itemsTotal > 0) ? qMin(20, v.itemsTotal) : 20;
     v.targetAttempts = target;
     v.confidence = qBound(0.0, (double)v.attemptedUnique / (double)target, 1.0);
@@ -842,14 +884,8 @@ QWidget* ProgressPage::buildOverviewTab()
     root->setSpacing(12);
 
     QHBoxLayout* top = new QHBoxLayout();
-    backBtn_ = new QPushButton(QString::fromUtf8("← Назад"), w);
-    backBtn_->setObjectName("backBtn");
-    backBtn_->setFixedHeight(34);
-    connect(backBtn_, &QPushButton::clicked, this, &ProgressPage::backRequested);
-
     QLabel* header = new QLabel(QString::fromUtf8("Моя статистика — Общее"), w);
     header->setObjectName("overviewTitle");
-    top->addWidget(backBtn_);
     top->addWidget(header, 1);
 
     QWidget* cards = new QWidget(w);
@@ -958,7 +994,7 @@ void ProgressPage::addVariationRow(QTreeWidgetItem* parent, int taskNo, const QS
     item->setText(0, "   " + display);
     item->setText(1, QString::number(v.itemsTotal));
     item->setText(2, QString::number(v.attemptedUnique));
-    item->setText(3, QString::number(v.correctUnique));
+    item->setText(3, fmtCorrectWeighted(v.correctUnique, v.partialUnique));
     tree_->setItemWidget(item, 4, makeMasteryBar(v.mastery));
     item->setText(5, QString("%1 (%2)").arg(riskLabelText(v.risk)).arg(v.risk));
     item->setText(6, lastDateText(v.lastTs));
@@ -974,7 +1010,7 @@ void ProgressPage::addTaskRow(const TaskAgg& t)
 
     top->setText(1, QString::number(total));
     top->setText(2, QString::number(t.attemptedUnique));
-    top->setText(3, QString::number(t.correctUnique));
+    top->setText(3, fmtCorrectWeighted(t.correctUnique, t.partialUnique));
     tree_->setItemWidget(top, 4, makeMasteryBar(t.mastery));
     top->setText(5, QString("%1 (%2)").arg(riskLabelText(t.risk)).arg(t.risk));
     top->setText(6, lastDateText(t.lastTs));
@@ -1358,12 +1394,12 @@ void ProgressPage::renderCharts(const QMap<int, TaskAgg>& tasks, const OverviewS
 
         QStringList labels = buildDailyLabels(from, to);
         // Map date -> (done, correct)
-        QMap<QDate, QPair<int,int>> mp;
-        for (const DaySession& ds : days) mp[ds.date] = QPair<int,int>(ds.doneCount, ds.correctCount);
+        QMap<QDate, QPair<int,double>> mp;
+        for (const DaySession& ds : days) mp[ds.date] = QPair<int,double>(ds.doneCount, ds.correctCount);
 
         for (QDate d = from; d <= to; d = d.addDays(1)) {
             int x = dayIndex(from, d);
-            QPair<int,int> v = mp.value(d, QPair<int,int>(0,0));
+            QPair<int,double> v = mp.value(d, QPair<int,double>(0,0));
             sDone->append(x, v.first);
             sCorrect->append(x, v.second);
         }
@@ -1465,7 +1501,7 @@ void ProgressPage::renderCharts(const QMap<int, TaskAgg>& tasks, const OverviewS
         int x = 0;
         for (const DaySession& ds : days) {
             // update lastTouch for tasks present that day
-            for (QMap<int, QPair<int,int>>::const_iterator it = ds.byTask.begin(); it != ds.byTask.end(); ++it) {
+            for (QMap<int, QPair<int,double>>::const_iterator it = ds.byTask.begin(); it != ds.byTask.end(); ++it) {
                 if (it.value().first > 0) lastTouch[it.key()] = ds.date;
             }
 
@@ -1525,7 +1561,7 @@ void ProgressPage::renderCharts(const QMap<int, TaskAgg>& tasks, const OverviewS
             w = ds.date.weekNumber(&y);
             QString key = QString("%1-W%2").arg(y).arg(w, 2, 10, QChar('0'));
             sumTasks[key] += ds.doneCount;
-            for (QMap<int, QPair<int,int>>::const_iterator it = ds.byTask.begin(); it != ds.byTask.end(); ++it) {
+            for (QMap<int, QPair<int,double>>::const_iterator it = ds.byTask.begin(); it != ds.byTask.end(); ++it) {
                 if (it.value().first > 0) distinct[key].insert(it.key());
             }
             if (!weekDate.contains(key) || ds.date < weekDate[key]) weekDate[key] = ds.date;
@@ -2049,8 +2085,16 @@ void ProgressPage::reloadAllData()
         double priority = 0.0;
     };
 
+    // Anchor all planning math to the existing sessions range, not to system "today".
+    // This prevents plan shifting when the user changes OS date.
+    QDate minSess, maxSess;
+    for (const DaySession& ds : sessionDays_) {
+        if (!minSess.isValid() || ds.date < minSess) minSess = ds.date;
+        if (!maxSess.isValid() || ds.date > maxSess) maxSess = ds.date;
+    }
+    const QDate today = maxSess.isValid() ? maxSess : QDate::currentDate();
+
     QMap<QString, QDate> lastByTopic; // key "no|var"
-    const QDate today = QDate::currentDate();
     for (const auto& ev : events) {
         const int no = ev.ref.taskNo;
         const QString var = ev.ref.variation;
@@ -2132,8 +2176,19 @@ void ProgressPage::reloadAllData()
     };
 
     // Generate plan days
+    // Range: from first day of the earliest session month to 2 months after the latest session month.
+    // This makes "пропуски" visible for old months and keeps plan stable across system date changes.
+    if (!minSess.isValid()) minSess = today;
+    if (!maxSess.isValid()) maxSess = today;
+    QDate rangeFrom(minSess.year(), minSess.month(), 1);
+    QDate rangeTo = QDate(maxSess.year(), maxSess.month(), 1).addMonths(2).addDays(-1);
+    if (rangeTo < rangeFrom) rangeTo = rangeFrom;
+
+    const int rangeDays = qMax(1, rangeFrom.daysTo(rangeTo) + 1);
+    if (horizonDays < rangeDays) horizonDays = rangeDays;
+
     QJsonArray planDays;
-    QDate d = today;
+    QDate d = rangeFrom;
     int built = 0;
 
     while (built < horizonDays) {
@@ -2357,3 +2412,5 @@ void ProgressPage::applyProductStyles()
         }
     )");
 }
+
+

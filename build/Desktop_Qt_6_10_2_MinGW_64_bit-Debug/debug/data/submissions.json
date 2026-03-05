@@ -2,186 +2,1549 @@
   "schemaVersion": 1,
   "submissions": [
     {
+      "id": 1,
       "status": "REVIEWED",
       "taskRef": {
-        "taskNo": 23,
-        "variation": "Треугольники",
+        "taskNo": 20,
+        "variation": "Уравнения",
         "taskId": 1
       },
+      "score": 50,
       "review": {
-        "score": 80
+        "score": 50
       },
-      "createdAt": "2025-11-10T18:30:00",
-      "reviewedAt": "2025-11-10T19:15:00",
-      "id": 1
+      "createdAt": "2025-12-08T20:15:00",
+      "reviewedAt": "2025-12-08T20:15:00"
     },
     {
+      "id": 2,
       "status": "REVIEWED",
       "taskRef": {
-        "taskNo": 25,
-        "variation": "Четырёхугольники",
+        "taskNo": 20,
+        "variation": "Уравнения",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-09T08:35:00",
+      "reviewedAt": "2026-02-09T08:35:00"
+    },
+    {
+      "id": 3,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Уравнения",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-15T12:30:00",
+      "reviewedAt": "2026-02-15T12:30:00"
+    },
+    {
+      "id": 4,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Уравнения",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-29T08:10:00",
+      "reviewedAt": "2025-12-29T08:10:00"
+    },
+    {
+      "id": 5,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Уравнения",
+        "taskId": 5
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-18T21:25:00",
+      "reviewedAt": "2025-12-18T21:25:00"
+    },
+    {
+      "id": 6,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Неравенства",
         "taskId": 1
       },
+      "score": 100,
       "review": {
         "score": 100
       },
-      "createdAt": "2025-11-14T18:30:00",
-      "reviewedAt": "2025-11-14T19:15:00",
-      "id": 2
+      "createdAt": "2025-12-18T10:15:00",
+      "reviewedAt": "2025-12-18T10:15:00"
     },
     {
+      "id": 7,
       "status": "REVIEWED",
       "taskRef": {
-        "taskNo": 22,
-        "variation": "Разные задачи",
-        "taskId": 3
+        "taskNo": 20,
+        "variation": "Неравенства",
+        "taskId": 2
       },
+      "score": 100,
       "review": {
-        "score": 0
+        "score": 100
       },
-      "createdAt": "2025-11-24T18:30:00",
-      "reviewedAt": "2025-11-24T19:15:00",
-      "id": 3
+      "createdAt": "2026-02-18T21:50:00",
+      "reviewedAt": "2026-02-18T21:50:00"
     },
     {
+      "id": 8,
       "status": "REVIEWED",
       "taskRef": {
-        "taskNo": 21,
-        "variation": "Задачи на проценты, сплавы и смеси",
+        "taskNo": 20,
+        "variation": "Неравенства",
         "taskId": 3
       },
+      "score": 50,
       "review": {
-        "score": 40
+        "score": 50
       },
-      "createdAt": "2025-11-28T18:30:00",
-      "reviewedAt": "2025-11-28T19:15:00",
-      "id": 4
+      "createdAt": "2026-01-23T13:45:00",
+      "reviewedAt": "2026-01-23T13:45:00"
     },
     {
+      "id": 9,
       "status": "REVIEWED",
       "taskRef": {
-        "taskNo": 22,
-        "variation": "Параболы",
-        "taskId": 3
+        "taskNo": 20,
+        "variation": "Неравенства",
+        "taskId": 4
       },
+      "score": 50,
       "review": {
-        "score": 0
+        "score": 50
       },
-      "createdAt": "2025-12-05T18:30:00",
-      "reviewedAt": "2025-12-05T19:15:00",
-      "id": 5
+      "createdAt": "2026-02-06T12:10:00",
+      "reviewedAt": "2026-02-06T12:10:00"
     },
     {
+      "id": 10,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Неравенства",
+        "taskId": 5
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-27T11:50:00",
+      "reviewedAt": "2025-12-27T11:50:00"
+    },
+    {
+      "id": 11,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы уравнений",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-17T19:50:00",
+      "reviewedAt": "2025-12-17T19:50:00"
+    },
+    {
+      "id": 12,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы уравнений",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-24T15:40:00",
+      "reviewedAt": "2025-12-24T15:40:00"
+    },
+    {
+      "id": 13,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы уравнений",
+        "taskId": 3
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-03-01T10:25:00",
+      "reviewedAt": "2026-03-01T10:25:00"
+    },
+    {
+      "id": 14,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 20,
         "variation": "Системы уравнений",
         "taskId": 4
       },
+      "score": 50,
       "review": {
-        "score": 80
+        "score": 50
       },
-      "createdAt": "2025-12-08T18:30:00",
-      "reviewedAt": "2025-12-08T19:15:00",
-      "id": 6
+      "createdAt": "2025-12-25T16:45:00",
+      "reviewedAt": "2025-12-25T16:45:00"
     },
     {
+      "id": 15,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы уравнений",
+        "taskId": 5
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-18T10:25:00",
+      "reviewedAt": "2025-12-18T10:25:00"
+    },
+    {
+      "id": 16,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы неравенств",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-29T20:20:00",
+      "reviewedAt": "2025-12-29T20:20:00"
+    },
+    {
+      "id": 17,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы неравенств",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-01-08T12:10:00",
+      "reviewedAt": "2026-01-08T12:10:00"
+    },
+    {
+      "id": 18,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 20,
+        "variation": "Системы неравенств",
+        "taskId": 3
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-16T18:00:00",
+      "reviewedAt": "2026-02-16T18:00:00"
+    },
+    {
+      "id": 19,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на проценты, сплавы и смеси",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-15T19:35:00",
+      "reviewedAt": "2026-02-15T19:35:00"
+    },
+    {
+      "id": 20,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на проценты, сплавы и смеси",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-26T21:15:00",
+      "reviewedAt": "2026-02-26T21:15:00"
+    },
+    {
+      "id": 21,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на проценты, сплавы и смеси",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-13T18:25:00",
+      "reviewedAt": "2026-01-13T18:25:00"
+    },
+    {
+      "id": 22,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на проценты, сплавы и смеси",
+        "taskId": 4
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-12T14:10:00",
+      "reviewedAt": "2026-02-12T14:10:00"
+    },
+    {
+      "id": 23,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Движение по прямой",
+        "taskId": 1
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-22T09:40:00",
+      "reviewedAt": "2025-12-22T09:40:00"
+    },
+    {
+      "id": 24,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Движение по прямой",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-09T19:05:00",
+      "reviewedAt": "2026-01-09T19:05:00"
+    },
+    {
+      "id": 25,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Движение по прямой",
+        "taskId": 3
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-01-21T18:05:00",
+      "reviewedAt": "2026-01-21T18:05:00"
+    },
+    {
+      "id": 26,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Движение по прямой",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-12T11:30:00",
+      "reviewedAt": "2026-02-12T11:30:00"
+    },
+    {
+      "id": 27,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на движение по воде",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-08T15:15:00",
+      "reviewedAt": "2026-02-08T15:15:00"
+    },
+    {
+      "id": 28,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на движение по воде",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-19T13:35:00",
+      "reviewedAt": "2025-12-19T13:35:00"
+    },
+    {
+      "id": 29,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на движение по воде",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-03-04T11:25:00",
+      "reviewedAt": "2026-03-04T11:25:00"
+    },
+    {
+      "id": 30,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на движение по воде",
+        "taskId": 4
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-04T13:25:00",
+      "reviewedAt": "2026-02-04T13:25:00"
+    },
+    {
+      "id": 31,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на совместную работу",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-23T15:50:00",
+      "reviewedAt": "2025-12-23T15:50:00"
+    },
+    {
+      "id": 32,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на совместную работу",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-07T11:30:00",
+      "reviewedAt": "2025-12-07T11:30:00"
+    },
+    {
+      "id": 33,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на совместную работу",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-01T09:55:00",
+      "reviewedAt": "2026-01-01T09:55:00"
+    },
+    {
+      "id": 34,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "Задачи на совместную работу",
+        "taskId": 4
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-01-29T14:20:00",
+      "reviewedAt": "2026-01-29T14:20:00"
+    },
+    {
+      "id": 35,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "логические задачи",
+        "taskId": 1
+      },
+      "score": 0,
+      "review": {
+        "score": 0
+      },
+      "createdAt": "2025-12-21T19:40:00",
+      "reviewedAt": "2025-12-21T19:40:00"
+    },
+    {
+      "id": 36,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "логические задачи",
+        "taskId": 2
+      },
+      "score": 0,
+      "review": {
+        "score": 0
+      },
+      "createdAt": "2025-12-13T10:15:00",
+      "reviewedAt": "2025-12-13T10:15:00"
+    },
+    {
+      "id": 37,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 21,
+        "variation": "логические задачи",
+        "taskId": 3
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-04T13:15:00",
+      "reviewedAt": "2026-02-04T13:15:00"
+    },
+    {
+      "id": 38,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Параболы",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-12T20:50:00",
+      "reviewedAt": "2026-01-12T20:50:00"
+    },
+    {
+      "id": 39,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 22,
         "variation": "Параболы",
         "taskId": 2
       },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-02T14:20:00",
+      "reviewedAt": "2026-01-02T14:20:00"
+    },
+    {
+      "id": 40,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Параболы",
+        "taskId": 3
+      },
+      "score": 100,
       "review": {
         "score": 100
       },
-      "createdAt": "2025-12-12T18:30:00",
-      "reviewedAt": "2025-12-12T19:15:00",
-      "id": 7
+      "createdAt": "2026-02-22T16:20:00",
+      "reviewedAt": "2026-02-22T16:20:00"
     },
     {
+      "id": 41,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Параболы",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-25T14:30:00",
+      "reviewedAt": "2026-01-25T14:30:00"
+    },
+    {
+      "id": 42,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Параболы",
+        "taskId": 5
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-13T21:55:00",
+      "reviewedAt": "2026-02-13T21:55:00"
+    },
+    {
+      "id": 43,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Гиперболы",
+        "taskId": 1
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-22T12:15:00",
+      "reviewedAt": "2025-12-22T12:15:00"
+    },
+    {
+      "id": 44,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Гиперболы",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-10T12:30:00",
+      "reviewedAt": "2026-01-10T12:30:00"
+    },
+    {
+      "id": 45,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Гиперболы",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-09T12:45:00",
+      "reviewedAt": "2026-02-09T12:45:00"
+    },
+    {
+      "id": 46,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Кусочно-непрерывные функции",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-29T13:10:00",
+      "reviewedAt": "2025-12-29T13:10:00"
+    },
+    {
+      "id": 47,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Кусочно-непрерывные функции",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-01-31T16:35:00",
+      "reviewedAt": "2026-01-31T16:35:00"
+    },
+    {
+      "id": 48,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Кусочно-непрерывные функции",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-17T12:35:00",
+      "reviewedAt": "2025-12-17T12:35:00"
+    },
+    {
+      "id": 49,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Кусочно-непрерывные функции",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-20T09:30:00",
+      "reviewedAt": "2026-02-20T09:30:00"
+    },
+    {
+      "id": 50,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Кусочно-непрерывные функции",
+        "taskId": 5
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-25T20:30:00",
+      "reviewedAt": "2026-01-25T20:30:00"
+    },
+    {
+      "id": 51,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 22,
         "variation": "Разные задачи",
         "taskId": 1
       },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-16T18:40:00",
+      "reviewedAt": "2026-02-16T18:40:00"
+    },
+    {
+      "id": 52,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Разные задачи",
+        "taskId": 2
+      },
+      "score": 100,
       "review": {
         "score": 100
       },
-      "createdAt": "2025-12-19T18:30:00",
-      "reviewedAt": "2025-12-19T19:15:00",
-      "id": 8
+      "createdAt": "2025-12-17T08:25:00",
+      "reviewedAt": "2025-12-17T08:25:00"
     },
     {
+      "id": 53,
       "status": "REVIEWED",
       "taskRef": {
-        "taskNo": 25,
+        "taskNo": 22,
+        "variation": "Разные задачи",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-30T17:10:00",
+      "reviewedAt": "2025-12-30T17:10:00"
+    },
+    {
+      "id": 54,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Разные задачи",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-09T20:05:00",
+      "reviewedAt": "2026-01-09T20:05:00"
+    },
+    {
+      "id": 55,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 22,
+        "variation": "Разные задачи",
+        "taskId": 5
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-10T08:40:00",
+      "reviewedAt": "2026-01-10T08:40:00"
+    },
+    {
+      "id": 56,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Углы",
+        "taskId": 1
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-26T13:45:00",
+      "reviewedAt": "2025-12-26T13:45:00"
+    },
+    {
+      "id": 57,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Углы",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-25T15:25:00",
+      "reviewedAt": "2025-12-25T15:25:00"
+    },
+    {
+      "id": 58,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Углы",
+        "taskId": 3
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-11T12:30:00",
+      "reviewedAt": "2026-02-11T12:30:00"
+    },
+    {
+      "id": 59,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Углы",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-22T15:20:00",
+      "reviewedAt": "2026-01-22T15:20:00"
+    },
+    {
+      "id": 60,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
         "variation": "Треугольники",
         "taskId": 1
       },
+      "score": 100,
       "review": {
-        "score": 20
+        "score": 100
       },
-      "createdAt": "2026-01-16T18:30:00",
-      "reviewedAt": "2026-01-16T19:15:00",
-      "id": 9
+      "createdAt": "2025-12-08T12:55:00",
+      "reviewedAt": "2025-12-08T12:55:00"
     },
     {
+      "id": 61,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Треугольники",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-07T11:20:00",
+      "reviewedAt": "2025-12-07T11:20:00"
+    },
+    {
+      "id": 62,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Треугольники",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-23T15:00:00",
+      "reviewedAt": "2026-02-23T15:00:00"
+    },
+    {
+      "id": 63,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Треугольники",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-11T19:00:00",
+      "reviewedAt": "2026-02-11T19:00:00"
+    },
+    {
+      "id": 64,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Четырёхугольники",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-26T16:25:00",
+      "reviewedAt": "2026-02-26T16:25:00"
+    },
+    {
+      "id": 65,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Четырёхугольники",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-28T12:25:00",
+      "reviewedAt": "2025-12-28T12:25:00"
+    },
+    {
+      "id": 66,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Четырёхугольники",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-22T09:50:00",
+      "reviewedAt": "2026-02-22T09:50:00"
+    },
+    {
+      "id": 67,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Четырёхугольники",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-16T19:55:00",
+      "reviewedAt": "2026-02-16T19:55:00"
+    },
+    {
+      "id": 68,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Окружности",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-14T15:20:00",
+      "reviewedAt": "2026-02-14T15:20:00"
+    },
+    {
+      "id": 69,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Окружности",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-07T16:15:00",
+      "reviewedAt": "2026-02-07T16:15:00"
+    },
+    {
+      "id": 70,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Окружности",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-24T13:30:00",
+      "reviewedAt": "2026-01-24T13:30:00"
+    },
+    {
+      "id": 71,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 23,
+        "variation": "Окружности",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-20T21:35:00",
+      "reviewedAt": "2026-01-20T21:35:00"
+    },
+    {
+      "id": 72,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 24,
-        "variation": "Окружности и их элементы",
+        "variation": "Правильные многоугольники",
         "taskId": 1
       },
+      "score": 100,
       "review": {
-        "score": 20
+        "score": 100
       },
-      "createdAt": "2026-01-26T18:30:00",
-      "reviewedAt": "2026-01-26T19:15:00",
-      "id": 10
+      "createdAt": "2026-02-02T14:35:00",
+      "reviewedAt": "2026-02-02T14:35:00"
     },
     {
+      "id": 73,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 24,
         "variation": "Правильные многоугольники",
         "taskId": 2
       },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-05T09:40:00",
+      "reviewedAt": "2026-01-05T09:40:00"
+    },
+    {
+      "id": 74,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Правильные многоугольники",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-30T20:45:00",
+      "reviewedAt": "2025-12-30T20:45:00"
+    },
+    {
+      "id": 75,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Правильные многоугольники",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-12T11:20:00",
+      "reviewedAt": "2025-12-12T11:20:00"
+    },
+    {
+      "id": 76,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Треугольники и их элементы",
+        "taskId": 1
+      },
+      "score": 100,
       "review": {
         "score": 100
       },
-      "createdAt": "2026-02-04T18:30:00",
-      "reviewedAt": "2026-02-04T19:15:00",
-      "id": 11
+      "createdAt": "2025-12-26T09:40:00",
+      "reviewedAt": "2025-12-26T09:40:00"
     },
     {
+      "id": 77,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Треугольники и их элементы",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-17T13:35:00",
+      "reviewedAt": "2026-01-17T13:35:00"
+    },
+    {
+      "id": 78,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Треугольники и их элементы",
+        "taskId": 3
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-01-23T17:25:00",
+      "reviewedAt": "2026-01-23T17:25:00"
+    },
+    {
+      "id": 79,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Треугольники и их элементы",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-18T08:20:00",
+      "reviewedAt": "2026-02-18T08:20:00"
+    },
+    {
+      "id": 80,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Четырёхугольники и их элементы",
+        "taskId": 1
+      },
+      "score": 0,
+      "review": {
+        "score": 0
+      },
+      "createdAt": "2026-02-26T10:25:00",
+      "reviewedAt": "2026-02-26T10:25:00"
+    },
+    {
+      "id": 81,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Четырёхугольники и их элементы",
+        "taskId": 2
+      },
+      "score": 0,
+      "review": {
+        "score": 0
+      },
+      "createdAt": "2026-01-22T11:50:00",
+      "reviewedAt": "2026-01-22T11:50:00"
+    },
+    {
+      "id": 82,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Четырёхугольники и их элементы",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-25T14:30:00",
+      "reviewedAt": "2026-01-25T14:30:00"
+    },
+    {
+      "id": 83,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Четырёхугольники и их элементы",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-25T11:45:00",
+      "reviewedAt": "2026-02-25T11:45:00"
+    },
+    {
+      "id": 84,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Окружности и их элементы",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-18T15:40:00",
+      "reviewedAt": "2025-12-18T15:40:00"
+    },
+    {
+      "id": 85,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Окружности и их элементы",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-27T21:55:00",
+      "reviewedAt": "2025-12-27T21:55:00"
+    },
+    {
+      "id": 86,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Окружности и их элементы",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-22T15:05:00",
+      "reviewedAt": "2026-02-22T15:05:00"
+    },
+    {
+      "id": 87,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 24,
+        "variation": "Окружности и их элементы",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-06T20:00:00",
+      "reviewedAt": "2026-01-06T20:00:00"
+    },
+    {
+      "id": 88,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Треугольники",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-24T19:10:00",
+      "reviewedAt": "2026-02-24T19:10:00"
+    },
+    {
+      "id": 89,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Треугольники",
+        "taskId": 2
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-16T21:45:00",
+      "reviewedAt": "2025-12-16T21:45:00"
+    },
+    {
+      "id": 90,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Треугольники",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-10T21:35:00",
+      "reviewedAt": "2026-02-10T21:35:00"
+    },
+    {
+      "id": 91,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Треугольники",
+        "taskId": 4
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-01-28T18:25:00",
+      "reviewedAt": "2026-01-28T18:25:00"
+    },
+    {
+      "id": 92,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Четырёхугольники",
+        "taskId": 1
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2025-12-29T12:25:00",
+      "reviewedAt": "2025-12-29T12:25:00"
+    },
+    {
+      "id": 93,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Четырёхугольники",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-18T15:35:00",
+      "reviewedAt": "2025-12-18T15:35:00"
+    },
+    {
+      "id": 94,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Четырёхугольники",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-03T16:05:00",
+      "reviewedAt": "2026-01-03T16:05:00"
+    },
+    {
+      "id": 95,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Четырёхугольники",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-27T10:25:00",
+      "reviewedAt": "2026-02-27T10:25:00"
+    },
+    {
+      "id": 96,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Окружности",
+        "taskId": 1
+      },
+      "score": 100,
+      "review": {
+        "score": 100
+      },
+      "createdAt": "2026-02-15T09:25:00",
+      "reviewedAt": "2026-02-15T09:25:00"
+    },
+    {
+      "id": 97,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Окружности",
+        "taskId": 2
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-01-07T17:35:00",
+      "reviewedAt": "2026-01-07T17:35:00"
+    },
+    {
+      "id": 98,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 25,
         "variation": "Окружности",
         "taskId": 3
       },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-15T11:35:00",
+      "reviewedAt": "2025-12-15T11:35:00"
+    },
+    {
+      "id": 99,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Окружности",
+        "taskId": 4
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2025-12-21T13:05:00",
+      "reviewedAt": "2025-12-21T13:05:00"
+    },
+    {
+      "id": 100,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Комбинация многоугольников и окружностей",
+        "taskId": 1
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-03-01T08:05:00",
+      "reviewedAt": "2026-03-01T08:05:00"
+    },
+    {
+      "id": 101,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Комбинация многоугольников и окружностей",
+        "taskId": 2
+      },
+      "score": 100,
       "review": {
         "score": 100
       },
-      "createdAt": "2026-02-06T18:30:00",
-      "reviewedAt": "2026-02-06T19:15:00",
-      "id": 12
+      "createdAt": "2026-01-03T10:45:00",
+      "reviewedAt": "2026-01-03T10:45:00"
     },
     {
+      "id": 102,
+      "status": "REVIEWED",
+      "taskRef": {
+        "taskNo": 25,
+        "variation": "Комбинация многоугольников и окружностей",
+        "taskId": 3
+      },
+      "score": 50,
+      "review": {
+        "score": 50
+      },
+      "createdAt": "2026-02-19T11:50:00",
+      "reviewedAt": "2026-02-19T11:50:00"
+    },
+    {
+      "id": 103,
       "status": "REVIEWED",
       "taskRef": {
         "taskNo": 25,
         "variation": "Комбинация многоугольников и окружностей",
         "taskId": 4
       },
+      "score": 100,
       "review": {
-        "score": 80
+        "score": 100
       },
-      "createdAt": "2026-02-20T18:30:00",
-      "reviewedAt": "2026-02-20T19:15:00",
-      "id": 13
+      "createdAt": "2025-12-09T15:35:00",
+      "reviewedAt": "2025-12-09T15:35:00"
     }
   ]
 }
