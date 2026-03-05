@@ -8,20 +8,17 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     examselectwindow.cpp \
+    detailpage.cpp \
     progresspage.cpp
 
 HEADERS += \
     calendarpage.h \
     mainwindow.h \
+    detailpage.h \
     examselectwindow.h \
     progresspage.h
 
 DISTFILES += \
-    build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/debug/data/catalog.json \
-    build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/debug/data/plan.json \
-    build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/debug/data/progress.json \
-    build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/debug/data/sessions.json \
-    build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/debug/data/submissions.json \
     data/catalog.json \
     data/progress.json \
     data/sessions.json \

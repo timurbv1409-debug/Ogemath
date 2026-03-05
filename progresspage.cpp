@@ -1,5 +1,6 @@
 #include "progresspage.h"
 #include "calendarpage.h"
+#include "detailpage.h"
 
 #include <QTabWidget>
 #include <QTreeWidget>
@@ -12,6 +13,7 @@
 #include <QFileSystemWatcher>
 #include <QTimer>
 #include <QFile>
+#include <QFileInfo>
 #include <QDir>
 #include <QCoreApplication>
 #include <QJsonDocument>
@@ -150,8 +152,8 @@ void ProgressPage::buildUi()
 
     connect(calendarTab_, &CalendarPage::backRequested, this, [this]{ emit backRequested(); });
 {
-    QWidget* emptyDetail = new QWidget(this);
-    tabs_->addTab(emptyDetail, QString::fromUtf8("Детально"));
+    detailTab_ = new DetailPage(this);
+    tabs_->addTab(detailTab_, QString::fromUtf8("Детально"));
 }
 root->addWidget(tabs_, 1);
 }
@@ -587,10 +589,6 @@ bool ProgressPage::loadSubmissions(QString* err)
         ev.ts = QDateTime::fromString(s.value("reviewedAt").toString(), Qt::ISODate);
         if (!ev.ts.isValid()) ev.ts = QDateTime::fromString(s.value("createdAt").toString(), Qt::ISODate);
 
-        // Guard: ignore future timestamps (can appear in test data / timezone issues),
-        // иначе получаем "0 решено, но последнее в будущем".
-        if (ev.ts.isValid() && ev.ts.date() > QDate::currentDate()) continue;
-
         if (taskNo >= 1 && taskNo <= 25 && !var.isEmpty() && taskId > 0)
             submissionEvents_.push_back(ev);
     }
@@ -625,47 +623,6 @@ QVector<ProgressPage::AttemptEvent> ProgressPage::buildAttemptEvents(int typeFil
 
     if (typeFilter == 0 || typeFilter == 2) {
         for (const AttemptEvent& e : submissionEvents_) events.push_back(e);
-    }
-
-    // ---- sessions.json integration (fact source) ----
-    // sessions.taskSummary is the "ground truth" for daily attempts. Previously it affected Calendar,
-    // but NOT aggregates (mastery/risk), causing inconsistencies:
-    //  - day shows done/correct, but attemptedUnique stays 0
-    //  - lastTs exists even when attemptedUnique is 0
-    // Add synthetic AttemptEvent from sessions to keep ALL tabs consistent.
-    // sessions has no variation/taskId, so:
-    //  - variation is distributed round‑robin across catalog variations (fallback: "v1")
-    //  - taskId is deterministic (YYYYMMDD*100000 + taskNo*1000 + idx)
-    if (typeFilter == 0 || typeFilter == 1) {
-        for (const DaySession& ds : sessionDays_) {
-            if (ds.byTask.isEmpty()) continue;
-            const QDate d = ds.date;
-            const QDateTime ts = QDateTime(d, QTime(19,0));
-
-            for (auto it = ds.byTask.begin(); it != ds.byTask.end(); ++it) {
-                const int taskNo = it.key();
-                const int att = it.value().first;
-                const int cor = it.value().second;
-                if (taskNo < 1 || taskNo > 25 || att <= 0) continue;
-
-                QStringList vars;
-                if (catalog_.contains(taskNo) && !catalog_[taskNo].vars.isEmpty()) vars = catalog_[taskNo].vars.keys();
-                if (vars.isEmpty()) vars << "v1";
-
-                const int dateKey = d.year()*10000 + d.month()*100 + d.day();
-                for (int i = 0; i < att; ++i) {
-                    AttemptEvent ev;
-                    ev.ref.taskNo = taskNo;
-                    ev.ref.variation = vars[i % vars.size()];
-                    ev.ref.taskId = dateKey * 100000 + taskNo * 1000 + i;
-                    ev.ts = ts;
-                    ev.source = "session";
-                    ev.correct = (i < cor);
-                    ev.partial = false;
-                    events.push_back(ev);
-                }
-            }
-        }
     }
 
     QSet<QString> seen;
@@ -1014,9 +971,6 @@ void ProgressPage::addTaskRow(const TaskAgg& t)
 
     int total = 0;
     for (QMap<QString, VarAgg>::const_iterator it = t.vars.begin(); it != t.vars.end(); ++it) total += it.value().itemsTotal;
-    // If catalog has no items (total=0) but attempts exist (from sessions/submissions),
-    // show a sensible total to avoid "Всего 0, решено 20".
-    if (total <= 0 && t.attemptedUnique > 0) total = t.attemptedUnique;
 
     top->setText(1, QString::number(total));
     top->setText(2, QString::number(t.attemptedUnique));
@@ -2033,6 +1987,13 @@ void ProgressPage::reloadAllData()
     if (chartsTab_) {
         rebuildChartsNav(tasks, ov);
         renderCharts(tasks, ov);
+    }
+
+    // Детально: строим вкладку из того же каталога data/.
+    // Иначе при запуске из build/ таблица событий может быть пустой.
+    if (detailTab_) {
+        const QString dataDir = QFileInfo(dataPath("catalog.json")).absolutePath();
+        detailTab_->reloadFromDataDir(dataDir);
     }
 
     // 4) build plan.json on-the-fly for Calendar (derived file)

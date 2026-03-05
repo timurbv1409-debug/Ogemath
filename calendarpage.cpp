@@ -87,8 +87,8 @@ protected:
             painter->restore();
         }
 
-        // streak badge (usually on today)
-        if (v.streakBadge > 0) {
+        // streak badge: on every day in streak (🔥), with number on last day
+        if (v.streakBadge != 0) {
             painter->save();
             const int r = qMax(16, rect.width()/3);
             QRect badge(rect.right()-r-4, rect.top()+4, r, 18);
@@ -100,7 +100,10 @@ protected:
             f.setPointSize(qMax(8, f.pointSize()-1));
             f.setBold(true);
             painter->setFont(f);
-            painter->drawText(badge, Qt::AlignCenter, QString::fromUtf8("🔥 %1").arg(v.streakBadge));
+            const QString txt = (v.streakBadge > 0)
+                ? QString::fromUtf8("🔥 %1").arg(v.streakBadge)
+                : QString::fromUtf8("🔥");
+            painter->drawText(badge, Qt::AlignCenter, txt);
             painter->restore();
         }
     }
@@ -156,10 +159,15 @@ void CalendarPage::setData(const QVector<DaySession>& sessions,
             while (active.contains(d)) { streak++; d = d.addDays(-1); }
         }
         if (legendStreak_) {
-            if (lastActive.isValid() && lastActive != QDate::currentDate())
-                legendStreak_->setText(QString::fromUtf8("🔥 %1 до %2").arg(streak).arg(lastActive.toString("dd.MM")));
-            else
-                legendStreak_->setText(QString::fromUtf8("🔥 %1").arg(streak));
+            // Не используем экранированные кавычки ("...") — MinGW/кодировка легко ломаются.
+            // Также убираем emoji из исходника: это часто даёт «stray '\'»/битую кодировку в логах.
+            if (lastActive.isValid() && lastActive != QDate::currentDate()) {
+                legendStreak_->setText(QString::fromUtf8("Серия: %1 (до %2)")
+                                           .arg(streak)
+                                           .arg(lastActive.toString("dd.MM")));
+            } else {
+                legendStreak_->setText(QString::fromUtf8("Серия: %1").arg(streak));
+            }
         }
     }
 tasks_ = tasks;
@@ -488,7 +496,10 @@ CalendarPage::QualityParts CalendarPage::computeQualityParts(int done, int corre
 int CalendarPage::computeStreakDays(const QVector<DaySession>& sessions)
 {
     QSet<QDate> active;
-    for (const auto& s : sessions) if (s.doneCount > 0) active.insert(s.date);
+    for (const auto& s : sessions) {
+        const bool isActive = (s.doneCount > 0) || (s.type == "mock" && s.mockScore >= 0);
+        if (isActive) active.insert(s.date);
+    }
     int streak = 0;
     QDate d = QDate::currentDate();
     while (active.contains(d)) { ++streak; d = d.addDays(-1); }
@@ -568,18 +579,19 @@ void CalendarPage::rebuildVizMap()
 
     const int targetSolved = 20; // можно вынести в settings/plan meta позже
 
-    // streak badge: show on today
+    // streak: consecutive active days ending today (active = solved OR mock)
     const int streak = computeStreakDays(sessions_);
+    const QDate streakStart = (streak > 0) ? today.addDays(-(streak - 1)) : QDate();
 
     // critical day: tomorrow planned while streak active and today done (so it can break)
     const QDate tomorrow = today.addDays(1);
     const bool tomorrowPlanned = planByDate.contains(tomorrow) && planByDate[tomorrow].value("planned").toBool(true);
-    const bool todayDone = byDate.contains(today) && byDate[today].doneCount > 0;
+    const bool todayDone = byDate.contains(today) && (byDate[today].doneCount > 0 || (byDate[today].type == "mock" && byDate[today].mockScore >= 0));
 
     for (int i=0;i<42;++i) {
         const QDate d = start.addDays(i);
 
-        const bool hasSession = byDate.contains(d) && byDate[d].doneCount > 0;
+        const bool hasSession = byDate.contains(d) && (byDate[d].doneCount > 0 || (byDate[d].type == "mock" && byDate[d].mockScore >= 0));
         const bool hasPlan = planByDate.contains(d) && planByDate[d].value("planned").toBool(true);
 
         CellViz cv;
@@ -605,8 +617,10 @@ void CalendarPage::rebuildVizMap()
         if (hasSession && byDate[d].type == "mock") cv.mockBorder = true;
         if (!cv.mockBorder && hasPlan && planByDate[d].value("type").toString() == "mock") cv.mockBorder = true;
 
-        // streak badge + critical day
-        if (d == today && streak > 0) cv.streakBadge = streak;
+        // streak badge: mark every day in streak (🔥), number on the last day
+        if (streak > 0 && streakStart.isValid() && d >= streakStart && d <= today) {
+            cv.streakBadge = (d == today) ? streak : -1;
+        }
         if (d == tomorrow && streak > 0 && tomorrowPlanned && todayDone) cv.critical = true;
 
         // bars + tooltip

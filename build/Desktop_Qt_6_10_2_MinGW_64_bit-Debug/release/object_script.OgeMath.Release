@@ -2,9 +2,11 @@ release/calendarpage.o
 release/main.o
 release/mainwindow.o
 release/examselectwindow.o
+release/detailpage.o
 release/progresspage.o
 release/qrc_resources.o
 release/moc_calendarpage.o
 release/moc_mainwindow.o
+release/moc_detailpage.o
 release/moc_examselectwindow.o
 release/moc_progresspage.o

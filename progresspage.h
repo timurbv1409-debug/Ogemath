@@ -25,6 +25,7 @@ class QTableWidget;
 class QScrollArea;
 class QGridLayout;
 class CalendarPage;
+class DetailPage;
 
 class ProgressPage final : public QWidget {
     Q_OBJECT
@@ -172,6 +173,7 @@ private:
 
     QWidget* chartsTab_ = nullptr;
     CalendarPage* calendarTab_ = nullptr;
+    DetailPage* detailTab_ = nullptr;
 
     QComboBox* chartsPeriod_ = nullptr;
     QComboBox* chartsSource_ = nullptr;

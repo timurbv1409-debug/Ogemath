@@ -1,176 +1,13 @@
 {
     "days": [
         {
-            "date": "2026-03-04",
-            "dayQuality": 68,
-            "items": [
-                {
-                    "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
-                }
-            ],
-            "planned": true,
-            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
-            "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
-            ],
-            "totalTasks": 20,
-            "type": "training"
-        },
-        {
             "date": "2026-03-06",
             "dayQuality": 68,
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -184,64 +21,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -250,13 +31,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -270,8 +51,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -279,14 +60,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -300,8 +81,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -309,19 +90,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -332,8 +173,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -347,64 +188,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -413,13 +198,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -433,8 +218,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -442,14 +227,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -463,8 +248,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -472,19 +257,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -495,8 +340,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -510,64 +355,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -576,13 +365,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -596,8 +385,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -605,14 +394,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -626,8 +415,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -635,19 +424,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -658,8 +507,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -673,64 +522,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -739,13 +532,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -759,8 +552,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -768,14 +561,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -789,8 +582,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -798,19 +591,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -821,8 +674,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -836,64 +689,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -902,13 +699,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -922,8 +719,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -931,14 +728,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -952,8 +749,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -961,19 +758,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -984,8 +841,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -999,64 +856,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1065,13 +866,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1085,8 +886,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1094,14 +895,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1115,8 +916,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1124,19 +925,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -1147,8 +1008,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1162,64 +1023,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1228,13 +1033,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1248,8 +1053,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1257,14 +1062,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1278,8 +1083,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1287,19 +1092,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -1310,8 +1175,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1325,64 +1190,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1391,13 +1200,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1411,8 +1220,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1420,14 +1229,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1441,8 +1250,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1450,19 +1259,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -1473,8 +1342,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1488,64 +1357,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1554,13 +1367,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1574,8 +1387,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1583,14 +1396,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1604,8 +1417,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1613,19 +1426,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -1636,8 +1509,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1651,64 +1524,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1717,13 +1534,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1737,8 +1554,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1746,14 +1563,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1767,8 +1584,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1776,19 +1593,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -1799,8 +1676,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1814,64 +1691,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1880,13 +1701,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1900,8 +1721,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1909,14 +1730,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1930,8 +1751,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -1939,19 +1760,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -1962,8 +1843,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -1977,64 +1858,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2043,13 +1868,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2063,8 +1888,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2072,14 +1897,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2093,8 +1918,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2102,19 +1927,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -2125,8 +2010,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2140,64 +2025,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2206,13 +2035,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2226,8 +2055,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2235,14 +2064,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2256,8 +2085,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2265,19 +2094,79 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
@@ -2288,8 +2177,8 @@
             "items": [
                 {
                     "count": 4,
-                    "daysSince": 8,
-                    "displayName": "Комбинация многоугольников и окружностей",
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2303,64 +2192,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 8 дней"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 25,
-                    "taskTitle": "Геометрические задачи повышенной сложности",
-                    "variation": "v4"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 5,
-                    "displayName": "cистемыуравнений",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "due_now",
-                            "text": "Пора повторить (spaced repetition)"
-                        }
-                    ],
-                    "risk": 100,
-                    "taskNo": 9,
-                    "taskTitle": "Уравнения, системы уравнений",
-                    "variation": "v5"
-                },
-                {
-                    "count": 4,
-                    "daysSince": 89,
-                    "displayName": "Системы неравенств",
-                    "due": 1,
-                    "expectedAccuracy": 0.2,
-                    "mastery": 0,
-                    "reasons": [
-                        {
-                            "code": "risk_high",
-                            "text": "Риск 100/100"
-                        },
-                        {
-                            "code": "low_mastery",
-                            "text": "Низкое мастерство 0/100"
-                        },
-                        {
-                            "code": "spaced_due",
-                            "text": "Не повторял 89 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2369,13 +2202,13 @@
                     ],
                     "risk": 100,
                     "taskNo": 13,
-                    "taskTitle": "Неравенства, системы неравенств",
-                    "variation": "v4"
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Прямоугольный треугольник",
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2389,8 +2222,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2398,14 +2231,14 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v4"
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
                 },
                 {
                     "count": 4,
-                    "daysSince": 14,
-                    "displayName": "Параллелограмм",
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
                     "due": 1,
                     "expectedAccuracy": 0.2,
                     "mastery": 0,
@@ -2419,8 +2252,8 @@
                             "text": "Низкое мастерство 0/100"
                         },
                         {
-                            "code": "spaced_due",
-                            "text": "Не повторял 14 дней"
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
                         },
                         {
                             "code": "due_now",
@@ -2428,25 +2261,252 @@
                         }
                     ],
                     "risk": 100,
-                    "taskNo": 15,
-                    "taskTitle": "Треугольники, четырёхугольники, многоугольники и их элементы",
-                    "variation": "v5"
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
                 }
             ],
             "planned": true,
             "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
             "topics": [
-                "№25 Комбинация многоугольников и окружностей ×4",
-                "№9 cистемыуравнений ×4",
-                "№13 Системы неравенств ×4",
-                "№15 Прямоугольный треугольник ×4",
-                "№15 Параллелограмм ×4"
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
+            ],
+            "totalTasks": 20,
+            "type": "training"
+        },
+        {
+            "date": "2026-04-08",
+            "dayQuality": 68,
+            "items": [
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Линейные неравенства",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 13,
+                    "taskTitle": "Не­ра­вен­ства, системы неравенств",
+                    "variation": "Линейные неравенства"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Кусочно-непрерывные функции",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 22,
+                    "taskTitle": "Функции и их свойства. Графики функций",
+                    "variation": "Кусочно-непрерывные функции"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "логические задачи",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 21,
+                    "taskTitle": "Текстовые задачи",
+                    "variation": "логические задачи"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Теорема Пифагора",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 18,
+                    "taskTitle": "Фигуры на квадратной решётке",
+                    "variation": "Теорема Пифагора"
+                },
+                {
+                    "count": 4,
+                    "daysSince": -1,
+                    "displayName": "Треугольники и их элементы",
+                    "due": 1,
+                    "expectedAccuracy": 0.2,
+                    "mastery": 0,
+                    "reasons": [
+                        {
+                            "code": "risk_high",
+                            "text": "Риск 100/100"
+                        },
+                        {
+                            "code": "low_mastery",
+                            "text": "Низкое мастерство 0/100"
+                        },
+                        {
+                            "code": "never_practiced",
+                            "text": "Ещё не решал в приложении"
+                        },
+                        {
+                            "code": "due_now",
+                            "text": "Пора повторить (spaced repetition)"
+                        }
+                    ],
+                    "risk": 100,
+                    "taskNo": 24,
+                    "taskTitle": "Геометрические задачи на доказательство",
+                    "variation": "Треугольники и их элементы"
+                }
+            ],
+            "planned": true,
+            "qualityExplain": "План собран из тем с высоким риском и/или давно не повторявшихся.",
+            "topics": [
+                "№13 Линейные неравенства ×4",
+                "№22 Кусочно-непрерывные функции ×4",
+                "№21 логические задачи ×4",
+                "№18 Теорема Пифагора ×4",
+                "№24 Треугольники и их элементы ×4"
             ],
             "totalTasks": 20,
             "type": "training"
         }
     ],
-    "generatedAt": "2026-03-04T20:44:39",
+    "generatedAt": "2026-03-05T11:35:20",
     "horizonDays": 35,
     "version": 1
 }

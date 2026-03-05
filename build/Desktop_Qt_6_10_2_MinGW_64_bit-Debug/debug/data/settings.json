@@ -4,8 +4,5 @@
     1,
     3,
     5
-  ],
-  "dailyTasksTarget": 20,
-  "minDiversityTopics": 4,
-  "planHorizonDays": 35
+  ]
 }

@@ -1,241 +1,8 @@
 {
-  "schemaVersion": 1,
   "tasks": {
-    "1": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              true
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              true
-            ],
-            [
-              24,
-              true
-            ]
-          ]
-        }
-      }
-    },
     "2": {
       "variations": {
-        "v1": {
+        "Квартиры и садовые участки": {
           "done": [
             [
               1,
@@ -243,74 +10,18 @@
             ],
             [
               2,
-              false
+              true
             ],
             [
               3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
               false
             ]
           ]
         },
-        "v2": {
+        "Шины, теплицы, бумага, печки": {
           "done": [
             [
               1,
-              true
-            ],
-            [
-              2,
               true
             ],
             [
@@ -318,148 +29,24 @@
               false
             ],
             [
-              4,
+              2,
               false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
             ]
           ]
         },
-        "v3": {
+        "Путешествия": {
           "done": [
             [
-              1,
-              true
+              3,
+              false
             ],
             [
               2,
               false
             ],
             [
-              3,
+              1,
               true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              true
-            ],
-            [
-              22,
-              false
             ]
           ]
         }
@@ -467,66 +54,26 @@
     },
     "3": {
       "variations": {
-        "v1": {
+        "Путешествия": {
           "done": [
             [
-              1,
+              3,
               false
+            ],
+            [
+              1,
+              true
             ],
             [
               2,
               false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
             ]
           ]
         },
-        "v2": {
+        "Квартиры и садовые участки": {
           "done": [
             [
               1,
-              false
-            ],
-            [
-              2,
               false
             ],
             [
@@ -534,144 +81,24 @@
               true
             ],
             [
-              4,
-              true
-            ],
-            [
-              5,
+              2,
               false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
             ]
           ]
         },
-        "v3": {
+        "Шины, теплицы, бумага, печки": {
           "done": [
             [
+              3,
+              true
+            ],
+            [
               1,
-              false
+              true
             ],
             [
               2,
               false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              false
-            ],
-            [
-              24,
-              true
             ]
           ]
         }
@@ -679,430 +106,42 @@
     },
     "4": {
       "variations": {
-        "v1": {
+        "Квартиры и садовые участки": {
           "done": [
             [
               1,
-              true
-            ],
-            [
-              2,
               false
             ],
             [
+              2,
+              true
+            ],
+            [
               3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
               true
             ]
           ]
         },
-        "v2": {
+        "Путешествия": {
           "done": [
-            [
-              1,
-              true
-            ],
             [
               2,
               false
             ],
             [
               3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
               false
             ],
             [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              false
-            ],
-            [
-              23,
+              1,
               true
             ]
           ]
         },
-        "v3": {
+        "Шины, теплицы, бумага, печки": {
           "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
             [
               3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "5": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              false
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "6": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
               true
             ],
             [
@@ -1110,212 +149,8 @@
               true
             ],
             [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
               1,
               true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              true
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              false
             ]
           ]
         }
@@ -1323,126 +158,10 @@
     },
     "7": {
       "variations": {
-        "v1": {
+        "Неравенства": {
           "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
             [
               9,
-              true
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
               false
             ],
             [
@@ -1450,171 +169,35 @@
               true
             ],
             [
-              9,
+              6,
+              true
+            ],
+            [
+              4,
               false
             ],
             [
-              10,
-              false
+              2,
+              true
             ],
             [
               11,
               true
             ],
             [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              false
-            ],
-            [
-              24,
-              true
-            ]
-          ]
-        }
-      }
-    },
-    "8": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
               10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
               false
             ]
           ]
         },
-        "v2": {
+        "Числа на прямой": {
           "done": [
             [
-              1,
-              true
+              6,
+              false
             ],
             [
-              2,
+              8,
               true
             ],
             [
@@ -1622,15 +205,11 @@
               true
             ],
             [
-              4,
-              true
-            ],
-            [
               5,
               false
             ],
             [
-              6,
+              4,
               false
             ],
             [
@@ -1638,103 +217,19 @@
               true
             ],
             [
-              8,
-              true
+              1,
+              false
             ],
             [
               9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
               false
             ]
           ]
         },
-        "v3": {
+        "Сравнение чисел": {
           "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
             [
               6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ]
-          ]
-        }
-      }
-    },
-    "9": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
               false
             ],
             [
@@ -1742,319 +237,27 @@
               false
             ],
             [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
               7,
               false
             ],
             [
               8,
-              true
+              false
             ],
             [
-              9,
+              5,
               false
             ],
             [
               10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
               false
             ]
           ]
         },
-        "v2": {
+        "Выбор верного или неверного утверждения": {
           "done": [
             [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
               4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              true
-            ],
-            [
-              24,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "10": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
               true
             ],
             [
@@ -2062,300 +265,28 @@
               true
             ],
             [
-              7,
-              false
-            ],
-            [
-              8,
+              2,
               true
             ],
             [
-              9,
+              7,
               true
             ],
             [
               10,
               true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
+            ],
             [
               1,
               false
             ],
             [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
+              9,
               false
             ],
             [
               8,
               false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              true
-            ],
-            [
-              24,
-              true
-            ]
-          ]
-        }
-      }
-    },
-    "11": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
             ]
           ]
         }
@@ -2363,471 +294,31 @@
     },
     "12": {
       "variations": {
-        "v1": {
+        "Линейные уравнения": {
           "done": [
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              true
+            ],
             [
               1,
               true
             ],
             [
-              2,
+              5,
               true
             ],
             [
               3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
               false
             ]
           ]
         },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              true
-            ],
-            [
-              22,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "13": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              true
-            ],
-            [
-              22,
-              true
-            ],
-            [
-              23,
-              false
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "14": {
-      "variations": {
-        "v1": {
+        "Разные задачи": {
           "done": [
             [
               1,
@@ -2839,210 +330,14 @@
             ],
             [
               3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              false
-            ],
-            [
-              23,
-              false
-            ],
-            [
-              24,
-              true
-            ],
-            [
-              25,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
               true
             ]
           ]
         },
-        "v3": {
+        "Вычисление по формуле": {
           "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
             [
               5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "15": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
               false
             ],
             [
@@ -3054,375 +349,11 @@
               false
             ],
             [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              false
-            ],
-            [
-              21,
-              false
-            ],
-            [
-              22,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
               1,
               false
             ],
             [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
               4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "16": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              true
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              false
-            ],
-            [
-              19,
               false
             ]
           ]
@@ -3431,80 +362,60 @@
     },
     "17": {
       "variations": {
-        "v1": {
+        "Трапеция": {
           "done": [
             [
-              1,
-              false
+              3,
+              true
             ],
             [
               2,
               true
             ],
             [
+              1,
+              false
+            ]
+          ]
+        },
+        "Квадрат": {
+          "done": [
+            [
               3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
               true
             ],
             [
-              6,
+              2,
               true
             ],
             [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
+              1,
               true
             ]
           ]
         },
-        "v2": {
+        "Площадь круга и его частей": {
           "done": [
+            [
+              3,
+              false
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        },
+        "Треугольники общего вида": {
+          "done": [
+            [
+              3,
+              true
+            ],
             [
               1,
               false
@@ -3512,98 +423,58 @@
             [
               2,
               false
+            ]
+          ]
+        },
+        "Прямоугольник": {
+          "done": [
+            [
+              1,
+              false
             ],
             [
               3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
               true
             ],
             [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
+              2,
               true
             ]
           ]
         },
-        "v3": {
+        "Параллелограмм": {
           "done": [
             [
               1,
               true
+            ]
+          ]
+        },
+        "Равнобедренный треугольник": {
+          "done": [
+            [
+              3,
+              false
             ],
             [
               2,
               true
             ],
             [
+              1,
+              true
+            ]
+          ]
+        },
+        "Прямоугольный треугольник": {
+          "done": [
+            [
               3,
               false
             ],
             [
-              4,
-              false
-            ],
-            [
-              5,
+              1,
               true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
             ]
           ]
         }
@@ -3611,16 +482,8 @@
     },
     "18": {
       "variations": {
-        "v1": {
+        "Средняя линия": {
           "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
             [
               3,
               true
@@ -3634,109 +497,57 @@
               false
             ],
             [
-              6,
-              false
-            ],
-            [
-              7,
+              2,
               true
             ],
             [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
+              1,
               true
             ]
           ]
         },
-        "v2": {
+        "Площади": {
           "done": [
             [
-              1,
+              5,
               true
-            ],
-            [
-              2,
-              false
             ],
             [
               3,
               true
             ],
             [
+              1,
+              true
+            ],
+            [
               4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
               true
             ]
           ]
         },
-        "v3": {
+        "Расстояние между точками и от точки до прямой": {
           "done": [
+            [
+              5,
+              false
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Длины сторон": {
+          "done": [
+            [
+              4,
+              true
+            ],
             [
               1,
               true
@@ -3744,81 +555,13 @@
             [
               2,
               false
-            ],
+            ]
+          ]
+        },
+        "Теорема Пифагора": {
+          "done": [
             [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
+              1,
               false
             ]
           ]
@@ -3827,70 +570,10 @@
     },
     "19": {
       "variations": {
-        "v1": {
+        "Анализ геометрических высказываний": {
           "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
             [
               6,
-              true
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
               false
             ],
             [
@@ -3898,1039 +581,35 @@
               true
             ],
             [
+              1,
+              true
+            ],
+            [
+              9,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
               5,
               true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              false
             ],
             [
               8,
               false
             ],
             [
-              9,
+              7,
               false
             ],
             [
               10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ]
-          ]
-        }
-      }
-    },
-    "20": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              true
-            ],
-            [
-              22,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "21": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "22": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              true
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              true
-            ],
-            [
-              20,
-              true
-            ],
-            [
-              21,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "23": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              false
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              false
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              true
-            ],
-            [
-              17,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              false
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              true
-            ],
-            [
-              14,
-              false
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              true
-            ],
-            [
-              18,
-              true
-            ],
-            [
-              19,
-              false
-            ],
-            [
-              20,
-              false
-            ]
-          ]
-        }
-      }
-    },
-    "24": {
-      "variations": {
-        "v1": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              false
-            ],
-            [
-              12,
-              false
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              true
-            ]
-          ]
-        },
-        "v2": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              false
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              true
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
-              true
-            ],
-            [
-              13,
-              false
-            ],
-            [
-              14,
-              true
-            ],
-            [
-              15,
-              false
-            ],
-            [
-              16,
-              false
-            ],
-            [
-              17,
-              true
-            ]
-          ]
-        },
-        "v3": {
-          "done": [
-            [
-              1,
-              true
-            ],
-            [
-              2,
-              true
-            ],
-            [
-              3,
-              false
-            ],
-            [
-              4,
-              true
-            ],
-            [
-              5,
-              false
-            ],
-            [
-              6,
-              true
-            ],
-            [
-              7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
               true
             ]
           ]
@@ -4939,10 +618,34 @@
     },
     "25": {
       "variations": {
-        "v1": {
+        "Комбинация многоугольников и окружностей": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              2,
+              true
+            ]
+          ]
+        },
+        "Окружности": {
           "done": [
             [
               1,
+              true
+            ],
+            [
+              4,
               true
             ],
             [
@@ -4952,41 +655,173 @@
             [
               3,
               true
+            ]
+          ]
+        },
+        "Четырёхугольники": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        },
+        "Треугольники": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              false
             ],
             [
               4,
               false
             ],
             [
-              5,
+              2,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "1": {
+      "variations": {
+        "Путешествия": {
+          "done": [
+            [
+              3,
               true
             ],
             [
-              6,
+              2,
+              true
+            ],
+            [
+              1,
+              true
+            ]
+          ]
+        },
+        "Квартиры и садовые участки": {
+          "done": [
+            [
+              2,
               false
             ],
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        },
+        "Связь, шины, печки": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "5": {
+      "variations": {
+        "Путешествия": {
+          "done": [
+            [
+              3,
+              true
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              true
+            ]
+          ]
+        },
+        "Квартиры и садовые участки": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Выбор варианта из двух/трех возможных": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        },
+        "выборвариантаизтрехвозможных": {
+          "done": [
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Шины, теплицы, бумага, печки": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "6": {
+      "variations": {
+        "Действия с обыкновенными дробями": {
+          "done": [
             [
               7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
-            ],
-            [
-              10,
-              false
-            ],
-            [
-              11,
-              true
-            ],
-            [
-              12,
               true
             ],
             [
@@ -4994,11 +829,243 @@
               true
             ],
             [
+              8,
+              false
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              10,
+              false
+            ],
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Действия с обыкновенными и десятичными дробями": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Действия с десятичными дробями": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              4,
+              false
+            ],
+            [
               14,
               true
             ],
             [
+              8,
+              false
+            ],
+            [
+              16,
+              true
+            ],
+            [
+              9,
+              true
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              10,
+              true
+            ],
+            [
               15,
+              false
+            ],
+            [
+              7,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        },
+        "Степени": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              4,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "8": {
+      "variations": {
+        "Степени и корни": {
+          "done": [
+            [
+              10,
+              true
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              12,
+              false
+            ],
+            [
+              8,
+              true
+            ],
+            [
+              9,
+              false
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              7,
+              false
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              14,
+              false
+            ],
+            [
+              13,
+              true
+            ]
+          ]
+        },
+        "Рациональные алгебраические выражения": {
+          "done": [
+            [
+              11,
+              false
+            ],
+            [
+              8,
+              false
+            ],
+            [
+              13,
+              true
+            ],
+            [
+              5,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              7,
+              true
+            ],
+            [
+              12,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              9,
+              false
+            ],
+            [
+              6,
+              true
+            ]
+          ]
+        },
+        "Целые алгебраические выражения": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              4,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "9": {
+      "variations": {
+        "Линейные уравнения": {
+          "done": [
+            [
+              14,
+              false
+            ],
+            [
+              5,
+              true
+            ],
+            [
+              13,
+              true
+            ],
+            [
+              9,
+              false
+            ],
+            [
+              10,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              8,
               true
             ],
             [
@@ -5006,23 +1073,163 @@
               true
             ],
             [
+              3,
+              false
+            ]
+          ]
+        },
+        "Квадратные уравнения": {
+          "done": [
+            [
+              16,
+              false
+            ],
+            [
+              9,
+              false
+            ],
+            [
+              8,
+              false
+            ],
+            [
+              11,
+              true
+            ],
+            [
+              7,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              6,
+              true
+            ],
+            [
+              13,
+              true
+            ]
+          ]
+        },
+        "Рациональные уравнения": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              true
+            ]
+          ]
+        },
+        "Системы уравнений": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              5,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              6,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "10": {
+      "variations": {
+        "Классические вероятности": {
+          "done": [
+            [
+              10,
+              true
+            ],
+            [
+              6,
+              true
+            ],
+            [
+              7,
+              false
+            ],
+            [
+              8,
+              true
+            ],
+            [
+              14,
+              true
+            ],
+            [
               17,
               true
             ],
             [
-              18,
+              1,
               false
+            ],
+            [
+              11,
+              true
+            ],
+            [
+              5,
+              true
+            ],
+            [
+              20,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              13,
+              true
             ],
             [
               19,
+              false
+            ],
+            [
+              9,
+              true
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              15,
               true
             ]
           ]
         },
-        "v2": {
+        "Статистика, теоремы о вероятностях событий": {
           "done": [
             [
-              1,
+              3,
               true
             ],
             [
@@ -5030,76 +1237,788 @@
               true
             ],
             [
-              3,
-              false
-            ],
-            [
-              4,
-              false
-            ],
-            [
               5,
               true
             ],
             [
-              6,
-              false
-            ],
-            [
-              7,
-              false
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
+              1,
               false
             ]
           ]
-        },
-        "v3": {
+        }
+      }
+    },
+    "11": {
+      "variations": {
+        "Чтение графиков функций": {
           "done": [
             [
-              1,
-              true
-            ],
-            [
-              2,
-              false
-            ],
-            [
-              3,
-              true
-            ],
-            [
-              4,
-              false
-            ],
-            [
-              5,
-              true
-            ],
-            [
-              6,
-              false
-            ],
-            [
               7,
-              true
-            ],
-            [
-              8,
-              true
-            ],
-            [
-              9,
-              true
+              false
             ],
             [
               10,
               false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              6,
+              true
+            ],
+            [
+              9,
+              true
+            ],
+            [
+              8,
+              false
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              11,
+              false
+            ]
+          ]
+        },
+        "Растяжения и сдвиги": {
+          "done": [
+            [
+              4,
+              false
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "13": {
+      "variations": {
+        "Квадратные неравенства": {
+          "done": [
+            [
+              5,
+              false
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        },
+        "Системы неравенств": {
+          "done": [
+            [
+              4,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        },
+        "Рациональные неравенства": {
+          "done": [
+            [
+              1,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "14": {
+      "variations": {
+        "Арифметическая прогрессия": {
+          "done": [
+            [
+              4,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              5,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              2,
+              true
+            ]
+          ]
+        },
+        "Геометрическая прогрессия": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              5,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "15": {
+      "variations": {
+        "Параллелограмм": {
+          "done": [
+            [
+              3,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              true
+            ]
+          ]
+        },
+        "Прямоугольный треугольник": {
+          "done": [
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        },
+        "Углы": {
+          "done": [
+            [
+              3,
+              true
+            ],
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Трапеция": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              4,
+              true
+            ]
+          ]
+        },
+        "Многоугольники": {
+          "done": [
+            [
+              4,
+              true
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Треугольники общего вида": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              true
+            ]
+          ]
+        },
+        "Равнобедренные треугольники": {
+          "done": [
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Ромб": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "16": {
+      "variations": {
+        "Центральные и впи­сан­ные углы": {
+          "done": [
+            [
+              3,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              5,
+              false
+            ]
+          ]
+        },
+        "Касательная, хорда, секущая, радиус": {
+          "done": [
+            [
+              2,
+              false
+            ],
+            [
+              5,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              1,
+              true
+            ]
+          ]
+        },
+        "Окружность, описанная вокруг многоугольника": {
+          "done": [
+            [
+              4,
+              true
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              5,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "20": {
+      "variations": {
+        "Системы неравенств": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        },
+        "Системы уравнений": {
+          "done": [
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              5,
+              true
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              2,
+              true
+            ]
+          ]
+        },
+        "Уравнения": {
+          "done": [
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              5,
+              true
+            ]
+          ]
+        },
+        "Неравенства": {
+          "done": [
+            [
+              5,
+              true
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              false
+            ]
+          ]
+        }
+      }
+    },
+    "21": {
+      "variations": {
+        "Движение по прямой": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              2,
+              true
+            ]
+          ]
+        },
+        "логические задачи": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              2,
+              false
+            ]
+          ]
+        },
+        "Задачи на проценты, сплавы и смеси": {
+          "done": [
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Задачи на движение по воде": {
+          "done": [
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              2,
+              true
+            ],
+            [
+              4,
+              false
+            ]
+          ]
+        },
+        "Задачи на совместную работу": {
+          "done": [
+            [
+              3,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              1,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "22": {
+      "variations": {
+        "Разные задачи": {
+          "done": [
+            [
+              4,
+              true
+            ],
+            [
+              5,
+              false
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Кусочно-непрерывные функции": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              5,
+              false
+            ]
+          ]
+        },
+        "Параболы": {
+          "done": [
+            [
+              2,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              5,
+              false
+            ],
+            [
+              1,
+              false
+            ]
+          ]
+        },
+        "Гиперболы": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "23": {
+      "variations": {
+        "Четырёхугольники": {
+          "done": [
+            [
+              4,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Окружности": {
+          "done": [
+            [
+              2,
+              false
+            ],
+            [
+              3,
+              true
+            ],
+            [
+              4,
+              false
+            ],
+            [
+              1,
+              true
+            ]
+          ]
+        },
+        "Углы": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              1,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Треугольники": {
+          "done": [
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              2,
+              true
+            ]
+          ]
+        }
+      }
+    },
+    "24": {
+      "variations": {
+        "Окружности и их элементы": {
+          "done": [
+            [
+              2,
+              true
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              3,
+              true
+            ]
+          ]
+        },
+        "Правильные многоугольники": {
+          "done": [
+            [
+              3,
+              true
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              2,
+              false
+            ],
+            [
+              4,
+              true
+            ]
+          ]
+        },
+        "Треугольники и их элементы": {
+          "done": [
+            [
+              1,
+              false
+            ],
+            [
+              3,
+              false
+            ],
+            [
+              4,
+              false
+            ]
+          ]
+        },
+        "Четырёхугольники и их элементы": {
+          "done": [
+            [
+              3,
+              false
+            ],
+            [
+              4,
+              true
+            ],
+            [
+              2,
+              true
             ]
           ]
         }
