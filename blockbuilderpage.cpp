@@ -461,16 +461,12 @@ void BlockBuilderPage::onStartClicked()
         return;
     }
 
-    const QString summary = tr8("Подготовлено блоков: %1\nВсего задач: %2")
-        .arg(blocks_.size())
-        .arg(service_->totalCount(blocks_));
-
     if (mode_ == Mode::PlannedPreview) {
         service_->markPlannedStartedToday();
-        emit trainingStarted(tr8("Плановая тренировка готова к запуску.\n%1").arg(summary));
+        emit trainingStarted(blocks_, tr8("Плановая тренировка"), true);
     } else {
         service_->saveManualDraftForToday(blocks_);
-        emit trainingStarted(tr8("Тренировка собрана.\n%1").arg(summary));
+        emit trainingStarted(blocks_, tr8("Ручная тренировка"), false);
     }
 }
 

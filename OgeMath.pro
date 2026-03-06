@@ -4,7 +4,6 @@ TEMPLATE = app
 TARGET = OgeMath
 
 SOURCES += \
-    blockbuilderpage.cpp \
     calendarpage.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -12,17 +11,20 @@ SOURCES += \
     detailpage.cpp \
     progresspage.cpp \
     starttrainingpage.cpp \
-    trainingstateservice.cpp
+    blockbuilderpage.cpp \
+    trainingstateservice.cpp \
+    trainingsessionpage.cpp
 
 HEADERS += \
-    blockbuilderpage.h \
     calendarpage.h \
     mainwindow.h \
     detailpage.h \
     examselectwindow.h \
     progresspage.h \
     starttrainingpage.h \
-    trainingstateservice.h
+    blockbuilderpage.h \
+    trainingstateservice.h \
+    trainingsessionpage.h
 
 DISTFILES += \
     data/catalog.json \
@@ -30,6 +32,7 @@ DISTFILES += \
     data/sessions.json \
     data/submissions.json \
     data/plan.json \
+    data/account.json \
     data/variants/variant_01.json \
     data/variants/variant_02.json \
     data/variants/variant_03.json \

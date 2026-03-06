@@ -4,6 +4,7 @@
 #include "starttrainingpage.h"
 #include "blockbuilderpage.h"
 #include "trainingstateservice.h"
+#include "trainingsessionpage.h"
 
 #include <QStackedWidget>
 #include <QWidget>
@@ -38,6 +39,7 @@ void MainWindow::buildUi()
     progressPage_   = new ProgressPage(stack_);
     startTrainingPage_ = new StartTrainingPage(trainingStateService_, stack_);
     blockBuilderPage_ = new BlockBuilderPage(trainingStateService_, stack_);
+    trainingSessionPage_ = new TrainingSessionPage(trainingStateService_, stack_);
 
     connect(examSelectPage_, &ExamSelectWindow::backRequested, this, [this]{ showHome(); });
     connect(examSelectPage_, &ExamSelectWindow::readyVariantChosen, this, [this](int id){ onReadyVariantChosen(id); });
@@ -77,8 +79,12 @@ void MainWindow::buildUi()
         startTrainingPage_->refreshState();
         stack_->setCurrentWidget(startTrainingPage_);
     });
-    connect(blockBuilderPage_, &BlockBuilderPage::trainingStarted, this, [this](const QString& message){
-        QMessageBox::information(this, QString::fromUtf8("Тренировка"), message);
+    connect(blockBuilderPage_, &BlockBuilderPage::trainingStarted, this, [this](const QVector<TrainingStateService::Block>& blocks, const QString& modeTitle, bool plannedMode){
+        trainingSessionPage_->openSession(blocks, modeTitle, plannedMode);
+        showTrainingSession();
+        startTrainingPage_->refreshState();
+    });
+    connect(trainingSessionPage_, &TrainingSessionPage::backRequested, this, [this]{
         startTrainingPage_->refreshState();
         stack_->setCurrentWidget(startTrainingPage_);
     });
@@ -88,6 +94,7 @@ void MainWindow::buildUi()
     stack_->addWidget(progressPage_);
     stack_->addWidget(startTrainingPage_);
     stack_->addWidget(blockBuilderPage_);
+    stack_->addWidget(trainingSessionPage_);
 }
 
 QWidget* MainWindow::buildHomePage()
@@ -245,6 +252,11 @@ void MainWindow::showStartTraining()
 void MainWindow::showBlockBuilder()
 {
     stack_->setCurrentWidget(blockBuilderPage_);
+}
+
+void MainWindow::showTrainingSession()
+{
+    stack_->setCurrentWidget(trainingSessionPage_);
 }
 
 void MainWindow::onReadyVariantChosen(int variantId)

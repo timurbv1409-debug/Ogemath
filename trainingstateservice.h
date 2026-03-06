@@ -6,6 +6,8 @@
 #include <QString>
 #include <QVector>
 
+class QJsonDocument;
+
 class TrainingStateService final : public QObject
 {
     Q_OBJECT
@@ -21,6 +23,7 @@ public:
     struct VariationInfo {
         QString name;
         int total = 0;
+        int orderIndex = 0;
     };
 
     struct PlannedInfo {
@@ -28,6 +31,27 @@ public:
         bool available = false;
         bool alreadyStartedToday = false;
         int totalTasks = 0;
+    };
+
+    struct AccountInfo {
+        QString accountNumber;
+        QString login;
+        QString password;
+        bool isValid() const { return !accountNumber.trimmed().isEmpty(); }
+    };
+
+    struct SessionTask {
+        QString code;
+        int taskNo = 0;
+        QString taskTitle;
+        QString variation;
+        int variationIndex = 0;
+        int itemId = 0;
+        QString imageUrl;
+        QString answer;
+        bool isWritten = false;
+        bool solved = false;
+        bool hasAttempt = false;
     };
 
     QString dataPath(const QString& fileName) const;
@@ -50,11 +74,29 @@ public:
     QString manualDraftStatusText() const;
     QString plannedStatusText() const;
 
+    AccountInfo accountInfo() const;
+    QVector<SessionTask> buildSessionTasks(const QVector<Block>& blocks) const;
+    QString makeTaskCode(int taskNo, const QString& variation, int itemId) const;
+
+    QString loadSavedTestAnswer(const QString& taskCode) const;
+    void saveTestAnswer(const QString& taskCode, const QString& answer);
+
+    bool markWrittenTaskSolved(const SessionTask& task);
+
 private:
+    struct CatalogItem {
+        int id = 0;
+        QString url;
+        QString answer;
+    };
+
     struct CatalogVariation {
         QString name;
         int total = 0;
+        int orderIndex = 0;
+        QVector<CatalogItem> items;
     };
+
     struct CatalogTask {
         QString title;
         QMap<QString, CatalogVariation> variations;
@@ -65,9 +107,14 @@ private:
     bool loadProgress() const;
     bool loadSubmissions() const;
     bool loadPlan() const;
+    bool loadAccount() const;
 
     QVector<Block> blocksFromJsonString(const QString& raw) const;
     QString blocksToJsonString(const QVector<Block>& blocks) const;
+
+    CatalogVariation variationData(int taskNo, const QString& variation) const;
+    bool isSolvedOrAttempted(int taskNo, const QString& variation, int itemId) const;
+    bool writeJsonFile(const QString& filePath, const QJsonDocument& doc) const;
 
 private:
     mutable bool loaded_ = false;
@@ -75,4 +122,5 @@ private:
     mutable QMap<QString, QMap<int, bool>> progressDone_;
     mutable QMap<QString, QMap<int, bool>> submissionsAttempted_;
     mutable QMap<QDate, QVector<Block>> plannedByDate_;
+    mutable AccountInfo accountInfo_;
 };

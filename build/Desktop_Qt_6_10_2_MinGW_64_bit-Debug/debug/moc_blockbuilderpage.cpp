@@ -8,6 +8,7 @@
 
 #include "../../../blockbuilderpage.h"
 #include <QtCore/qmetatype.h>
+#include <QtCore/QList>
 
 #include <QtCore/qtmochelpers.h>
 
@@ -42,7 +43,10 @@ template <> constexpr inline auto BlockBuilderPage::qt_create_metaobjectdata<qt_
         "backRequested",
         "",
         "trainingStarted",
-        "message",
+        "QList<TrainingStateService::Block>",
+        "blocks",
+        "modeTitle",
+        "plannedMode",
         "onAddBlock",
         "onRemoveSelected",
         "onSelectionChanged",
@@ -53,17 +57,17 @@ template <> constexpr inline auto BlockBuilderPage::qt_create_metaobjectdata<qt_
         // Signal 'backRequested'
         QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
         // Signal 'trainingStarted'
-        QtMocHelpers::SignalData<void(const QString &)>(3, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 4 },
+        QtMocHelpers::SignalData<void(const QVector<TrainingStateService::Block> &, const QString &, bool)>(3, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { 0x80000000 | 4, 5 }, { QMetaType::QString, 6 }, { QMetaType::Bool, 7 },
         }}),
         // Slot 'onAddBlock'
-        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onRemoveSelected'
-        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onSelectionChanged'
-        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onStartClicked'
         QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onRemoveSelected'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onSelectionChanged'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onStartClicked'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -88,7 +92,7 @@ void BlockBuilderPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->backRequested(); break;
-        case 1: _t->trainingStarted((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 1: _t->trainingStarted((*reinterpret_cast<std::add_pointer_t<QList<TrainingStateService::Block>>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[3]))); break;
         case 2: _t->onAddBlock(); break;
         case 3: _t->onRemoveSelected(); break;
         case 4: _t->onSelectionChanged(); break;
@@ -99,7 +103,7 @@ void BlockBuilderPage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (BlockBuilderPage::*)()>(_a, &BlockBuilderPage::backRequested, 0))
             return;
-        if (QtMocHelpers::indexOfMethod<void (BlockBuilderPage::*)(const QString & )>(_a, &BlockBuilderPage::trainingStarted, 1))
+        if (QtMocHelpers::indexOfMethod<void (BlockBuilderPage::*)(const QVector<TrainingStateService::Block> & , const QString & , bool )>(_a, &BlockBuilderPage::trainingStarted, 1))
             return;
     }
 }
@@ -142,8 +146,8 @@ void BlockBuilderPage::backRequested()
 }
 
 // SIGNAL 1
-void BlockBuilderPage::trainingStarted(const QString & _t1)
+void BlockBuilderPage::trainingStarted(const QVector<TrainingStateService::Block> & _t1, const QString & _t2, bool _t3)
 {
-    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
+    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1, _t2, _t3);
 }
 QT_WARNING_POP

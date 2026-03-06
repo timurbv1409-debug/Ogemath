@@ -28,7 +28,7 @@ public:
 
 signals:
     void backRequested();
-    void trainingStarted(const QString& message);
+    void trainingStarted(const QVector<TrainingStateService::Block>& blocks, const QString& modeTitle, bool plannedMode);
 
 private slots:
     void onAddBlock();

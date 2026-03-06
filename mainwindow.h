@@ -2,14 +2,15 @@
 
 #include <QMainWindow>
 
+#include "examselectwindow.h"
+#include "progresspage.h"
+#include "starttrainingpage.h"
+#include "blockbuilderpage.h"
+#include "trainingsessionpage.h"
+#include "trainingstateservice.h"
+
 class QStackedWidget;
 class QWidget;
-
-class ExamSelectWindow;
-class ProgressPage;
-class StartTrainingPage;
-class BlockBuilderPage;
-class TrainingStateService;
 
 class MainWindow final : public QMainWindow
 {
@@ -26,10 +27,9 @@ private:
     void showProgress();
     void showStartTraining();
     void showBlockBuilder();
+    void showTrainingSession();
 
 private slots:
-
-
     void onReadyVariantChosen(int variantId);
     void onPersonalVariantChosen();
 
@@ -41,5 +41,6 @@ private:
     ProgressPage* progressPage_ = nullptr;
     StartTrainingPage* startTrainingPage_ = nullptr;
     BlockBuilderPage* blockBuilderPage_ = nullptr;
+    TrainingSessionPage* trainingSessionPage_ = nullptr;
     TrainingStateService* trainingStateService_ = nullptr;
 };

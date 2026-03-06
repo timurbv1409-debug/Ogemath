@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "accountNumber": "01010",
+  "login": "demo_login",
+  "password": "demo_password",
+  "telegram": {
+    "botToken": "",
+    "chatId": ""
+  }
+}

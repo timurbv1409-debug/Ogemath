@@ -1,4 +1,3 @@
-release/blockbuilderpage.o
 release/calendarpage.o
 release/main.o
 release/mainwindow.o
@@ -6,13 +5,16 @@ release/examselectwindow.o
 release/detailpage.o
 release/progresspage.o
 release/starttrainingpage.o
+release/blockbuilderpage.o
 release/trainingstateservice.o
+release/trainingsessionpage.o
 release/qrc_resources.o
-release/moc_blockbuilderpage.o
 release/moc_calendarpage.o
 release/moc_mainwindow.o
 release/moc_detailpage.o
 release/moc_examselectwindow.o
 release/moc_progresspage.o
 release/moc_starttrainingpage.o
+release/moc_blockbuilderpage.o
 release/moc_trainingstateservice.o
+release/moc_trainingsessionpage.o

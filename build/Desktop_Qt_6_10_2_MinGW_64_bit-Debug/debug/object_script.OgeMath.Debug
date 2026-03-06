@@ -1,4 +1,3 @@
-debug/blockbuilderpage.o
 debug/calendarpage.o
 debug/main.o
 debug/mainwindow.o
@@ -6,13 +5,16 @@ debug/examselectwindow.o
 debug/detailpage.o
 debug/progresspage.o
 debug/starttrainingpage.o
+debug/blockbuilderpage.o
 debug/trainingstateservice.o
+debug/trainingsessionpage.o
 debug/qrc_resources.o
-debug/moc_blockbuilderpage.o
 debug/moc_calendarpage.o
 debug/moc_mainwindow.o
 debug/moc_detailpage.o
 debug/moc_examselectwindow.o
 debug/moc_progresspage.o
 debug/moc_starttrainingpage.o
+debug/moc_blockbuilderpage.o
 debug/moc_trainingstateservice.o
+debug/moc_trainingsessionpage.o
