@@ -1,6 +1,9 @@
 #include "mainwindow.h"
 #include "examselectwindow.h"
 #include "progresspage.h"
+#include "starttrainingpage.h"
+#include "blockbuilderpage.h"
+#include "trainingstateservice.h"
 
 #include <QStackedWidget>
 #include <QWidget>
@@ -27,10 +30,14 @@ void MainWindow::buildUi()
     stack_ = new QStackedWidget(this);
     setCentralWidget(stack_);
 
+    trainingStateService_ = new TrainingStateService(this);
+
     homePage_ = buildHomePage();
 
     examSelectPage_ = new ExamSelectWindow(stack_);
     progressPage_   = new ProgressPage(stack_);
+    startTrainingPage_ = new StartTrainingPage(trainingStateService_, stack_);
+    blockBuilderPage_ = new BlockBuilderPage(trainingStateService_, stack_);
 
     connect(examSelectPage_, &ExamSelectWindow::backRequested, this, [this]{ showHome(); });
     connect(examSelectPage_, &ExamSelectWindow::readyVariantChosen, this, [this](int id){ onReadyVariantChosen(id); });
@@ -42,10 +49,8 @@ void MainWindow::buildUi()
     connect(examSelectPage_, &ExamSelectWindow::personalAutoChosen, this,
             [this]{ onPersonalVariantChosen(); });
 
-    // ВАЖНО: ручной выбор отдаёт карту
     connect(examSelectPage_, &ExamSelectWindow::personalManualChosen, this,
             [this](const QMap<int, QString>& selection){
-                // пока просто покажем, что пришло
                 QStringList parts;
                 for (auto it = selection.begin(); it != selection.end(); ++it)
                     parts << QString("%1:%2").arg(it.key()).arg(it.value());
@@ -54,9 +59,35 @@ void MainWindow::buildUi()
             });
     connect(progressPage_, &ProgressPage::backRequested, this, [this]{ showHome(); });
 
+    connect(startTrainingPage_, &StartTrainingPage::backRequested, this, [this]{ showHome(); });
+    connect(startTrainingPage_, &StartTrainingPage::continueRequested, this, [this]{
+        blockBuilderPage_->openContinue();
+        showBlockBuilder();
+    });
+    connect(startTrainingPage_, &StartTrainingPage::plannedRequested, this, [this]{
+        blockBuilderPage_->openPlanned();
+        showBlockBuilder();
+    });
+    connect(startTrainingPage_, &StartTrainingPage::manualRequested, this, [this]{
+        blockBuilderPage_->openManual();
+        showBlockBuilder();
+    });
+
+    connect(blockBuilderPage_, &BlockBuilderPage::backRequested, this, [this]{
+        startTrainingPage_->refreshState();
+        stack_->setCurrentWidget(startTrainingPage_);
+    });
+    connect(blockBuilderPage_, &BlockBuilderPage::trainingStarted, this, [this](const QString& message){
+        QMessageBox::information(this, QString::fromUtf8("Тренировка"), message);
+        startTrainingPage_->refreshState();
+        stack_->setCurrentWidget(startTrainingPage_);
+    });
+
     stack_->addWidget(homePage_);
     stack_->addWidget(examSelectPage_);
     stack_->addWidget(progressPage_);
+    stack_->addWidget(startTrainingPage_);
+    stack_->addWidget(blockBuilderPage_);
 }
 
 QWidget* MainWindow::buildHomePage()
@@ -125,9 +156,7 @@ QWidget* MainWindow::buildHomePage()
     grid->setRowStretch(0, 1);
     grid->setRowStretch(1, 1);
 
-    connect(btnTraining, &QPushButton::clicked, this, [this]{
-        QMessageBox::information(this, "Тренировка", "Раздел тренировки сделаем позже.");
-    });
+    connect(btnTraining, &QPushButton::clicked, this, [this]{ showStartTraining(); });
     connect(btnMockExam, &QPushButton::clicked, this, [this]{ showExamSelect(); });
     connect(btnProgress, &QPushButton::clicked, this, [this]{ showProgress(); });
     connect(btnSettings, &QPushButton::clicked, this, [this]{
@@ -205,6 +234,17 @@ void MainWindow::showProgress()
 {
     progressPage_->reloadAllData();
     stack_->setCurrentWidget(progressPage_);
+}
+
+void MainWindow::showStartTraining()
+{
+    startTrainingPage_->refreshState();
+    stack_->setCurrentWidget(startTrainingPage_);
+}
+
+void MainWindow::showBlockBuilder()
+{
+    stack_->setCurrentWidget(blockBuilderPage_);
 }
 
 void MainWindow::onReadyVariantChosen(int variantId)

@@ -4,19 +4,25 @@ TEMPLATE = app
 TARGET = OgeMath
 
 SOURCES += \
+    blockbuilderpage.cpp \
     calendarpage.cpp \
     main.cpp \
     mainwindow.cpp \
     examselectwindow.cpp \
     detailpage.cpp \
-    progresspage.cpp
+    progresspage.cpp \
+    starttrainingpage.cpp \
+    trainingstateservice.cpp
 
 HEADERS += \
+    blockbuilderpage.h \
     calendarpage.h \
     mainwindow.h \
     detailpage.h \
     examselectwindow.h \
-    progresspage.h
+    progresspage.h \
+    starttrainingpage.h \
+    trainingstateservice.h
 
 DISTFILES += \
     data/catalog.json \
